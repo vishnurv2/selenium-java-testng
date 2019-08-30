@@ -37,9 +37,9 @@ import static org.testng.reporters.jq.BasePanel.D;
 
 public class magicLeap {
     public String username = "prateeks";
-    public String accesskey = "utDW23FJGmZgmgmMu1eoF7sZvobSn7Cmdjwbyqbp5qkJd3EYDo";
+    public String accesskey = "gUgz5tgy8j6ct06YNUldEMa1KRve9TR44R2dnqNGnbtSKzFtmA";
     public RemoteWebDriver driver;
-    public String gridURL = "@hub.lambdatest.com/wd/hub";
+    public String gridURL = "@stage-hub.lambdatest.com/wd/hub";
     String status;
 
 
@@ -63,7 +63,7 @@ public class magicLeap {
      //   capabilities.setCapability("selenium_version","3.13.0");
     //    capabilities.setCapability("edge.popups","true");
 
-      //  capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("tunnel", true);
         try {
             String url="https://" + username + ":" + accesskey + gridURL;
             System.out.println(url);

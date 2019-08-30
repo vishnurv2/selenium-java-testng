@@ -14,9 +14,9 @@ import java.util.ArrayList;
 
 public class magicLeap {
     public String username = "prateeks";
-    public String accesskey = "utDW23FJGmZgmgmMu1eoF7sZvobSn7Cmdjwbyqbp5qkJd3EYDo";
+    public String accesskey = "gUgz5tgy8j6ct06YNUldEMa1KRve9TR44R2dnqNGnbtSKzFtmA";
     public RemoteWebDriver driver;
-    public String gridURL = "@hub.lambdatest.com/wd/hub";
+    public String gridURL = "@stage-hub.lambdatest.com/wd/hub";
     String status;
 
 

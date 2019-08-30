@@ -4,16 +4,16 @@
 
 
   <test name="Random test1">
-        <parameter name="browser" value="chrome"/>
-        <parameter name="version" value="76.0"/>
+        <parameter name="browser" value="Internet Explorer"/>
+        <parameter name="version" value="11.0"/>
         <parameter name="platform" value="win10"/>
-        <parameter name="fixedIp" value="10.254.43.132"/>
+        <parameter name="fixedIp" value="10.26.30.100"/>
         <classes>
             <class name="magicLeap"/>
         </classes>
     </test>
 
-         <test name="Random test2">
+        <!-- <test name="Random test2">
           <parameter name="browser" value="Chrome"/>
           <parameter name="version" value="72.0"/>
           <parameter name="platform" value="Mac mojave"/>
@@ -300,7 +300,7 @@
           <classes>
               <class name="magicLeap"/>
           </classes>
-      </test>
+      </test> -->
 
 
 

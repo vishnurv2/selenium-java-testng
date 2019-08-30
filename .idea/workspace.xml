@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94dd44-3e3b-485d-b205-35b4b4ca9b16" name="Default Changelist" comment="" />
+    <list default="true" id="2a94dd44-3e3b-485d-b205-35b4b4ca9b16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/desktop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SampleGeb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/magicLeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/magicLeap.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,32 +29,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Random.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="85" selection-start-line="84" selection-start-column="9" selection-end-line="85" />
+            <state relative-caret-position="280">
+              <caret line="20" column="81" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SampleGeb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -60,11 +47,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desktop.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4228">
-              <caret line="302" column="13" selection-start-line="302" selection-start-column="13" selection-end-line="302" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -72,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/magicLeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
+            <state relative-caret-position="70">
+              <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,18 +92,21 @@
       <find>chrome 76</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Timestamp.java" />
         <option value="$PROJECT_DIR$/test.xml" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/desktop.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/magicLeap.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/devices.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Random.java" />
         <option value="$PROJECT_DIR$/src/main/java/SampleGeb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Random.java" />
+        <option value="$PROJECT_DIR$/src/main/java/magicLeap.java" />
+        <option value="$PROJECT_DIR$/desktop.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -128,7 +127,13 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="magicleapTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="magicleapTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="surefire" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -139,6 +144,7 @@
     <option name="width" value="765" />
     <option name="height" value="680" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -179,7 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567087328588" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567168127728" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/vu/scootaloo-webapp-e2e" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -197,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml">
     <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Random" />
       <module name="magicleapTesting" />
@@ -247,8 +253,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" />
         <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" />
+        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" />
         <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/testng.xml" />
         <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/test.xml" />
         <item itemvalue="Application.Random" />
@@ -269,21 +275,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.28 at 11h 49m 33s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.28 at 11h 50m 22s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.28 at 12h 00m 35s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.28 at 12h 05m 11s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.28 at 20h 33m 33s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.28 at 20h 37m 20s.xml">
       <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
     </history-entry>
@@ -299,6 +290,21 @@
     <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.29 at 13h 03m 44s.xml">
       <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 16h 26m 19s.xml">
+      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 16h 32m 07s.xml">
+      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 17h 30m 06s.xml">
+      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 17h 43m 15s.xml">
+      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 17h 47m 55s.xml">
+      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,6 +317,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85232747" visible="true" weight="0.27108434" />
       <window_info id="Structure" order="1" sideWeight="0.14767255" side_tool="true" weight="0.3320783" />
@@ -372,6 +379,10 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3298193" />
     </layout-to-restore>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -391,10 +402,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Timesta.java" />
     <entry file="file://$PROJECT_DIR$/testng.xml" />
     <entry file="file://$PROJECT_DIR$/test.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Random.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SampleGeb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="85" selection-start-line="84" selection-start-column="9" selection-end-line="85" />
+        <state relative-caret-position="588">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -408,37 +419,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4228">
-          <caret line="302" column="13" selection-start-line="302" selection-start-column="13" selection-end-line="302" selection-end-column="13" />
+        <state relative-caret-position="280">
+          <caret line="20" column="81" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/magicLeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
+        <state relative-caret-position="70">
+          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SampleGeb.java">
+    <entry file="file://$PROJECT_DIR$/desktop.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        <state relative-caret-position="182">
+          <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
         </state>
       </provider>
     </entry>

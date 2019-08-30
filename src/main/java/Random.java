@@ -1,44 +1,20 @@
-import geb.*;
-import geb.spock.GebSpec;
 
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
-
-
-import io.appium.java_client.AppiumDriver;
-import net.bytebuddy.implementation.bind.annotation.Super;
-import net.bytebuddy.implementation.bind.annotation.SuperMethod;
-import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.logging.LogEntries;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.LocalFileDetector;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.remote.SessionId;
-import org.openqa.selenium.logging.LogEntries;
-import org.openqa.selenium.WebElement;
-
-import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Date;
-
-import org.testng.Assert;
-import org.testng.annotations.*;
-
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-
-import sun.awt.windows.ThemeReader;
-
-import static org.testng.reporters.jq.BasePanel.D;
 
 public class Random {
     public String username = "prateeks";

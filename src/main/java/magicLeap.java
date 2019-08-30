@@ -1,39 +1,16 @@
 
 
-import java.io.File;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.SessionId;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
 import java.net.MalformedURLException;
 import java.net.URL;
-
-
-import net.bytebuddy.implementation.bind.annotation.Super;
-import net.bytebuddy.implementation.bind.annotation.SuperMethod;
-import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.logging.LogEntries;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.LocalFileDetector;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.remote.SessionId;
-import org.openqa.selenium.logging.LogEntries;
-
-import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Date;
-
-import org.testng.Assert;
-import org.testng.annotations.*;
-
-import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
-import sun.awt.windows.ThemeReader;
-
-import static org.testng.reporters.jq.BasePanel.D;
 
 public class magicLeap {
     public String username = "prateeks";
@@ -50,7 +27,7 @@ public class magicLeap {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform); // If this cap isn't specified, it will just get the any available one
-        capabilities.setCapability("build", "Concurrency testing 1 ");
+        capabilities.setCapability("build", "Internet Explorer ");
         capabilities.setCapability("name", browser + platform +fixedIp + version);
         capabilities.setCapability("network", true); // To enable network logs
         capabilities.setCapability("visual", true); // To enable step by step screenshot
@@ -59,11 +36,11 @@ public class magicLeap {
 
         capabilities.setCapability("resolution", "1920x1080");
         capabilities.setCapability("timezone", "UTC+05:30");
-        //capabilities.setCapability("fixedIP", fixedIp);
+        capabilities.setCapability("fixedIP", fixedIp);
      //   capabilities.setCapability("selenium_version","3.13.0");
     //    capabilities.setCapability("edge.popups","true");
 
-      //  capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("tunnel", true);
         try {
             String url="https://" + username + ":" + accesskey + gridURL;
             System.out.println(url);
@@ -115,7 +92,7 @@ public class magicLeap {
             ((JavascriptExecutor) driver).executeScript("window.open()");
             ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
             driver.switchTo().window(tabs.get(2)); //switches to new tab
-            driver.get(" http://localhost.com");
+            driver.get(" http://localhost.lambdatest.com");
             Thread.sleep(10000);
             ((JavascriptExecutor) driver).executeScript("window.open()");
             ArrayList<String> tab = new ArrayList<String>(driver.getWindowHandles());

@@ -45,7 +45,7 @@ public class magicLeap {
         capabilities.setCapability("console", true);
         //  capabilities.setCapability("tunnelName", "Aditya");
         capabilities.setCapability("timezone", timezone);
-        capabilities.setCapability("tunnel", true);
+      //  capabilities.setCapability("tunnel", true);
         capabilities.setCapability("resolution", resolution);
         //   capabilities.setCapability("geoLocation", geoLocation);
       //  capabilities.setCapability("selenium_version", "4.0.0-alpha-2");

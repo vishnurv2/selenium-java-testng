@@ -1,9 +1,7 @@
 
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
@@ -25,34 +23,28 @@ public class Random {
 
 
     @BeforeTest
-    @org.testng.annotations.Parameters(value = {"browser", "version", "platform", "fixedIp", "deviceName"})
-    public void setUp(String browser, String version, String platform, String fixedIp, String deviceName) throws Exception {
+    @org.testng.annotations.Parameters(value = {"browser", "platformVersion", "platform", "fixedIp", "deviceName"})
+    public void setUp(String browser, String platformVersion, String platform, String fixedIp, String deviceName) throws Exception {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        //capabilities.setCapability("version", version);
+       //  capabilities.setCapability("platformVersion", platformVersion);
         //   capabilities.setCapability("browserName", browser);
         capabilities.setCapability("platformName", platform); // If this cap isn't specified, it will just get the any available one
-        capabilities.setCapability("build", "Debug ");
-        capabilities.setCapability("name", browser + platform + deviceName);
-        capabilities.setCapability("network", true); // To enable network logs
+        capabilities.setCapability("build", "iOS devces 1");
+        capabilities.setCapability("name", browser + platform + deviceName );
+        capabilities.setCapability("network", false); // To enable network logs
         capabilities.setCapability("visual", true); // To enable step by step screenshot
         capabilities.setCapability("video", true); // To enable video recording
         capabilities.setCapability("console", true); // To capture console logs
         capabilities.setCapability("deviceName", deviceName);
-        capabilities.setCapability("platform", "Android");
+
         capabilities.setCapability("w3c", false);
 
-        //      capabilities.setCapability("realMobile", true);
-        //capabilities.setCapability("nativeWebScreenshot", true);
-        //  capabilities.setCapability("port", "8000");
-        // capabilities.setCapability("orientation","LANDSCAPE");
+     //   capabilities.setCapability("fixedIP", fixedIp);
 
-        // capabilities.setCapability("resolution", "1600x900");
-        //capabilities.setCapability("timezone", "UTC+05:30"); //nativeWebScreenshot
-        //  capabilities.setCapability("fixedIP", fixedIp);
-
-          capabilities.setCapability("tunnel", false);
+     //   capabilities.setCapability("tunnel", true);
         try {
-            driver = new RemoteWebDriver(new URL("https://" + username + ":" + accesskey + gridURL), capabilities);
+            String url = "https://" + username + ":" + accesskey + gridURL;
+            driver = new RemoteWebDriver(new URL(url), capabilities);
             System.out.println(driver);
         } catch (MalformedURLException e) {
             System.out.println("Invalid grid URL");
@@ -65,85 +57,75 @@ public class Random {
     @Test
     public void screenshotSequenceRunner() {
         try {
-            driver.get("https://raylo-frontend-staging.herokuapp.com/");
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div/ul/li/button")).click();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div/ul/li/div/ul[1]/li[1]/button")).click();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div/ul/li/div/ul[2]/li[1]/button")).click();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div/ul/li/div/div/ul/li/button")).click();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div/ul/li/div/div/ul/li/div/ul/li[1]/button")).click();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.findElement(By.xpath("//*[@id=\"invitationCode\"]")).click();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.findElement(By.xpath("//*[@id=\"invitationCode\"]")).click();
-            driver.findElement(By.xpath("//*[@id=\"invitationCode\"]")).sendKeys("dev-234");
-            JavascriptExecutor js = (JavascriptExecutor) driver;
-            js.executeScript("document.getElementById('invitationCode').value='dev-234';");
 
 
-
-
-
-            //WebElement user=   driver.findElement(By.xpath("//*[@id=\"invitationCode\"]"));
-
-            // user.sendKeys("dev-234");
-/*
-           driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-                      driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/section[1]/div[2]/div/form/div[2]/div[2]/button")).click();
-
+         /*   driver.get("https://auth.roifrankfurttest.apiboidev.com/saasv1/SaaS/signin?resumePath=%2Fas%2Fcz9Cj%2Fresume%2Fas%2Fauthorization.ping&allowInteraction=true&reauth=false&connectionId=jYXMYDGq0uTZee5peZpzwR&REF=2C42ACB2C19062EFDF9B96B10AABE72BA391025BB2712B4BBC7B344E5CBE");
+            Thread.sleep(30000);
+*/
+               /* driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::input[2]")).click();
+            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::input[2]")).clear();
+            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::input[2]")).sendKeys("oecd");
+            Thread.sleep(3000);
+            driver.get("https://www.cihi.ca/en/search?query-all=oecd&Search+Submit=");
+            Thread.sleep(3000);
+            driver.findElement(By.linkText("OECD Interactive Tool: International Comparisons")).click();
+            Thread.sleep(3000);
+            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Health status'])[1]/following::small[1]")).click();
+            Thread.sleep(3000);
 */
 
-            //System.out.println("Url get by the browser");
-
-          /*  driver.get("https://sentry.io/auth/login/");
-            WebElement username = driver.findElement(By.name("username"));
-            username.sendKeys("sushobhitd@lambdatest.com");
-            System.out.println("Test running");
-            WebElement password = driver.findElement(By.name("password"));
-            password.sendKeys("sushobhit@2018");
-            List<WebElement> loginbutton = driver.findElementsByXPath("//*[@id=\"login\"]/div/div[1]/form/div[3]/button");
-            loginbutton.get(0).click();
-            Thread.sleep(10000);
-            driver.manage().deleteAllCookies();*/
-            //  driver.setFileDetector(new LocalFileDetector());
 
 
 
-/*driver.get("https://www.google.com");
-            String handle= driver.getWindowHandle();
-
-            driver.switchTo().window(handle);
-
-            driver.get("https://www.facebook.com");*/
-
-            /*driver.get("https://lambdatest.github.io/sample-todo-app/");
-
-            //Let's mark done first two items in the list.
-            driver.findElement(By.name("li1")).click();
-            driver.findElement(By.name("li2")).getAttribute("li2");
-            driver.findElement(By.name("li2")).click();
-
-            // Let's add an item in the list.
-            driver.findElement(By.id("sampletodotext")).sendKeys("Yey, Let's add it to list");
 
 
-            boolean is_displayed =driver.findElement(By.id("addbutton")).isDisplayed();
-            driver.findElement(By.id("addbutton")).click();
-            // Let's check that the item we added is added in the list.
-            String enteredText = driver.findElementByXPath("/html/body/div/div/div/ul/li[6]/span").getText();
-            if (enteredText.equals("Yey, Let's add it to list")) {
 
-            }*/
-////*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]/div[9]/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+            driver.getCapabilities();
+            System.out.println(driver.getCapabilities());
+           *//* driver.get("https://www.gmail.com");
+            Thread.sleep(20000);
+            WebElement sign = driver.findElement(By.xpath("//*[@id=\"identifierId\"]"));
+            sign.click();
+            WebElement TextBox = driver.findElement(By.xpath("//*[@id=\"identifierId\"]"));
+            TextBox.sendKeys("prateeks@lambdatest.com");
+            Actions actions = new Actions(driver);
+            WebElement elementLocator = driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div[2]"));
+            actions.doubleClick(elementLocator).perform();
+Thread.sleep(10000);
+*/
+
+
+
+
+
+///[@id="search"]/div[1]/div[2]/div/span[3]/div[1]/div[9]/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span
             System.out.println("windwo handling start");
-            ((JavascriptExecutor) driver).executeScript("window.open()");
+            /*((JavascriptExecutor) driver).executeScript("window.open()");
             System.out.println("windwo windows open");
             ArrayList<String> ta = new ArrayList<String>(driver.getWindowHandles());
-            driver.switchTo().window(ta.get(0));
+            driver.switchTo().window(ta.get(0));*/
             //switches to new tab
             driver.get("https://www.youtube.com/watch?v=a-T4ZPP3k8U");
             System.out.println("windwos open Url");
@@ -156,19 +138,19 @@ public class Random {
             Thread.sleep(500);
             Thread.sleep(50000);
 //Thread.sleep(90000);
-            ((JavascriptExecutor) driver).executeScript("window.open()");
+            /*((JavascriptExecutor) driver).executeScript("window.open()");
             ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-            driver.switchTo().window(tabs.get(1)); //switches to new tab
-            driver.get("http://localhost.lambdatest.com");
+            driver.switchTo().window(tabs.get(1)); //switches to new tab*/
+            driver.get("http://localhost:4200");
             File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             //   FileUtils.copyFile(src, new File("C:/selenium/error.png"));
             Thread.sleep(10000);
             driver.manage().deleteAllCookies();
 
-            ((JavascriptExecutor) driver).executeScript("window.open()");
+            /*((JavascriptExecutor) driver).executeScript("window.open()");
             ArrayList<String> tab = new ArrayList<String>(driver.getWindowHandles());
-            driver.switchTo().window(tab.get(2)); //switches to new tab
-            driver.get("https://bestfirms.com/what-is-my-screen-resolution/");
+            driver.switchTo().window(tab.get(2)); //switches to new tab*/
+            driver.get("https://amazon.com/");
             Thread.sleep(30000);
             System.out.println("windwo handling stop");
             driver.get("https://amazon.com/");

@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2a94dd44-3e3b-485d-b205-35b4b4ca9b16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jre1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/magicleapTesting.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/desktop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/desktop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devices.xml" beforeDir="false" afterPath="$PROJECT_DIR$/devices.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SampleGeb.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/magicLeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/magicLeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/magicleapTesting.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Random.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Random.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/magicLeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/magicLeap.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,61 +31,6 @@
   <component name="FavoritesManager">
     <favorites_list name="magicleapTesting" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Random.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="81" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/devices.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/magicLeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -90,25 +42,12 @@
     <findStrings>
       <find>chrome 75</find>
       <find>chrome 76</find>
+      <find>bf0bbc3ba7b8999d6c0923b87e9455bd</find>
+      <find>78</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/Timestamp.java" />
-        <option value="$PROJECT_DIR$/test.xml" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/devices.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/SampleGeb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Random.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicLeap.java" />
-        <option value="$PROJECT_DIR$/desktop.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -117,79 +56,21 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="magicleapTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="magicleapTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="magicleapTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="surefire" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="609" />
-    <option name="width" value="765" />
-    <option name="height" value="680" />
-  </component>
+  <component name="ProjectId" id="1Sbc5HWYaLScXh3LWSXQqM79aLo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="magicleapTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magicleapTesting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magicleapTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magicleapTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magicleapTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magicleapTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magicleapTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magicleapTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Course" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567168127728" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/vu/scootaloo-webapp-e2e" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571835140760" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/desktop.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,18 +84,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml">
-    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Random" />
+  <component name="RunManager" selected="TestNG.Desktop">
+    <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" type="TestNG" singleton="false">
       <module name="magicleapTesting" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="magicleapTesting" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/desktop.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="magicLeap" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -231,33 +115,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Desktop" type="TestNG">
       <module name="magicleapTesting" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/test.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/desktop.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="magicleapTesting" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" />
+      <item itemvalue="TestNG.Desktop" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" />
         <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" />
-        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/magicleapTesting/test.xml" />
-        <item itemvalue="Application.Random" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -274,259 +168,30 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.28 at 20h 37m 20s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.29 at 12h 38m 53s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.29 at 12h 46m 42s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.29 at 12h 55m 30s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_devices_xml - 2019.08.29 at 13h 03m 44s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/devices.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 16h 26m 19s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 16h 32m 07s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 17h 30m 06s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 17h 43m 15s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Admin_IdeaProjects_magicleapTesting_desktop_xml - 2019.08.30 at 17h 47m 55s.xml">
-      <configuration name="C:/Users/Admin/IdeaProjects/magicleapTesting/desktop.xml" configurationId="TestNG" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85232747" visible="true" weight="0.27108434" />
-      <window_info id="Structure" order="1" sideWeight="0.14767255" side_tool="true" weight="0.3320783" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5026738" side_tool="true" weight="0.14006025" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905295" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49246988" visible="true" weight="0.3354735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967898" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32744783" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32744783" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5075301" side_tool="true" weight="0.3354735" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49849397" weight="0.32744783" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3298193" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3298193" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85232747" visible="true" weight="0.20481928" />
-      <window_info id="Structure" order="1" sideWeight="0.14767255" side_tool="true" weight="0.3320783" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5026738" side_tool="true" weight="0.14006025" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905295" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4932229" visible="true" weight="0.4927769" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967898" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32744783" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32744783" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5067771" side_tool="true" weight="0.2953451" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49849397" weight="0.32744783" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3298193" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3298193" />
-    </layout-to-restore>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/net/SocketInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Timestamp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Timesta.java" />
-    <entry file="file://$PROJECT_DIR$/testng.xml" />
-    <entry file="file://$PROJECT_DIR$/test.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SampleGeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devices.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="81" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/magicLeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>magicleapTesting</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>local.compareToIgnoreCase(title)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
 </project>

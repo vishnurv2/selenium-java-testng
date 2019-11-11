@@ -1,307 +1,1088 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="100" name="New Browsers" parallel="tests">
+<suite thread-count="200" name="DesktopBrowsers" parallel="tests">
 
 
-  <test name="Random test1">
-        <parameter name="browser" value="Internet Explorer"/>
-        <parameter name="version" value="11.0"/>
+    <test name="1">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="version" value="69.0"/>
         <parameter name="platform" value="win10"/>
-        <parameter name="fixedIp" value="10.26.30.100"/>
+        <parameter name="fixedIp" value="10.36.21.171"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
         <classes>
             <class name="magicLeap"/>
         </classes>
     </test>
 
-        <!-- <test name="Random test2">
+     <test name="2">
+         <parameter name="browser" value="Firefox"/>
+         <parameter name="version" value="68.0"/>
+         <parameter name="platform" value="win10"/>
+         <parameter name="fixedIp" value="10.36.21.228"/>
+         <parameter name="resolution" value="1920x1080"/>
+         <parameter name="timezone" value="UTC+04:00"/>
+         <parameter name="geoLocation" value="AR"/>
+         <classes>
+             <class name="magicLeap"/>
+         </classes>
+     </test>
+
+    <!--  <test name="3">
           <parameter name="browser" value="Chrome"/>
-          <parameter name="version" value="72.0"/>
-          <parameter name="platform" value="Mac mojave"/>
-          <parameter name="fixedIp" value="10.254.44.60"/>
+          <parameter name="version" value="78.0"/>
+          <parameter name="platform" value="MacOs high sierra"/>
+          <parameter name="fixedIp" value="10.92.181.82"/>
+          <parameter name="resolution" value="1920x1080"/>
+          <parameter name="timezone" value="UTC+04:00"/>
+          <parameter name="geoLocation" value="AU"/>
           <classes>
               <class name="magicLeap"/>
           </classes>
       </test>
 
-        <test name="Random test3">
-               <parameter name="browser" value="chrome"/>
-               <parameter name="version" value="76.0"/>
-               <parameter name="platform" value="MacOs mojave"/>
-               <parameter name="fixedIp" value="10.92.181.186"/>
-               <classes>
-                   <class name="magicLeap"/>
-               </classes>
-           </test>
+      <test name="4">
+          <parameter name="browser" value="Chrome"/>
+          <parameter name="version" value="79.0"/>
+          <parameter name="platform" value="MacOs high sierra"/>
+          <parameter name="fixedIp" value="10.92.181.81"/>
+          <parameter name="resolution" value="1920x1080"/>
+          <parameter name="timezone" value="UTC+04:00"/>
+          <parameter name="geoLocation" value="BE"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
 
-           <test name="Random test4">
-               <parameter name="browser" value="chrome"/>
-               <parameter name="version" value="76.0"/>
-               <parameter name="platform" value="macos mojave"/>
-               <parameter name="fixedIp" value="10.92.181.187"/>
-               <classes>
-                   <class name="magicLeap"/>
-               </classes>
-           </test>
+      <test name="5">
+          <parameter name="browser" value="Chrome"/>
+          <parameter name="version" value="78.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.101.2.41"/>
+          <parameter name="resolution" value="1920x1080"/>
+          <parameter name="timezone" value="UTC+04:00"/>
+          <parameter name="geoLocation" value="BR"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
 
-            <test name="Random test5">
-                <parameter name="browser" value="chrome"/>
-                <parameter name="version" value="76.0"/>
-                <parameter name="platform" value="Macos high sierra"/>
-                <parameter name="fixedIp" value="10.253.33.2"/>
-                <classes>
-                    <class name="magicLeap"/>
-                </classes>
-            </test>
+      <test name="6">
+          <parameter name="browser" value="Chrome"/>
+          <parameter name="version" value="79.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.101.2.42"/>
+          <parameter name="resolution" value="1920x1080"/>
+          <parameter name="timezone" value="UTC+04:00"/>
+          <parameter name="geoLocation" value="BG"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
 
-           <test name="Random test6">
+
+      <test name="8">
+          <parameter name="browser" value="Chrome"/>
+          <parameter name="version" value="78.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.101.2.43"/>
+          <parameter name="resolution" value="1920x1080"/>
+          <parameter name="timezone" value="UTC+04:00"/>
+          <parameter name="geoLocation" value="CA"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+       <test name="9">
+           <parameter name="browser" value="Chrome"/>
+           <parameter name="version" value="79.0"/>
+           <parameter name="platform" value="win10"/>
+           <parameter name="fixedIp" value="10.101.2.44"/>
+           <parameter name="resolution" value="1920x1080"/>
+           <parameter name="timezone" value="UTC+04:00"/>
+           <parameter name="geoLocation" value="CL"/>
+           <classes>
+               <class name="magicLeap"/>
+           </classes>
+       </test>
+
+       <test name="10">
+           <parameter name="browser" value="Chrome"/>
+           <parameter name="version" value="78.0"/>
+           <parameter name="platform" value="MacOs sierra"/>
+           <parameter name="fixedIp" value="10.101.2.45"/>
+           <parameter name="resolution" value="1920x1080"/>
+           <parameter name="timezone" value="UTC+04:00"/>
+           <parameter name="geoLocation" value="HR"/>
+           <classes>
+               <class name="magicLeap"/>
+           </classes>
+       </test>
+
+       <test name="11">
+           <parameter name="browser" value="Chrome"/>
+           <parameter name="version" value="79.0"/>
+           <parameter name="platform" value="MacOs sierra"/>
+           <parameter name="fixedIp" value="10.101.2.46"/>
+           <parameter name="resolution" value="1920x1080"/>
+           <parameter name="timezone" value="UTC+04:00"/>
+           <parameter name="geoLocation" value="CZ"/>
+           <classes>
+               <class name="magicLeap"/>
+           </classes>
+       </test>
+
+       <test name="12">
+           <parameter name="browser" value="Chrome"/>
+           <parameter name="version" value="78.0"/>
+           <parameter name="platform" value="MacOs sierra"/>
+           <parameter name="fixedIp" value="10.101.2.47"/>
+           <parameter name="resolution" value="1920x1080"/>
+           <parameter name="timezone" value="UTC+04:00"/>
+           <parameter name="geoLocation" value="DK"/>
+           <classes>
+               <class name="magicLeap"/>
+           </classes>
+       </test>
+
+
+         <test name="14">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="79.0"/>
+             <parameter name="platform" value="MacOs sierra"/>
+             <parameter name="fixedIp" value="10.101.2.48"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="FI"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="15">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="78.0"/>
+             <parameter name="platform" value="OS X El Capitan"/>
+             <parameter name="fixedIp" value="10.101.2.49"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="FR"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="16">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="79.0"/>
+             <parameter name="platform" value="OS X El Capitan"/>
+             <parameter name="fixedIp" value="10.101.2.50"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="DE"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="17">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="79.0"/>
+             <parameter name="platform" value="OS X El Capitan"/>
+             <parameter name="fixedIp" value="10.101.2.51"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="GR"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="18">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="78.0"/>
+             <parameter name="platform" value="OS X El Capitan"/>
+             <parameter name="fixedIp" value="10.101.2.52"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="HK"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="19">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="79.0"/>
+             <parameter name="platform" value="OS X Yosemite"/>
+             <parameter name="fixedIp" value="10.101.2.53"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="HU"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="20">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="78.0"/>
+             <parameter name="platform" value="OS X Yosemite"/>
+             <parameter name="fixedIp" value="10.101.2.54"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="IN"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="21">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="79.0"/>
+             <parameter name="platform" value="OS X Yosemite"/>
+             <parameter name="fixedIp" value="10.101.2.55"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="ID"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="22">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="78.0"/>
+             <parameter name="platform" value="OS X Yosemite"/>
+             <parameter name="fixedIp" value="10.101.2.56"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="IE"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="23">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="79.0"/>
+             <parameter name="platform" value="Win10"/>
+             <parameter name="fixedIp" value="10.101.2.57"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="IL"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="24">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="78.0"/>
+             <parameter name="platform" value="Win10"/>
+             <parameter name="fixedIp" value="10.101.2.58"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="IT"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="25">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="79.0"/>
+             <parameter name="platform" value="Win10"/>
+             <parameter name="fixedIp" value="10.101.2.59"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="JP"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+         <test name="26">
+             <parameter name="browser" value="Chrome"/>
+             <parameter name="version" value="78.0"/>
+             <parameter name="platform" value="Win10"/>
+             <parameter name="fixedIp" value="10.101.2.60"/>
+             <parameter name="resolution" value="1920x1080"/>
+             <parameter name="timezone" value="UTC+04:00"/>
+             <parameter name="geoLocation" value="MY"/>
+             <classes>
+                 <class name="magicLeap"/>
+             </classes>
+         </test>
+
+          <test name="27">
               <parameter name="browser" value="chrome"/>
-              <parameter name="version" value="76.0"/>
-              <parameter name="platform" value="Macos high sierra"/>
-              <parameter name="fixedIp" value="10.253.33.3"/>
+              <parameter name="version" value="75.0"/>
+              <parameter name="platform" value="win10"/>
+              <parameter name="fixedIp" value="10.101.2.61"/>
+              <parameter name="resolution" value="1920x1080"/>
               <classes>
                   <class name="magicLeap"/>
               </classes>
-          </test>
+          </test> -->
 
-       <test name="Random test7">
-            <parameter name="browser" value="chrome"/>
-            <parameter name="version" value="76.0"/>
-            <parameter name="platform" value="win7"/>
-            <parameter name="fixedIp" value="10.26.32.17"/>
-            <classes>
-                <class name="magicLeap"/>
-            </classes>
-        </test>
-
-          <test name="Random test8">
-             <parameter name="browser" value="chrome"/>
-             <parameter name="version" value="76.0"/>
-             <parameter name="platform" value="win8"/>
-             <parameter name="fixedIp" value="10.26.33.109"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="Random test9">
-             <parameter name="browser" value="chrome"/>
-             <parameter name="version" value="76.0"/>
-             <parameter name="platform" value="win8.1"/>
-             <parameter name="fixedIp" value="10.33.21.140"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-          <test name="Random test10">
-               <parameter name="browser" value="chrome"/>
-               <parameter name="version" value="76.0"/>
-               <parameter name="platform" value="win10"/>
-               <parameter name="fixedIp" value="10.36.20.11"/>
-               <classes>
-                   <class name="magicLeap"/>
-               </classes>
-           </test>
-
-      <test name="Random test11">
-          <parameter name="browser" value="MicrosoftEdge"/>
-          <parameter name="version" value="18.0"/>
-          <parameter name="platform" value="win10"/>
-          <parameter name="fixedIp" value="10.92.181.162"/>
-          <classes>
-              <class name="magicLeap"/>
-          </classes>
-      </test>
-
-      <test name="Random test12">
-          <parameter name="browser" value="MicrosoftEdge"/>
-          <parameter name="version" value="18.0"/>
-          <parameter name="platform" value="win10"/>
-          <parameter name="fixedIp" value="10.92.181.164"/>
-          <classes>
-              <class name="magicLeap"/>
-          </classes>
-      </test>
-      <test name="Random test13">
-          <parameter name="browser" value="MicrosoftEdge"/>
-          <parameter name="version" value="18.0"/>
-          <parameter name="platform" value="win10"/>
-          <parameter name="fixedIp" value="10.92.181.168"/>
-          <classes>
-              <class name="magicLeap"/>
-          </classes>
-      </test>
-
-      <test name="Random test14">
-          <parameter name="browser" value="MicrosoftEdge"/>
-          <parameter name="version" value="18.0"/>
-          <parameter name="platform" value="win10"/>
-          <parameter name="fixedIp" value="10.92.181.169"/>
-          <classes>
-              <class name="magicLeap"/>
-          </classes>
-      </test>
-
-         <test name="Random test15">
-             <parameter name="browser" value="chrome"/>
-             <parameter name="version" value="74.0"/>
-             <parameter name="platform" value="Win10"/>
-             <parameter name="fixedIp" value="10.92.181.171"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-        <test name="Random test16">
-            <parameter name="browser" value="chrome"/>
-            <parameter name="version" value="75.0"/>
-            <parameter name="platform" value="Win10"/>
-            <parameter name="fixedIp" value="10.92.181.172"/>
-            <classes>
-                <class name="magicLeap"/>
-            </classes>
-        </test>
-
-        <test name="Random test17">
-            <parameter name="browser" value="chrome"/>
-            <parameter name="version" value="76.0"/>
-            <parameter name="platform" value="Win10"/>
-            <parameter name="fixedIp" value="10.92.181.173"/>
-            <classes>
-                <class name="magicLeap"/>
-            </classes>
-        </test>
-
-        <test name="Random test18">
+    <!--    <test name="28">
             <parameter name="browser" value="chrome"/>
             <parameter name="version" value="74.0"/>
-            <parameter name="platform" value="Win10"/>
-            <parameter name="fixedIp" value="10.92.181.174"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.101.1.63"/>
+            <parameter name="resolution" value="1920x1080"/>
             <classes>
                 <class name="magicLeap"/>
             </classes>
         </test>
 
-        <test name="Random test19">
+        <test name="29">
             <parameter name="browser" value="chrome"/>
-            <parameter name="version" value="73.0"/>
-            <parameter name="platform" value="Win10"/>
-            <parameter name="fixedIp" value="10.92.181.151"/>
+            <parameter name="version" value="72.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.101.1.64"/>
+            <parameter name="resolution" value="1920x1080"/>
             <classes>
                 <class name="magicLeap"/>
             </classes>
         </test>
 
-        <test name="Random test20">
-            <parameter name="browser" value="chrome"/>
-            <parameter name="version" value="75.0"/>
-            <parameter name="platform" value="Win8"/>
-            <parameter name="fixedIp" value="10.92.181.152"/>
-            <classes>
-                <class name="magicLeap"/>
-            </classes>
-        </test>
+                 <test name="30">
+                     <parameter name="browser" value="chrome"/>
+                     <parameter name="version" value="71.0"/>
+                     <parameter name="platform" value="win8"/>
+                     <parameter name="fixedIp" value="10.92.181.179"/>
+                     <parameter name="resolution" value="1920x1080"/>
+                     <classes>
+                         <class name="magicLeap"/>
+                     </classes>
+                 </test>
 
-        <test name="Random test21">
-            <parameter name="browser" value="chrome"/>
-            <parameter name="version" value="71.0"/>
-            <parameter name="platform" value="Win8"/>
-            <parameter name="fixedIp" value="10.92.181.153"/>
-            <classes>
-                <class name="magicLeap"/>
-            </classes>
-        </test>
+                 <test name="31">
+                     <parameter name="browser" value="chrome"/>
+                     <parameter name="version" value="74.0"/>
+                     <parameter name="platform" value="win7"/>
+                     <parameter name="fixedIp" value="10.47.240.102"/>
+                     <parameter name="resolution" value="1920x1080"/>
+                     <classes>
+                         <class name="magicLeap"/>
+                     </classes>
+                 </test>
 
-        <test name="Random test22">
-            <parameter name="browser" value="chrome"/>
-            <parameter name="version" value="74.0"/>
-            <parameter name="platform" value="Win8.1"/>
-            <parameter name="fixedIp" value="10.92.181.154"/>
-            <classes>
-                <class name="magicLeap"/>
-            </classes>
-        </test>
+                 <test name="32">
+                     <parameter name="browser" value="Chrome"/>
+                     <parameter name="version" value="72.0"/>
+                     <parameter name="platform" value="win7"/>
+                     <parameter name="fixedIp" value="10.47.240.103"/>
+                     <parameter name="resolution" value="1920x1080"/>
+                     <classes>
+                         <class name="magicLeap"/>
+                     </classes>
+                 </test>
 
-        <test name="Random test23">
-            <parameter name="browser" value="chrome"/>
-            <parameter name="version" value="76.0"/>
-            <parameter name="platform" value="Win8.1"/>
-            <parameter name="fixedIp" value="10.92.181.155"/>
-            <classes>
-                <class name="magicLeap"/>
-            </classes>
-        </test>
+                 <test name="33">
+                     <parameter name="browser" value="chrome"/>
+                     <parameter name="version" value="76.0"/>
+                     <parameter name="platform" value="win7"/>
+                     <parameter name="fixedIp" value="10.47.240.104"/>
+                     <parameter name="resolution" value="1920x1080"/>
+                     <classes>
+                         <class name="magicLeap"/>
+                     </classes>
+                 </test>
 
-    <test name="Random test24">
-           <parameter name="browser" value="chrome"/>
-           <parameter name="version" value="73.0"/>
-           <parameter name="platform" value="macos sierra"/>
-           <parameter name="fixedIp" value="10.92.181.156"/>
-           <classes>
-               <class name="magicLeap"/>
-           </classes>
-       </test>
+                 <test name="34">
+                     <parameter name="browser" value="chrome"/>
+                     <parameter name="version" value="76.0"/>
+                     <parameter name="platform" value="win7"/>
+                     <parameter name="fixedIp" value="10.47.240.105"/>
+                     <parameter name="resolution" value="1920x1080"/>
+                     <classes>
+                         <class name="magicLeap"/>
+                     </classes>
+                 </test>
 
-       <test name="Random test25">
-           <parameter name="browser" value="chrome"/>
-           <parameter name="version" value="76.0"/>
-           <parameter name="platform" value="macos sierra"/>
-           <parameter name="fixedIp" value="10.92.181.157"/>
-           <classes>
-               <class name="magicLeap"/>
-           </classes>
-       </test>
+                 <test name="35">
+                     <parameter name="browser" value="chrome"/>
+                     <parameter name="version" value="76.0"/>
+                     <parameter name="platform" value="win7"/>
+                     <parameter name="fixedIp" value="10.47.240.106"/>
+                     <parameter name="resolution" value="1920x1080"/>
+                     <classes>
+                         <class name="magicLeap"/>
+                     </classes>
+                 </test>
 
-      <test name="Random test26">
+                 <test name="36">
+                     <parameter name="browser" value="chrome"/>
+                     <parameter name="version" value="70.0"/>
+                     <parameter name="platform" value="win7"/>
+                     <parameter name="fixedIp" value="10.47.240.107"/>
+                     <parameter name="resolution" value="1920x1080"/>
+                     <classes>
+                         <class name="magicLeap"/>
+                     </classes>
+                 </test>
+
+              <test name="37">
+                   <parameter name="browser" value="chrome"/>
+                   <parameter name="version" value="71.0"/>
+                   <parameter name="platform" value="win10/>
+                   <parameter name= "fixedIp" value ="10.47.240.108"/>
+                   <classes>
+                       <class name="magicLeap"/>
+                   </classes>
+               </test> -->
+
+    <!--  <test name="38">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="61.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.47.240.109"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="39">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="65.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.47.240.110"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="40">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="64.0"/>
+          <parameter name="platform" value="win8"/>
+          <parameter name="fixedIp" value="10.51.0.22"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="41">
+          <parameter name="browser" value="firefox"/>
+          <parameter name="version" value="63.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.51.0.23"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="42">
+          <parameter name="browser" value="firefox"/>
+          <parameter name="version" value="65.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.51.0.24"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+      <test name="43">
+          <parameter name="browser" value="firefox"/>
+          <parameter name="version" value="66.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.51.0.26"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="44">
+          <parameter name="browser" value="firefox"/>
+          <parameter name="version" value="64.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.51.0.27"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="45">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="74.0"/>
+          <parameter name="platform" value="Win10"/>
+          <parameter name="fixedIp" value="10.51.0.28"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="46">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="75.0"/>
+          <parameter name="platform" value="Win10"/>
+          <parameter name="fixedIp" value="10.51.0.29"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="47">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="76.0"/>
+          <parameter name="platform" value="Win10"/>
+          <parameter name="fixedIp" value="10.51.0.30"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="48">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="74.0"/>
+          <parameter name="platform" value="Win10"/>
+          <parameter name="fixedIp" value="10.51.0.31"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="49">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="73.0"/>
+          <parameter name="platform" value="Win10"/>
+          <parameter name="fixedIp" value="10.51.0.32"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="50">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="75.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.51.0.33"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="51">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="71.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.51.0.34"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="52">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="74.0"/>
+          <parameter name="platform" value="Win10"/>
+          <parameter name="fixedIp" value="10.51.0.25"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="53">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="76.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.92.181.155"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="54">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="73.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.92.181.156"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="55">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="76.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.92.181.157"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="56">
           <parameter name="browser" value="chrome"/>
           <parameter name="version" value="72.0"/>
-          <parameter name="platform" value="macos sierra"/>
+          <parameter name="platform" value="win10"/>
           <parameter name="fixedIp" value="10.92.181.158"/>
           <classes>
               <class name="magicLeap"/>
           </classes>
       </test>
 
-      <test name="Random test27">
+      <test name="57">
           <parameter name="browser" value="chrome"/>
           <parameter name="version" value="75.0"/>
-          <parameter name="platform" value="macos sierra"/>
+          <parameter name="platform" value="win10"/>
           <parameter name="fixedIp" value="10.92.181.159"/>
           <classes>
               <class name="magicLeap"/>
           </classes>
       </test>
 
-      <test name="Random test28">
+      <test name="58">
           <parameter name="browser" value="chrome"/>
           <parameter name="version" value="74.0"/>
-          <parameter name="platform" value="macos sierra"/>
+          <parameter name="platform" value="win10"/>
           <parameter name="fixedIp" value="10.92.181.160"/>
           <classes>
               <class name="magicLeap"/>
           </classes>
       </test>
 
-      <test name="Random test29">
+      <test name="59">
           <parameter name="browser" value="chrome"/>
           <parameter name="version" value="72.0"/>
-          <parameter name="platform" value="macos sierra"/>
+          <parameter name="platform" value="win10"/>
           <parameter name="fixedIp" value="10.92.181.176"/>
           <classes>
               <class name="magicLeap"/>
           </classes>
       </test>
 
-      <test name="Random test30">
+      <test name="60">
           <parameter name="browser" value="chrome"/>
           <parameter name="version" value="71.0"/>
-          <parameter name="platform" value="macos sierra"/>
+          <parameter name="platform" value="win10"/>
           <parameter name="fixedIp" value="10.92.181.179"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+
+      <test name="61">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="74.0"/>
+          <parameter name="platform" value="macOs mojave"/>
+          <parameter name="fixedIp" value="10.47.240.102"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="62">
+          <parameter name="browser" value="Chrome"/>
+          <parameter name="version" value="72.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.47.240.103"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="63">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="76.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.47.240.104"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="64">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="76.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.47.240.105"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="65">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="76.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.47.240.106"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="66">
+          <parameter name="browser" value="chrome"/>
+          <parameter name="version" value="70.0"/>
+          <parameter name="platform" value="win10"/>
+          <parameter name="fixedIp" value="10.47.240.107"/>
           <classes>
               <class name="magicLeap"/>
           </classes>
       </test> -->
 
+    <!--<test name="67">
+         <parameter name="browser" value="chrome"/>
+         <parameter name="version" value="71.0"/>
+         <parameter name="platform" value="win10/>
+         <parameter name= "fixedIp" value ="10.47.240.108"/>
+         <classes>
+             <class name="magicLeap"/>
+         </classes>
+     </test> -->
 
+    <!--    <test name="68">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="61.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.47.240.109"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
 
+        <test name="69">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="65.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.47.240.110"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="70">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="64.0"/>
+            <parameter name="platform" value="win8"/>
+            <parameter name="fixedIp" value="10.51.0.22"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="71">
+            <parameter name="browser" value="firefox"/>
+            <parameter name="version" value="63.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.51.0.23"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="72">
+            <parameter name="browser" value="firefox"/>
+            <parameter name="version" value="65.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.51.0.24"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+        <test name="73">
+            <parameter name="browser" value="firefox"/>
+            <parameter name="version" value="66.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.51.0.26"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="74">
+            <parameter name="browser" value="firefox"/>
+            <parameter name="version" value="64.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.51.0.27"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="75">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="74.0"/>
+            <parameter name="platform" value="Win10"/>
+            <parameter name="fixedIp" value="10.51.0.28"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="76">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="75.0"/>
+            <parameter name="platform" value="Win10"/>
+            <parameter name="fixedIp" value="10.51.0.29"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="77">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="76.0"/>
+            <parameter name="platform" value="Win10"/>
+            <parameter name="fixedIp" value="10.51.0.30"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="78">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="74.0"/>
+            <parameter name="platform" value="Win10"/>
+            <parameter name="fixedIp" value="10.51.0.31"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="79">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="73.0"/>
+            <parameter name="platform" value="Win10"/>
+            <parameter name="fixedIp" value="10.51.0.32"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="80">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="75.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.51.0.33"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="81">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="71.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.51.0.34"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="82">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="74.0"/>
+            <parameter name="platform" value="Win10"/>
+            <parameter name="fixedIp" value="10.51.0.25"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="83">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="76.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.92.181.155"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="84">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="73.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.92.181.156"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="85">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="76.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.92.181.157"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="86">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="72.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.92.181.158"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="87">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="75.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.92.181.159"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="88">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="74.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.92.181.160"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="89">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="72.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.92.181.176"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test>
+
+        <test name="90">
+            <parameter name="browser" value="chrome"/>
+            <parameter name="version" value="71.0"/>
+            <parameter name="platform" value="win10"/>
+            <parameter name="fixedIp" value="10.92.181.179"/>
+            <classes>
+                <class name="magicLeap"/>
+            </classes>
+        </test> -->
+
+    <!--  <test name="91">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.176"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="92">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.179"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="93">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.176"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="94">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.179"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="95">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.176"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="96">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.179"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="97">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.176"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="98">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.179"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="99">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.176"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="100">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.179"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="101">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.176"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test>
+
+      <test name="102">
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
+          <parameter name="platform" value="Macos Mojave"/>
+          <parameter name="fixedIp" value="10.92.181.179"/>
+          <classes>
+              <class name="magicLeap"/>
+          </classes>
+      </test> -->
 </suite>

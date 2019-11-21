@@ -5,10 +5,10 @@
 
     <test name="1">
         <parameter name="browser" value="firefox"/>
-        <parameter name="version" value="69.0"/>
-        <parameter name="platform" value="win10"/>
-        <parameter name="fixedIp" value="10.36.21.171"/>
-        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="version" value="70.0"/>
+        <parameter name="platform" value="Windows 10"/>
+        <parameter name="fixedIp" value="10.26.38.74"/>
+        <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+05:30"/>
         <parameter name="geoLocation" value="DE"/>
         <classes>
@@ -17,9 +17,9 @@
     </test>
 
      <test name="2">
-         <parameter name="browser" value="Firefox"/>
-         <parameter name="version" value="68.0"/>
-         <parameter name="platform" value="win10"/>
+         <parameter name="browser" value="firefox"/>
+         <parameter name="version" value="69.0"/>
+         <parameter name="platform" value="Windows 10"/>
          <parameter name="fixedIp" value="10.36.21.228"/>
          <parameter name="resolution" value="1920x1080"/>
          <parameter name="timezone" value="UTC+04:00"/>
@@ -29,10 +29,10 @@
          </classes>
      </test>
 
-    <!--  <test name="3">
+      <test name="3">
           <parameter name="browser" value="Chrome"/>
-          <parameter name="version" value="78.0"/>
-          <parameter name="platform" value="MacOs high sierra"/>
+          <parameter name="version" value="79.0"/>
+          <parameter name="platform" value="Windows 10"/>
           <parameter name="fixedIp" value="10.92.181.82"/>
           <parameter name="resolution" value="1920x1080"/>
           <parameter name="timezone" value="UTC+04:00"/>
@@ -44,8 +44,8 @@
 
       <test name="4">
           <parameter name="browser" value="Chrome"/>
-          <parameter name="version" value="79.0"/>
-          <parameter name="platform" value="MacOs high sierra"/>
+          <parameter name="version" value="75.0"/>
+          <parameter name="platform" value="Windows 10"/>
           <parameter name="fixedIp" value="10.92.181.81"/>
           <parameter name="resolution" value="1920x1080"/>
           <parameter name="timezone" value="UTC+04:00"/>
@@ -55,278 +55,280 @@
           </classes>
       </test>
 
-      <test name="5">
-          <parameter name="browser" value="Chrome"/>
-          <parameter name="version" value="78.0"/>
-          <parameter name="platform" value="win10"/>
-          <parameter name="fixedIp" value="10.101.2.41"/>
-          <parameter name="resolution" value="1920x1080"/>
-          <parameter name="timezone" value="UTC+04:00"/>
-          <parameter name="geoLocation" value="BR"/>
-          <classes>
-              <class name="magicLeap"/>
-          </classes>
-      </test>
-
-      <test name="6">
-          <parameter name="browser" value="Chrome"/>
-          <parameter name="version" value="79.0"/>
-          <parameter name="platform" value="win10"/>
-          <parameter name="fixedIp" value="10.101.2.42"/>
-          <parameter name="resolution" value="1920x1080"/>
-          <parameter name="timezone" value="UTC+04:00"/>
-          <parameter name="geoLocation" value="BG"/>
-          <classes>
-              <class name="magicLeap"/>
-          </classes>
-      </test>
-
-
-      <test name="8">
-          <parameter name="browser" value="Chrome"/>
-          <parameter name="version" value="78.0"/>
-          <parameter name="platform" value="win10"/>
-          <parameter name="fixedIp" value="10.101.2.43"/>
-          <parameter name="resolution" value="1920x1080"/>
-          <parameter name="timezone" value="UTC+04:00"/>
-          <parameter name="geoLocation" value="CA"/>
-          <classes>
-              <class name="magicLeap"/>
-          </classes>
-      </test>
-
-       <test name="9">
-           <parameter name="browser" value="Chrome"/>
-           <parameter name="version" value="79.0"/>
-           <parameter name="platform" value="win10"/>
-           <parameter name="fixedIp" value="10.101.2.44"/>
-           <parameter name="resolution" value="1920x1080"/>
-           <parameter name="timezone" value="UTC+04:00"/>
-           <parameter name="geoLocation" value="CL"/>
-           <classes>
-               <class name="magicLeap"/>
-           </classes>
-       </test>
-
-       <test name="10">
-           <parameter name="browser" value="Chrome"/>
-           <parameter name="version" value="78.0"/>
-           <parameter name="platform" value="MacOs sierra"/>
-           <parameter name="fixedIp" value="10.101.2.45"/>
-           <parameter name="resolution" value="1920x1080"/>
-           <parameter name="timezone" value="UTC+04:00"/>
-           <parameter name="geoLocation" value="HR"/>
-           <classes>
-               <class name="magicLeap"/>
-           </classes>
-       </test>
-
-       <test name="11">
-           <parameter name="browser" value="Chrome"/>
-           <parameter name="version" value="79.0"/>
-           <parameter name="platform" value="MacOs sierra"/>
-           <parameter name="fixedIp" value="10.101.2.46"/>
-           <parameter name="resolution" value="1920x1080"/>
-           <parameter name="timezone" value="UTC+04:00"/>
-           <parameter name="geoLocation" value="CZ"/>
-           <classes>
-               <class name="magicLeap"/>
-           </classes>
-       </test>
-
-       <test name="12">
-           <parameter name="browser" value="Chrome"/>
-           <parameter name="version" value="78.0"/>
-           <parameter name="platform" value="MacOs sierra"/>
-           <parameter name="fixedIp" value="10.101.2.47"/>
-           <parameter name="resolution" value="1920x1080"/>
-           <parameter name="timezone" value="UTC+04:00"/>
-           <parameter name="geoLocation" value="DK"/>
-           <classes>
-               <class name="magicLeap"/>
-           </classes>
-       </test>
-
-
-         <test name="14">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="79.0"/>
-             <parameter name="platform" value="MacOs sierra"/>
-             <parameter name="fixedIp" value="10.101.2.48"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="FI"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="15">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="78.0"/>
-             <parameter name="platform" value="OS X El Capitan"/>
-             <parameter name="fixedIp" value="10.101.2.49"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="FR"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="16">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="79.0"/>
-             <parameter name="platform" value="OS X El Capitan"/>
-             <parameter name="fixedIp" value="10.101.2.50"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="DE"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="17">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="79.0"/>
-             <parameter name="platform" value="OS X El Capitan"/>
-             <parameter name="fixedIp" value="10.101.2.51"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="GR"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="18">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="78.0"/>
-             <parameter name="platform" value="OS X El Capitan"/>
-             <parameter name="fixedIp" value="10.101.2.52"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="HK"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="19">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="79.0"/>
-             <parameter name="platform" value="OS X Yosemite"/>
-             <parameter name="fixedIp" value="10.101.2.53"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="HU"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="20">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="78.0"/>
-             <parameter name="platform" value="OS X Yosemite"/>
-             <parameter name="fixedIp" value="10.101.2.54"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="IN"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="21">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="79.0"/>
-             <parameter name="platform" value="OS X Yosemite"/>
-             <parameter name="fixedIp" value="10.101.2.55"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="ID"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="22">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="78.0"/>
-             <parameter name="platform" value="OS X Yosemite"/>
-             <parameter name="fixedIp" value="10.101.2.56"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="IE"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="23">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="79.0"/>
-             <parameter name="platform" value="Win10"/>
-             <parameter name="fixedIp" value="10.101.2.57"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="IL"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="24">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="78.0"/>
-             <parameter name="platform" value="Win10"/>
-             <parameter name="fixedIp" value="10.101.2.58"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="IT"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="25">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="79.0"/>
-             <parameter name="platform" value="Win10"/>
-             <parameter name="fixedIp" value="10.101.2.59"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="JP"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-         <test name="26">
-             <parameter name="browser" value="Chrome"/>
-             <parameter name="version" value="78.0"/>
-             <parameter name="platform" value="Win10"/>
-             <parameter name="fixedIp" value="10.101.2.60"/>
-             <parameter name="resolution" value="1920x1080"/>
-             <parameter name="timezone" value="UTC+04:00"/>
-             <parameter name="geoLocation" value="MY"/>
-             <classes>
-                 <class name="magicLeap"/>
-             </classes>
-         </test>
-
-          <test name="27">
-              <parameter name="browser" value="chrome"/>
-              <parameter name="version" value="75.0"/>
-              <parameter name="platform" value="win10"/>
-              <parameter name="fixedIp" value="10.101.2.61"/>
+          <test name="5">
+              <parameter name="browser" value="Firefox"/>
+              <parameter name="version" value="70.0"/>
+              <parameter name="platform" value="Windows 10"/>
+              <parameter name="fixedIp" value="10.101.2.41"/>
               <parameter name="resolution" value="1920x1080"/>
+              <parameter name="timezone" value="UTC+04:00"/>
+              <parameter name="geoLocation" value="BR"/>
               <classes>
                   <class name="magicLeap"/>
               </classes>
-          </test> -->
+          </test>
+
+           <test name="6">
+               <parameter name="browser" value="firefox"/>
+               <parameter name="version" value="69.0"/>
+               <parameter name="platform" value="Windows 10"/>
+               <parameter name="fixedIp" value="10.101.2.42"/>
+               <parameter name="resolution" value="1920x1080"/>
+               <parameter name="timezone" value="UTC+04:00"/>
+               <parameter name="geoLocation" value="BG"/>
+               <classes>
+                   <class name="magicLeap"/>
+               </classes>
+           </test>
+
+
+           <test name="8">
+               <parameter name="browser" value="Chrome"/>
+               <parameter name="version" value="72.0"/>
+               <parameter name="platform" value="Windows 10"/>
+               <parameter name="fixedIp" value="10.101.2.43"/>
+               <parameter name="resolution" value="1920x1080"/>
+               <parameter name="timezone" value="UTC+04:00"/>
+               <parameter name="geoLocation" value="CA"/>
+               <classes>
+                   <class name="magicLeap"/>
+               </classes>
+           </test>
+
+            <test name="9">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="70.0"/>
+                <parameter name="platform" value="Windows 10"/>
+                <parameter name="fixedIp" value="10.101.2.44"/>
+                <parameter name="resolution" value="1920x1080"/>
+                <parameter name="timezone" value="UTC+04:00"/>
+                <parameter name="geoLocation" value="CL"/>
+                <classes>
+                    <class name="magicLeap"/>
+                </classes>
+            </test>
+
+            <test name="10">
+                <parameter name="browser" value="Firefox"/>
+                <parameter name="version" value="68.0"/>
+                <parameter name="platform" value="Windows 10"/>
+                <parameter name="fixedIp" value="10.101.2.45"/>
+                <parameter name="resolution" value="1920x1080"/>
+                <parameter name="timezone" value="UTC+04:00"/>
+                <parameter name="geoLocation" value="HR"/>
+                <classes>
+                    <class name="magicLeap"/>
+                </classes>
+            </test>
+
+            <test name="11">
+                <parameter name="browser" value="firefox"/>
+                <parameter name="version" value="67.0"/>
+                <parameter name="platform" value="Windows 10"/>
+                <parameter name="fixedIp" value="10.101.2.46"/>
+                <parameter name="resolution" value="1920x1080"/>
+                <parameter name="timezone" value="UTC+04:00"/>
+                <parameter name="geoLocation" value="CZ"/>
+                <classes>
+                    <class name="magicLeap"/>
+                </classes>
+            </test>
+
+            <test name="12">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="76.0"/>
+                <parameter name="platform" value="Windows 10"/>
+                <parameter name="fixedIp" value="10.101.2.47"/>
+                <parameter name="resolution" value="1920x1080"/>
+                <parameter name="timezone" value="UTC+04:00"/>
+                <parameter name="geoLocation" value="DK"/>
+                <classes>
+                    <class name="magicLeap"/>
+                </classes>
+            </test>
+
+
+              <test name="14">
+                  <parameter name="browser" value="Chrome"/>
+                  <parameter name="version" value="77.0"/>
+                  <parameter name="platform" value="windows 10"/>
+                  <parameter name="fixedIp" value="10.101.2.48"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="FI"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="15">
+                  <parameter name="browser" value="Firefox"/>
+                  <parameter name="version" value="65.0"/>
+                  <parameter name="platform" value="windows 10"/>
+                  <parameter name="fixedIp" value="10.101.2.49"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="FR"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="16">
+                  <parameter name="browser" value="firefox"/>
+                  <parameter name="version" value="66.0"/>
+                  <parameter name="platform" value="windows 10"/>
+                  <parameter name="fixedIp" value="10.101.2.50"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="DE"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="17">
+                  <parameter name="browser" value="Chrome"/>
+                  <parameter name="version" value="74.0"/>
+                  <parameter name="platform" value="windows 10"/>
+                  <parameter name="fixedIp" value="10.101.2.51"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="GR"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="18">
+                  <parameter name="browser" value="Chrome"/>
+                  <parameter name="version" value="79.0"/>
+                  <parameter name="platform" value="windows 10"/>
+                  <parameter name="fixedIp" value="10.101.2.52"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="HK"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="19">
+                  <parameter name="browser" value="firefox"/>
+                  <parameter name="version" value="66.0"/>
+                  <parameter name="platform" value="windows 10"/>
+                  <parameter name="fixedIp" value="10.101.2.53"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="HU"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="20">
+                  <parameter name="browser" value="firefox"/>
+                  <parameter name="version" value="63.0"/>
+                  <parameter name="platform" value="windows 10"/>
+                  <parameter name="fixedIp" value="10.101.2.54"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="IN"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="21">
+                  <parameter name="browser" value="Chrome"/>
+                  <parameter name="version" value="69.0"/>
+                  <parameter name="platform" value="win10"/>
+                  <parameter name="fixedIp" value="10.101.2.55"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="ID"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="22">
+                  <parameter name="browser" value="Chrome"/>
+                  <parameter name="version" value="74.0"/>
+                  <parameter name="platform" value="win10"/>
+                  <parameter name="fixedIp" value="10.101.2.56"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="IE"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="23">
+                  <parameter name="browser" value="Firefox"/>
+                  <parameter name="version" value="67.0"/>
+                  <parameter name="platform" value="Win10"/>
+                  <parameter name="fixedIp" value="10.101.2.57"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="IL"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="24">
+                  <parameter name="browser" value="Firefox"/>
+                  <parameter name="version" value="68.0"/>
+                  <parameter name="platform" value="Win10"/>
+                  <parameter name="fixedIp" value="10.101.2.58"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="IT"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="25">
+                  <parameter name="browser" value="Chrome"/>
+                  <parameter name="version" value="77.0"/>
+                  <parameter name="platform" value="Win10"/>
+                  <parameter name="fixedIp" value="10.101.2.59"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="JP"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+              <test name="26">
+                  <parameter name="browser" value="Chrome"/>
+                  <parameter name="version" value="78.0"/>
+                  <parameter name="platform" value="Win10"/>
+                  <parameter name="fixedIp" value="10.101.2.60"/>
+                  <parameter name="resolution" value="1920x1080"/>
+                  <parameter name="timezone" value="UTC+04:00"/>
+                  <parameter name="geoLocation" value="MY"/>
+                  <classes>
+                      <class name="magicLeap"/>
+                  </classes>
+              </test>
+
+               <test name="27">
+                   <parameter name="browser" value="Firefox"/>
+                   <parameter name="version" value="70.0"/>
+                   <parameter name="platform" value="win10"/>
+                   <parameter name="fixedIp" value="10.101.2.61"/>
+                   <parameter name="resolution" value="1920x1080"/>
+                   <parameter name="timezone" value="UTC+04:00"/>
+                   <parameter name="geoLocation" value="MY"/>
+                   <classes>
+                       <class name="magicLeap"/>
+                   </classes>
+               </test>
 
     <!--    <test name="28">
             <parameter name="browser" value="chrome"/>

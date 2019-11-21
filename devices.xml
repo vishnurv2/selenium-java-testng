@@ -4,12 +4,12 @@
 
 
 
-    <!-- <test name="Random test1">
-         <parameter name="browser" value="safari"/>
-         <parameter name="platformVersion" value="12.1"/>
-         <parameter name="platform" value="iOS"/>
+     <test name="Random test1">
+         <parameter name="browser" value="Chrome"/>
+         <parameter name="platformVersion" value="8"/>
+         <parameter name="platform" value="Android"/>
          <parameter name="fixedIp" value="10.92.181.113"/>
-         <parameter name="deviceName" value="iPad Pro (12.9-inch) (2nd generation)"/>
+         <parameter name="deviceName" value="One Plus 5"/>
          <classes>
              <class name="Random"/>
          </classes>
@@ -17,10 +17,10 @@
 
      <test name="Random test2">
          <parameter name="browser" value="Chrome"/>
-         <parameter name="platformVersion" value="9"/>
+         <parameter name="platformVersion" value="8"/>
          <parameter name="platform" value="Android"/>
          <parameter name="fixedIp" value="10.92.181.114"/>
-         <parameter name="deviceName" value="Galaxy S10"/>
+         <parameter name="deviceName" value="One Plus 5T"/>
          <classes>
              <class name="Random"/>
          </classes>
@@ -29,10 +29,10 @@
 
           <test name="Random test3">
                    <parameter name="browser" value="Chrome"/>
-                   <parameter name="platformVersion" value="9"/>
+                   <parameter name="platformVersion" value="8"/>
                    <parameter name="platform" value="Android"/>
                    <parameter name="fixedIp" value="10.92.181.113"/>
-       <parameter name="deviceName" value="Galaxy S10 Plus"/>
+       <parameter name="deviceName" value="Galaxy S9 Plus"/>
                    <classes>
                        <class name="Random"/>
                    </classes>
@@ -40,10 +40,10 @@
 
               <test name="Random test4">
                    <parameter name="browser" value="Chrome"/>
-                   <parameter name="platformVersion" value="9"/>
+                   <parameter name="platformVersion" value="8"/>
                    <parameter name="platform" value="Android"/>
                    <parameter name="fixedIp" value="10.92.181.114"/>
-       <parameter name="deviceName" value="Galaxy S10 Plus"/>
+       <parameter name="deviceName" value="Galaxy S9"/>
                    <classes>
                        <class name="Random"/>
                    </classes>
@@ -51,10 +51,10 @@
 
                <test name="Random test5">
                   <parameter name="browser" value="Chrome"/>
-                  <parameter name="platformVersion" value="9"/>
+                  <parameter name="platformVersion" value="8"/>
                   <parameter name="platform" value="Android"/>
                   <parameter name="fixedIp" value="10.92.181.115"/>
-      <parameter name="deviceName" value="Google Pixel 3"/>
+      <parameter name="deviceName" value="Google Pixel"/>
                   <classes>
                       <class name="Random"/>
                   </classes>
@@ -71,7 +71,7 @@
                   </classes>
               </test>
 
-              <test name="Random test7">
+             <!-- <test name="Random test7">
                     <parameter name="browser" value="Chrome"/>
                     <parameter name="platformVersion" value="9"/>
                     <parameter name="platform" value="Android"/>
@@ -225,7 +225,7 @@
 
 
 
-    <test name="Random test22">
+ <!--   <test name="Random test22">
         <parameter name="browser" value="safari"/>
         <parameter name="platformVersion" value="13.0"/>
         <parameter name="platform" value="iOS"/>
@@ -380,7 +380,7 @@
               <classes>
                   <class name="Random"/>
               </classes>
-          </test>
+          </test> -->
 
 
 

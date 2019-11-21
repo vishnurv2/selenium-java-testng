@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DesktopBrowsers" class="navigator-link">
+              <span class="suite-name border-passed">DesktopBrowsers</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DesktopBrowsers" class="navigator-link ">
+                    <span>C:\Users\Admin\IdeaProjects\magicleapTesting\desktop.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DesktopBrowsers" class="navigator-link ">
+                    <span class="test-stats">25 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DesktopBrowsers" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DesktopBrowsers" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DesktopBrowsers" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DesktopBrowsers" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DesktopBrowsers" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DesktopBrowsers" class="hide-methods passed suite-DesktopBrowsers"> (hide)</a> <!-- hide-methods passed suite-DesktopBrowsers -->
+                      <a href="#" panel-name="suite-DesktopBrowsers" class="show-methods passed suite-DesktopBrowsers"> (show)</a> <!-- show-methods passed suite-DesktopBrowsers -->
+                    </span>
+                    <div class="method-list-content passed suite-DesktopBrowsers">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DesktopBrowsers" title="magicLeap" class="method navigator-link" hash-for-method="DesktopScript">DesktopScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DesktopBrowsers -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DesktopBrowsers" class="panel DesktopBrowsers">
+          <div class="suite-DesktopBrowsers-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">magicLeap</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DesktopScript">
+                  </a> <!-- DesktopScript -->
+                  <span class="method-name">DesktopScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DesktopBrowsers-class-passed -->
+        </div> <!-- panel DesktopBrowsers -->
+        <div panel-name="test-xml-DesktopBrowsers" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\IdeaProjects\magicleapTesting\desktop.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;DesktopBrowsers&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;DE&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+05:30&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.26.38.74&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;70.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 1 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;AR&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.36.21.228&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;69.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 2 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;AU&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.92.181.82&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;79.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 3 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;4&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;BE&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.92.181.81&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;75.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 4 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;5&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;BR&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.41&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;70.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 5 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;6&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;BG&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.42&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;69.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 6 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;8&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;CA&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.43&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;72.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 8 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;9&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;CL&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.44&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;70.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 9 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;10&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;HR&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.45&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;68.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 10 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;11&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;CZ&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.46&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;67.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 11 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;12&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;DK&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.47&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;76.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 12 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;14&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;FI&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.48&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;77.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 14 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;15&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;FR&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.49&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;65.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 15 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;16&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;DE&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.50&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;66.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 16 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;17&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;GR&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.51&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;74.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 17 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;18&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;HK&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.52&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;79.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 18 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;19&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;HU&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.53&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;66.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 19 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;20&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;IN&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.54&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;63.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 20 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;21&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;ID&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.55&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;69.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;win10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 21 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;22&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;IE&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.56&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;74.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;win10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 22 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;23&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;IL&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.57&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;67.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Win10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 23 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;24&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;IT&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.58&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;68.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Win10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 24 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;25&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;JP&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.59&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;77.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Win10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 25 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;26&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;MY&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.60&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;78.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Win10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 26 --&gt;
+  &lt;test thread-count=&quot;200&quot; parallel=&quot;tests&quot; name=&quot;27&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;geoLocation&quot; value=&quot;MY&quot;/&gt;
+    &lt;parameter name=&quot;timezone&quot; value=&quot;UTC+04:00&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;fixedIp&quot; value=&quot;10.101.2.61&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;70.0&quot;/&gt;
+    &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;win10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;magicLeap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 27 --&gt;
+&lt;/suite&gt; &lt;!-- DesktopBrowsers --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DesktopBrowsers" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DesktopBrowsers</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">8 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">9 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">10 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">11 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">12 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">14 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">15 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">16 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">17 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">18 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">19 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">20 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">21 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">22 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">23 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">24 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">25 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">26 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">27 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DesktopBrowsers" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DesktopBrowsers</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DesktopBrowsers" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DesktopBrowsers</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DesktopBrowsers');
+function tableData_DesktopBrowsers() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DesktopScript')
+data.setCell(0, 2, 'magicLeap')
+data.setCell(0, 3, 457565);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DesktopScript')
+data.setCell(1, 2, 'magicLeap')
+data.setCell(1, 3, 264643);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DesktopScript')
+data.setCell(2, 2, 'magicLeap')
+data.setCell(2, 3, 250107);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DesktopScript')
+data.setCell(3, 2, 'magicLeap')
+data.setCell(3, 3, 236087);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DesktopScript')
+data.setCell(4, 2, 'magicLeap')
+data.setCell(4, 3, 232650);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DesktopScript')
+data.setCell(5, 2, 'magicLeap')
+data.setCell(5, 3, 231411);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'DesktopScript')
+data.setCell(6, 2, 'magicLeap')
+data.setCell(6, 3, 230271);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DesktopScript')
+data.setCell(7, 2, 'magicLeap')
+data.setCell(7, 3, 230119);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DesktopScript')
+data.setCell(8, 2, 'magicLeap')
+data.setCell(8, 3, 227121);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DesktopScript')
+data.setCell(9, 2, 'magicLeap')
+data.setCell(9, 3, 224669);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'DesktopScript')
+data.setCell(10, 2, 'magicLeap')
+data.setCell(10, 3, 206599);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DesktopScript')
+data.setCell(11, 2, 'magicLeap')
+data.setCell(11, 3, 205844);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'DesktopScript')
+data.setCell(12, 2, 'magicLeap')
+data.setCell(12, 3, 199254);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'DesktopScript')
+data.setCell(13, 2, 'magicLeap')
+data.setCell(13, 3, 195393);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'DesktopScript')
+data.setCell(14, 2, 'magicLeap')
+data.setCell(14, 3, 192851);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'DesktopScript')
+data.setCell(15, 2, 'magicLeap')
+data.setCell(15, 3, 191526);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'DesktopScript')
+data.setCell(16, 2, 'magicLeap')
+data.setCell(16, 3, 189319);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'DesktopScript')
+data.setCell(17, 2, 'magicLeap')
+data.setCell(17, 3, 188899);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'DesktopScript')
+data.setCell(18, 2, 'magicLeap')
+data.setCell(18, 3, 184215);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'DesktopScript')
+data.setCell(19, 2, 'magicLeap')
+data.setCell(19, 3, 183709);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'DesktopScript')
+data.setCell(20, 2, 'magicLeap')
+data.setCell(20, 3, 183178);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'DesktopScript')
+data.setCell(21, 2, 'magicLeap')
+data.setCell(21, 3, 170578);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'DesktopScript')
+data.setCell(22, 2, 'magicLeap')
+data.setCell(22, 3, 161511);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'DesktopScript')
+data.setCell(23, 2, 'magicLeap')
+data.setCell(23, 3, 158461);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'DesktopScript')
+data.setCell(24, 2, 'magicLeap')
+data.setCell(24, 3, 0);
+window.suiteTableData['DesktopBrowsers']= { tableData: data, tableDiv: 'times-div-DesktopBrowsers'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-DesktopBrowsers">
+              </div> <!-- times-div-DesktopBrowsers -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DesktopBrowsers" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DesktopBrowsers</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DesktopBrowsers" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DesktopBrowsers" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">magicLeap</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 79.0, Windows 10, 10.92.181.82, 1920x1080, UTC+04:00, AU)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 79.0, windows 10, 10.101.2.52, 1920x1080, UTC+04:00, HK)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(firefox, 66.0, windows 10, 10.101.2.53, 1920x1080, UTC+04:00, HU)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(firefox, 70.0, Windows 10, 10.26.38.74, 1920x1080, UTC+05:30, DE)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Firefox, 67.0, Win10, 10.101.2.57, 1920x1080, UTC+04:00, IL)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(firefox, 69.0, Windows 10, 10.101.2.42, 1920x1080, UTC+04:00, BG)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(firefox, 67.0, Windows 10, 10.101.2.46, 1920x1080, UTC+04:00, CZ)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Firefox, 68.0, Windows 10, 10.101.2.45, 1920x1080, UTC+04:00, HR)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 74.0, windows 10, 10.101.2.51, 1920x1080, UTC+04:00, GR)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(firefox, 69.0, Windows 10, 10.36.21.228, 1920x1080, UTC+04:00, AR)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 72.0, Windows 10, 10.101.2.43, 1920x1080, UTC+04:00, CA)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 77.0, Win10, 10.101.2.59, 1920x1080, UTC+04:00, JP)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 70.0, Windows 10, 10.101.2.44, 1920x1080, UTC+04:00, CL)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 78.0, Win10, 10.101.2.60, 1920x1080, UTC+04:00, MY)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Firefox, 65.0, windows 10, 10.101.2.49, 1920x1080, UTC+04:00, FR)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 76.0, Windows 10, 10.101.2.47, 1920x1080, UTC+04:00, DK)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 69.0, win10, 10.101.2.55, 1920x1080, UTC+04:00, ID)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 74.0, win10, 10.101.2.56, 1920x1080, UTC+04:00, IE)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Firefox, 70.0, win10, 10.101.2.61, 1920x1080, UTC+04:00, MY)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 75.0, Windows 10, 10.92.181.81, 1920x1080, UTC+04:00, BE)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Firefox, 70.0, Windows 10, 10.101.2.41, 1920x1080, UTC+04:00, BR)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, 77.0, windows 10, 10.101.2.48, 1920x1080, UTC+04:00, FI)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(firefox, 63.0, windows 10, 10.101.2.54, 1920x1080, UTC+04:00, IN)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Firefox, 68.0, Win10, 10.101.2.58, 1920x1080, UTC+04:00, IT)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(firefox, 66.0, windows 10, 10.101.2.50, 1920x1080, UTC+04:00, DE)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">13988 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">14310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">14385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">14833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">14873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">15235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">15553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">15750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">15750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">16363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">17443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">17613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">17643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">18215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">18315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">18408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">18615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">18730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">18788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">19148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">20256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">20623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">20711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">21468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DesktopScript</span>
+                <span class="method-start">28566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28568 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">176746 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">176776 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">188986 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">201924 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">203889 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">204471 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">206839 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">207629 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">207934 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">210674 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">213036 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">216867 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">220984 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">224632 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">244564 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">245104 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246137 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246284 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246482 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">248400 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">250397 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265660 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">280393 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">478188 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,567 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-21T17:33:51Z" name="DesktopBrowsers" finished-at="2019-11-21T17:41:52Z" duration-ms="480348">
+  <suite started-at="2019-12-02T11:56:35Z" name="DesktopBrowsers" finished-at="2019-12-02T11:57:15Z" duration-ms="40551">
     <groups>
     </groups>
-    <test started-at="2019-11-21T17:33:51Z" name="20" finished-at="2019-11-21T17:34:20Z" duration-ms="28576">
+    <test started-at="2019-12-02T11:56:35Z" name="2" finished-at="2019-12-02T11:56:41Z" duration-ms="6427">
       <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@a1cdc6d]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:20Z" duration-ms="28563" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@55b0dcab]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:56:41Z" duration-ms="6409" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Safari]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[63.0]]>
+                <![CDATA[13.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[windows 10]]>
+                <![CDATA[MacOS mojave]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[10.101.2.54]]>
+                <![CDATA[10.253.33.3]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[IN]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@a1cdc6d]" started-at="2019-11-21T17:34:20Z" name="DesktopScript" finished-at="2019-11-21T17:34:20Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@a1cdc6d]" started-at="2019-11-21T17:34:20Z" name="tearDown" finished-at="2019-11-21T17:34:20Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 20 -->
-    <test started-at="2019-11-21T17:33:51Z" name="25" finished-at="2019-11-21T17:36:50Z" duration-ms="178938">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@55740540]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:10Z" duration-ms="18312" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[77.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Win10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.59]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[JP]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@55740540]" started-at="2019-11-21T17:34:10Z" name="DesktopScript" finished-at="2019-11-21T17:36:48Z" duration-ms="158461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@55740540]" started-at="2019-11-21T17:36:48Z" name="tearDown" finished-at="2019-11-21T17:36:50Z" duration-ms="2160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 25 -->
-    <test started-at="2019-11-21T17:33:51Z" name="8" finished-at="2019-11-21T17:36:50Z" duration-ms="178938">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@7d8704ef]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:07Z" duration-ms="15232" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[72.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.43]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[CA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@7d8704ef]" started-at="2019-11-21T17:34:07Z" name="DesktopScript" finished-at="2019-11-21T17:36:48Z" duration-ms="161511" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@7d8704ef]" started-at="2019-11-21T17:36:48Z" name="tearDown" finished-at="2019-11-21T17:36:50Z" duration-ms="2185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 8 -->
-    <test started-at="2019-11-21T17:33:51Z" name="16" finished-at="2019-11-21T17:37:03Z" duration-ms="191986">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@e4487af]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:10Z" duration-ms="18405" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[66.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.50]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[DE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@e4487af]" started-at="2019-11-21T17:34:10Z" name="DesktopScript" finished-at="2019-11-21T17:37:00Z" duration-ms="170578" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@e4487af]" started-at="2019-11-21T17:37:00Z" name="tearDown" finished-at="2019-11-21T17:37:03Z" duration-ms="2995" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 16 -->
-    <test started-at="2019-11-21T17:33:51Z" name="24" finished-at="2019-11-21T17:37:16Z" duration-ms="205063">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@484970b0]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:10Z" duration-ms="18212" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[68.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Win10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.58]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[IT]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@484970b0]" started-at="2019-11-21T17:34:10Z" name="DesktopScript" finished-at="2019-11-21T17:37:13Z" duration-ms="183709" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@484970b0]" started-at="2019-11-21T17:37:13Z" name="tearDown" finished-at="2019-11-21T17:37:16Z" duration-ms="3137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 24 -->
-    <test started-at="2019-11-21T17:33:51Z" name="6" finished-at="2019-11-21T17:37:18Z" duration-ms="206958">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@305b7c14]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:12Z" duration-ms="20708" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[69.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.42]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[BG]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@305b7c14]" started-at="2019-11-21T17:34:12Z" name="DesktopScript" finished-at="2019-11-21T17:37:15Z" duration-ms="183178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@305b7c14]" started-at="2019-11-21T17:37:15Z" name="tearDown" finished-at="2019-11-21T17:37:18Z" duration-ms="3062" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 6 -->
-    <test started-at="2019-11-21T17:33:51Z" name="1" finished-at="2019-11-21T17:37:19Z" duration-ms="207549">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@2cd76f31]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:12Z" duration-ms="20256" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.26.38.74]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+05:30]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[DE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@2cd76f31]" started-at="2019-11-21T17:34:12Z" name="DesktopScript" finished-at="2019-11-21T17:37:16Z" duration-ms="184215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@2cd76f31]" started-at="2019-11-21T17:37:16Z" name="tearDown" finished-at="2019-11-21T17:37:19Z" duration-ms="3068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 1 -->
-    <test started-at="2019-11-21T17:33:51Z" name="18" finished-at="2019-11-21T17:37:21Z" duration-ms="209511">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@15ca7889]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:05Z" duration-ms="13975" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[79.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.52]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[HK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@15ca7889]" started-at="2019-11-21T17:34:05Z" name="DesktopScript" finished-at="2019-11-21T17:37:18Z" duration-ms="192851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@15ca7889]" started-at="2019-11-21T17:37:18Z" name="tearDown" finished-at="2019-11-21T17:37:21Z" duration-ms="2667" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 18 -->
-    <test started-at="2019-11-21T17:33:51Z" name="5" finished-at="2019-11-21T17:37:22Z" duration-ms="210721">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@587e5365]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:10Z" duration-ms="18727" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.41]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[BR]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@587e5365]" started-at="2019-11-21T17:34:10Z" name="DesktopScript" finished-at="2019-11-21T17:37:19Z" duration-ms="188899" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@587e5365]" started-at="2019-11-21T17:37:19Z" name="tearDown" finished-at="2019-11-21T17:37:22Z" duration-ms="3082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 5 -->
-    <test started-at="2019-11-21T17:33:51Z" name="27" finished-at="2019-11-21T17:37:23Z" duration-ms="211141">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@45ca843]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:10Z" duration-ms="18612" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[win10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.61]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[MY]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@45ca843]" started-at="2019-11-21T17:34:10Z" name="DesktopScript" finished-at="2019-11-21T17:37:19Z" duration-ms="189319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@45ca843]" started-at="2019-11-21T17:37:19Z" name="tearDown" finished-at="2019-11-21T17:37:23Z" duration-ms="3205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 27 -->
-    <test started-at="2019-11-21T17:33:51Z" name="2" finished-at="2019-11-21T17:37:25Z" duration-ms="213738">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@131ef10]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:11Z" duration-ms="19137" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[69.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.36.21.228]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
+                <![CDATA[1280x1024]]>
               </value>
             </param>
             <param index="5">
@@ -578,414 +48,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@131ef10]" started-at="2019-11-21T17:34:11Z" name="DesktopScript" finished-at="2019-11-21T17:37:22Z" duration-ms="191526" status="PASS">
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@55b0dcab]" started-at="2019-12-02T11:56:41Z" name="DesktopScript" finished-at="2019-12-02T11:56:41Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@131ef10]" started-at="2019-11-21T17:37:22Z" name="tearDown" finished-at="2019-11-21T17:37:25Z" duration-ms="3057" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@55b0dcab]" started-at="2019-12-02T11:56:41Z" name="tearDown" finished-at="2019-12-02T11:56:41Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- magicLeap -->
     </test> <!-- 2 -->
-    <test started-at="2019-11-21T17:33:51Z" name="19" finished-at="2019-11-21T17:37:28Z" duration-ms="216147">
+    <test started-at="2019-12-02T11:56:35Z" name="4" finished-at="2019-12-02T11:56:55Z" duration-ms="20399">
       <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@6ff29830]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:09Z" duration-ms="17643" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@ae13544]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:56:48Z" duration-ms="13437" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Safari]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[66.0]]>
+                <![CDATA[13.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[windows 10]]>
+                <![CDATA[MacOS Catalina]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[10.101.2.53]]>
+                <![CDATA[10.253.33.7]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[HU]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@6ff29830]" started-at="2019-11-21T17:34:09Z" name="DesktopScript" finished-at="2019-11-21T17:37:24Z" duration-ms="195393" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@6ff29830]" started-at="2019-11-21T17:37:24Z" name="tearDown" finished-at="2019-11-21T17:37:28Z" duration-ms="3106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 19 -->
-    <test started-at="2019-11-21T17:33:51Z" name="11" finished-at="2019-11-21T17:37:32Z" duration-ms="220379">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@1190200a]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:09Z" duration-ms="17607" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[67.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.46]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[CZ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@1190200a]" started-at="2019-11-21T17:34:09Z" name="DesktopScript" finished-at="2019-11-21T17:37:28Z" duration-ms="199254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@1190200a]" started-at="2019-11-21T17:37:28Z" name="tearDown" finished-at="2019-11-21T17:37:32Z" duration-ms="3507" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 11 -->
-    <test started-at="2019-11-21T17:33:51Z" name="15" finished-at="2019-11-21T17:37:35Z" duration-ms="224034">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@1757cd72]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:06Z" duration-ms="14382" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[65.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.49]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[FR]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@1757cd72]" started-at="2019-11-21T17:34:06Z" name="DesktopScript" finished-at="2019-11-21T17:37:32Z" duration-ms="206599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@1757cd72]" started-at="2019-11-21T17:37:32Z" name="tearDown" finished-at="2019-11-21T17:37:35Z" duration-ms="3045" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 15 -->
-    <test started-at="2019-11-21T17:33:51Z" name="23" finished-at="2019-11-21T17:37:39Z" duration-ms="227731">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@32910148]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:10Z" duration-ms="18785" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[67.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Win10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.57]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[IL]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@32910148]" started-at="2019-11-21T17:34:10Z" name="DesktopScript" finished-at="2019-11-21T17:37:36Z" duration-ms="205844" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@32910148]" started-at="2019-11-21T17:37:36Z" name="tearDown" finished-at="2019-11-21T17:37:39Z" duration-ms="3097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 23 -->
-    <test started-at="2019-11-21T17:33:51Z" name="22" finished-at="2019-11-21T17:37:58Z" duration-ms="246944">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@11fc564b]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:09Z" duration-ms="17440" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[74.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[win10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.56]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@11fc564b]" started-at="2019-11-21T17:34:09Z" name="DesktopScript" finished-at="2019-11-21T17:37:56Z" duration-ms="227121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@11fc564b]" started-at="2019-11-21T17:37:56Z" name="tearDown" finished-at="2019-11-21T17:37:58Z" duration-ms="2378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 22 -->
-    <test started-at="2019-11-21T17:33:51Z" name="26" finished-at="2019-11-21T17:37:59Z" duration-ms="247462">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@568ff82]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:06Z" duration-ms="14830" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[78.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Win10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.60]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[MY]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@568ff82]" started-at="2019-11-21T17:34:06Z" name="DesktopScript" finished-at="2019-11-21T17:37:57Z" duration-ms="230271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@568ff82]" started-at="2019-11-21T17:37:57Z" name="tearDown" finished-at="2019-11-21T17:37:59Z" duration-ms="2356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 26 -->
-    <test started-at="2019-11-21T17:33:51Z" name="21" finished-at="2019-11-21T17:38:00Z" duration-ms="248624">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@57250572]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:06Z" duration-ms="14870" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[69.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[win10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.55]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[ID]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@57250572]" started-at="2019-11-21T17:34:06Z" name="DesktopScript" finished-at="2019-11-21T17:37:58Z" duration-ms="231411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@57250572]" started-at="2019-11-21T17:37:58Z" name="tearDown" finished-at="2019-11-21T17:38:00Z" duration-ms="2338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 21 -->
-    <test started-at="2019-11-21T17:33:51Z" name="4" finished-at="2019-11-21T17:38:00Z" duration-ms="248875">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@6f4a47c7]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:08Z" duration-ms="16357" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[75.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.92.181.81]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
+                <![CDATA[1280x1024]]>
               </value>
             </param>
             <param index="5">
@@ -1002,255 +101,96 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@6f4a47c7]" started-at="2019-11-21T17:34:08Z" name="DesktopScript" finished-at="2019-11-21T17:37:58Z" duration-ms="230119" status="PASS">
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@ae13544]" started-at="2019-12-02T11:56:48Z" name="DesktopScript" finished-at="2019-12-02T11:56:54Z" duration-ms="5390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@6f4a47c7]" started-at="2019-11-21T17:37:58Z" name="tearDown" finished-at="2019-11-21T17:38:00Z" duration-ms="2383" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@ae13544]" started-at="2019-12-02T11:56:54Z" name="tearDown" finished-at="2019-12-02T11:56:55Z" duration-ms="1567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- magicLeap -->
     </test> <!-- 4 -->
-    <test started-at="2019-11-21T17:33:51Z" name="10" finished-at="2019-11-21T17:38:01Z" duration-ms="249297">
+    <test started-at="2019-12-02T11:56:35Z" name="1" finished-at="2019-12-02T11:57:03Z" duration-ms="28572">
       <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@4961f6af]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:13Z" duration-ms="21465" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@367ffa75]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:56:55Z" duration-ms="19714" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[Safari]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[68.0]]>
+                <![CDATA[13.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Windows 10]]>
+                <![CDATA[MacOS Catalina]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[10.101.2.45]]>
+                <![CDATA[10.253.33.2]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[1920x1080]]>
+                <![CDATA[1280x1024]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[UTC+04:00]]>
+                <![CDATA[UTC+05:30]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[HR]]>
+                <![CDATA[DE]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@4961f6af]" started-at="2019-11-21T17:34:13Z" name="DesktopScript" finished-at="2019-11-21T17:37:58Z" duration-ms="224669" status="PASS">
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@367ffa75]" started-at="2019-12-02T11:56:55Z" name="DesktopScript" finished-at="2019-12-02T11:57:01Z" duration-ms="6950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@4961f6af]" started-at="2019-11-21T17:37:58Z" name="tearDown" finished-at="2019-11-21T17:38:01Z" duration-ms="3153" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@367ffa75]" started-at="2019-12-02T11:57:01Z" name="tearDown" finished-at="2019-12-02T11:57:03Z" duration-ms="1900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- magicLeap -->
-    </test> <!-- 10 -->
-    <test started-at="2019-11-21T17:33:51Z" name="14" finished-at="2019-11-21T17:38:02Z" duration-ms="250820">
+    </test> <!-- 1 -->
+    <test started-at="2019-12-02T11:56:35Z" name="3" finished-at="2019-12-02T11:57:04Z" duration-ms="29072">
       <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@1e178745]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:07Z" duration-ms="15745" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@7c9d8e2]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:56:54Z" duration-ms="19144" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[safari]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[77.0]]>
+                <![CDATA[13.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[windows 10]]>
+                <![CDATA[MacOS Catalina]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[10.101.2.48]]>
+                <![CDATA[10.253.33.5]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[FI]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@1e178745]" started-at="2019-11-21T17:34:07Z" name="DesktopScript" finished-at="2019-11-21T17:38:00Z" duration-ms="232650" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@1e178745]" started-at="2019-11-21T17:38:00Z" name="tearDown" finished-at="2019-11-21T17:38:02Z" duration-ms="2415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 14 -->
-    <test started-at="2019-11-21T17:33:51Z" name="17" finished-at="2019-11-21T17:38:04Z" duration-ms="252762">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@ed7f8b4]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:06Z" duration-ms="14307" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[74.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.51]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[GR]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@ed7f8b4]" started-at="2019-11-21T17:34:06Z" name="DesktopScript" finished-at="2019-11-21T17:38:02Z" duration-ms="236087" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@ed7f8b4]" started-at="2019-11-21T17:38:02Z" name="tearDown" finished-at="2019-11-21T17:38:04Z" duration-ms="2360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 17 -->
-    <test started-at="2019-11-21T17:33:51Z" name="9" finished-at="2019-11-21T17:38:19Z" duration-ms="267980">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@1e66f1f5]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:07Z" duration-ms="15550" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.101.2.44]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UTC+04:00]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[CL]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@1e66f1f5]" started-at="2019-11-21T17:34:07Z" name="DesktopScript" finished-at="2019-11-21T17:38:17Z" duration-ms="250107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@1e66f1f5]" started-at="2019-11-21T17:38:17Z" name="tearDown" finished-at="2019-11-21T17:38:19Z" duration-ms="2313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- magicLeap -->
-    </test> <!-- 9 -->
-    <test started-at="2019-11-21T17:33:51Z" name="3" finished-at="2019-11-21T17:38:34Z" duration-ms="282931">
-      <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@37ceb1df]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:07Z" duration-ms="15750" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[79.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10.92.181.82]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1920x1080]]>
+                <![CDATA[1280x1024]]>
               </value>
             </param>
             <param index="5">
@@ -1267,43 +207,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@37ceb1df]" started-at="2019-11-21T17:34:07Z" name="DesktopScript" finished-at="2019-11-21T17:38:32Z" duration-ms="264643" status="PASS">
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@7c9d8e2]" started-at="2019-12-02T11:56:54Z" name="DesktopScript" finished-at="2019-12-02T11:57:02Z" duration-ms="8020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@37ceb1df]" started-at="2019-11-21T17:38:32Z" name="tearDown" finished-at="2019-11-21T17:38:34Z" duration-ms="2528" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@7c9d8e2]" started-at="2019-12-02T11:57:02Z" name="tearDown" finished-at="2019-12-02T11:57:04Z" duration-ms="1903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- magicLeap -->
     </test> <!-- 3 -->
-    <test started-at="2019-11-21T17:33:51Z" name="12" finished-at="2019-11-21T17:41:52Z" duration-ms="480343">
+    <test started-at="2019-12-02T11:56:35Z" name="9" finished-at="2019-12-02T11:57:04Z" duration-ms="29162">
       <class name="magicLeap">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@5b94b04d]" started-at="2019-11-21T17:33:51Z" name="setUp" finished-at="2019-11-21T17:34:12Z" duration-ms="20620" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@4e50c791]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:56:55Z" duration-ms="19857" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Safari]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[76.0]]>
+                <![CDATA[13.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Windows 10]]>
+                <![CDATA[MacOS Catalina]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[10.101.2.47]]>
+                <![CDATA[10.253.33.14]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[1920x1080]]>
+                <![CDATA[1280x1024]]>
               </value>
             </param>
             <param index="5">
@@ -1313,22 +253,287 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[DK]]>
+                <![CDATA[CL]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@5b94b04d]" started-at="2019-11-21T17:34:12Z" name="DesktopScript" finished-at="2019-11-21T17:41:50Z" duration-ms="457565" status="PASS">
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@4e50c791]" started-at="2019-12-02T11:56:55Z" name="DesktopScript" finished-at="2019-12-02T11:57:02Z" duration-ms="7302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DesktopScript -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@5b94b04d]" started-at="2019-11-21T17:41:50Z" name="tearDown" finished-at="2019-11-21T17:41:52Z" duration-ms="2150" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@4e50c791]" started-at="2019-12-02T11:57:02Z" name="tearDown" finished-at="2019-12-02T11:57:04Z" duration-ms="2000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- magicLeap -->
-    </test> <!-- 12 -->
+    </test> <!-- 9 -->
+    <test started-at="2019-12-02T11:56:35Z" name="11" finished-at="2019-12-02T11:57:04Z" duration-ms="29265">
+      <class name="magicLeap">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@6a2f6f80]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:56:55Z" duration-ms="20384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MacOS Catalina]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.253.33.16]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[UTC+04:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@6a2f6f80]" started-at="2019-12-02T11:56:55Z" name="DesktopScript" finished-at="2019-12-02T11:57:02Z" duration-ms="7085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DesktopScript -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@6a2f6f80]" started-at="2019-12-02T11:57:02Z" name="tearDown" finished-at="2019-12-02T11:57:04Z" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- magicLeap -->
+    </test> <!-- 11 -->
+    <test started-at="2019-12-02T11:56:35Z" name="10" finished-at="2019-12-02T11:57:12Z" duration-ms="36972">
+      <class name="magicLeap">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@5aebe890]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:57:04Z" duration-ms="29337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MacOS Catalina]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.253.33.15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[UTC+04:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@5aebe890]" started-at="2019-12-02T11:57:04Z" name="DesktopScript" finished-at="2019-12-02T11:57:10Z" duration-ms="5530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DesktopScript -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@5aebe890]" started-at="2019-12-02T11:57:10Z" name="tearDown" finished-at="2019-12-02T11:57:12Z" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- magicLeap -->
+    </test> <!-- 10 -->
+    <test started-at="2019-12-02T11:56:35Z" name="6" finished-at="2019-12-02T11:57:14Z" duration-ms="38952">
+      <class name="magicLeap">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@6913c1fb]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:57:05Z" duration-ms="30442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MacOS Catalina]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.253.33.12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[UTC+04:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[BG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@6913c1fb]" started-at="2019-12-02T11:57:05Z" name="DesktopScript" finished-at="2019-12-02T11:57:12Z" duration-ms="6735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DesktopScript -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@6913c1fb]" started-at="2019-12-02T11:57:12Z" name="tearDown" finished-at="2019-12-02T11:57:14Z" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- magicLeap -->
+    </test> <!-- 6 -->
+    <test started-at="2019-12-02T11:56:35Z" name="5" finished-at="2019-12-02T11:57:14Z" duration-ms="39541">
+      <class name="magicLeap">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@22fcf7ab]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:57:06Z" duration-ms="31472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MacOS Catalina]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.253.33.11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[UTC+04:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[BR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@22fcf7ab]" started-at="2019-12-02T11:57:06Z" name="DesktopScript" finished-at="2019-12-02T11:57:13Z" duration-ms="6368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DesktopScript -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@22fcf7ab]" started-at="2019-12-02T11:57:13Z" name="tearDown" finished-at="2019-12-02T11:57:14Z" duration-ms="1694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- magicLeap -->
+    </test> <!-- 5 -->
+    <test started-at="2019-12-02T11:56:35Z" name="8" finished-at="2019-12-02T11:57:15Z" duration-ms="40551">
+      <class name="magicLeap">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:magicLeap@13b6aecc]" started-at="2019-12-02T11:56:35Z" name="setUp" finished-at="2019-12-02T11:57:07Z" duration-ms="32577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MacOS Catalina]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.253.33.13]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[UTC+04:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DesktopScript()[pri:0, instance:magicLeap@13b6aecc]" started-at="2019-12-02T11:57:07Z" name="DesktopScript" finished-at="2019-12-02T11:57:14Z" duration-ms="6294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DesktopScript -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:magicLeap@13b6aecc]" started-at="2019-12-02T11:57:14Z" name="tearDown" finished-at="2019-12-02T11:57:15Z" duration-ms="1673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- magicLeap -->
+    </test> <!-- 8 -->
   </suite> <!-- DesktopBrowsers -->
 </testng-results>

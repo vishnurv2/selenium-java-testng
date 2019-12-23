@@ -1,9 +1,12 @@
 
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -12,13 +15,14 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class Random {
     public String username = "prateeks";
     public String accesskey = "utDW23FJGmZgmgmMu1eoF7sZvobSn7Cmdjwbyqbp5qkJd3EYDo";
     public RemoteWebDriver driver;
-    public String gridURL = "@stage-hub.lambdatest.com/wd/hub";
+    public String gridURL = "@hub.lambdatest.com/wd/hub";
     String status;
 
 
@@ -26,22 +30,23 @@ public class Random {
     @org.testng.annotations.Parameters(value = {"browser", "platformVersion", "platform", "fixedIp", "deviceName"})
     public void setUp(String browser, String platformVersion, String platform, String fixedIp, String deviceName) throws Exception {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        //  capabilities.setCapability("platformVersion", platformVersion);
-        //   capabilities.setCapability("browserName", browser);
+        capabilities.setCapability("platformVersion", platformVersion);
         capabilities.setCapability("platformName", platform); // If this cap isn't specified, it will just get the any available one
-        capabilities.setCapability("build", "Device test Android");
+        capabilities.setCapability("build", "Debug");
         capabilities.setCapability("name", browser + platform + deviceName);
-        capabilities.setCapability("network", false); // To enable network logs
+        capabilities.setCapability("network", true); // To enable network logs
         capabilities.setCapability("visual", true); // To enable step by step screenshot
         capabilities.setCapability("video", true); // To enable video recording
         capabilities.setCapability("console", true); // To capture console logs
         capabilities.setCapability("deviceName", deviceName);
+        //   capabilities.setCapability("browserName", browser);
+        //    capabilities.setCapability("orientation","LANDSCAPE");
 
         //   capabilities.setCapability("w3c", false);
 
         //   capabilities.setCapability("fixedIP", fixedIp);
 
-        //   capabilities.setCapability("tunnel", true);
+    //    capabilities.setCapability("tunnel", true);
         try {
             String url = "https://" + username + ":" + accesskey + gridURL;
             driver = new RemoteWebDriver(new URL(url), capabilities);
@@ -55,67 +60,112 @@ public class Random {
     }
 
     @Test
-    public void screenshotSequenceRunner() {
+    public void DeviceScript() {
         try {
 
 
+            driver.get("https://lambdatest.github.io/sample-todo-app/");
+            WebElement lambda;
+            WebDriverWait wait = new WebDriverWait(driver, 10);
+            lambda = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("li1")));
 
-            System.out.println("windwo handling start");
-            ((JavascriptExecutor) driver).executeScript("window.open()");
-            System.out.println("windwo windows open");
-            ArrayList<String> ta = new ArrayList<String>(driver.getWindowHandles());
-            driver.switchTo().window(ta.get(0));
-            //switches to new tab
-            driver.get("https://www.youtube.com/watch?v=a-T4ZPP3k8U");
-            System.out.println("windwos open Url");
-            Thread.sleep(20000);
-            System.out.println("scroll down");
+            //Let's mark done first two items in the list.
+            driver.findElement(By.name("li1")).click();
+            driver.findElement(By.name("li2")).click();
 
-            JavascriptExecutor scroll = (JavascriptExecutor) driver;
-            scroll.executeScript("window.scrollBy(0,500)");
-            driver.manage().deleteAllCookies();
-            Thread.sleep(500);
-            Thread.sleep(50000);
-//Thread.sleep(90000);
-            ((JavascriptExecutor) driver).executeScript("window.open()");
-            ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-            driver.switchTo().window(tabs.get(1)); //switches to new tab
-            driver.get("http://localhost:4200");
-            File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            //   FileUtils.copyFile(src, new File("C:/selenium/error.png"));
+            // Let's add an item in the list.
+
             Thread.sleep(10000);
-            driver.manage().deleteAllCookies();
+            System.out.println("windwo handling start");
 
-            ((JavascriptExecutor) driver).executeScript("window.open()");
-            ArrayList<String> tab = new ArrayList<String>(driver.getWindowHandles());
-            driver.switchTo().window(tab.get(2)); //switches to new tab
-            driver.get("https://amazon.com/");
-            Thread.sleep(30000);
-            System.out.println("windwo handling stop");
-            driver.get("https://amazon.com/");
-            JavascriptExecutor scrolly = (JavascriptExecutor) driver;
-            scrolly.executeScript("window.scrollBy(0,500)");
-            Thread.sleep(500);
-            JavascriptExecutor scrolldddy = (JavascriptExecutor) driver;
-            scrolldddy.executeScript("window.scrollBy(0,-500)");
-            Thread.sleep(500);
 
-            JavascriptExecutor scrolld = (JavascriptExecutor) driver;
-            scrolld.executeScript("window.scrollBy(0,700)");
-            Thread.sleep(500);
+            //switches to new tab
+            try {
+                driver.get("https://www.youtube.com/watch?v=k-xhYEPZBT8");
+                System.out.println("windwos open Url");
+                Thread.sleep(20000);
+                if (driver.findElement(By.xpath("/html/body/ytd-app/div/div/ytd-masthead/div[3]/ytd-searchbox/form/div/div[1]/input")).isDisplayed()) {
+                    System.out.println("Got first Search");
+                    driver.findElement(By.xpath("/html/body/ytd-app/div/div/ytd-masthead/div[3]/ytd-searchbox/form/div/div[1]/input")).click();
+                    driver.findElement(By.xpath("/html/body/ytd-app/div/div/ytd-masthead/div[3]/ytd-searchbox/form/div/div[1]/input")).sendKeys("lambdaTest");
+                    driver.findElement(By.xpath("/html/body/ytd-app/div/div/ytd-masthead/div[3]/ytd-searchbox/form/button")).click();
 
-            JavascriptExecutor scrolldd = (JavascriptExecutor) driver;
-            scrolldd.executeScript("window.scrollBy(0,1000)");
-            Thread.sleep(500);
+                    status = "passed";
+               /* if (driver.findElement(By.linkText("LambdaTest")).isDisplayed()) {
+                    status = "passed";
+                    System.out.println("test passed");
 
-            System.out.println("scroll up");
-            driver.manage().deleteAllCookies();
+                } else {
+                    status = "failed";
+                    System.out.println("test Failed");
+                }*/
+                } else {
+                    System.out.println("Got Secound Search");
+                    driver.findElement(By.xpath("//*[@id=\"header-bar\"]/header/div/button")).click();
+                    driver.findElement(By.xpath("//*[@id=\"header-bar\"]/header/ytm-searchbox/form/div/input")).click();
+                    driver.findElement(By.xpath("//*[@id=\"header-bar\"]/header/ytm-searchbox/form/div/input")).sendKeys("LambdaTest");
+                    driver.findElement(By.xpath("//*[@id=\"header-bar\"]/header/ytm-searchbox/form/button[2]")).click();
+                    status = "passed";
+                }
+                System.out.println("scroll down");
+                JavascriptExecutor scroll = (JavascriptExecutor) driver;
+                scroll.executeScript("window.scrollBy(0,500)");
+                Thread.sleep(10000);
+                JavascriptExecutor scrollup = (JavascriptExecutor) driver;
+                scrollup.executeScript("window.scrollBy(0,-500)");
+                if (driver.findElement(By.partialLinkText("LambdaTest")).isDisplayed()) {
+                    status = "passed";
+                    System.out.println("test passed");
 
-            JavascriptExecutor scrollddd = (JavascriptExecutor) driver;
-            scrollddd.executeScript("window.scrollBy(0,-500)");
-            Thread.sleep(500);
-            driver.get("http://demo.guru99.com/test/upload/");
+                } else {
+                    status = "failed";
+                    System.out.println("test Failed");
+                }
+            }
+            catch (Exception t){
+                System.out.println(t);
+            }
+
+            //LambdaTest
+
+
+            driver.get("http://localhost:8080");
+            driver.findElement(By.xpath("/html/body/div/div/form/div[1]/input")).sendKeys("prateeks");
+
+            if (driver.findElement(By.xpath("/html/body/div/div/form/div[1]/input")).isDisplayed()) {
+                status = "passed";
+                System.out.println("test passed");
+
+            } else {
+                status = "failed";
+                System.out.println("test Failed");
+            }
+            driver.findElement(By.xpath("/html/body/div/div/form/div[2]/input")).sendKeys("9582334806");
+            driver.findElement(By.xpath("/html/body/div/div/form/div[3]/input")).click();
+            Thread.sleep(10000);
+
+
+            try {
+                driver.findElement(By.xpath("/html/body/script[3]")).isDisplayed();
+                status = "passed";
+                System.out.println("test passed");
+            } catch (Exception f) {
+                status = "failed";
+                System.out.println("test failed");
+                System.out.println(f);
+            }
+//driver.findElement(By.xpath("/html/body/script[3]")).isDisplayed();
+            driver.get("http://localhost:4200/dashboard/");
+            Thread.sleep(10000);
+            driver.get("https://whatsmyos.com/");
+            Thread.sleep(10000);
+            driver.get("http://localhost.lambdatest.com:4200");
+            Thread.sleep(10000);
+
+
         } catch (Exception e) {
+            status = "failed";
+            System.out.println("test failed");
             System.out.println(e.getMessage());
         }
     }

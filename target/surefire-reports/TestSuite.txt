@@ -1,4 +1,298 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.525 s - in TestSuite
+Tests run: 142, Failures: 67, Errors: 0, Skipped: 0, Time elapsed: 793.085 sec <<< FAILURE! - in TestSuite
+tunnelTest(magicLeap)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:162)
+
+Geolocation(magicLeap)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.Geolocation(magicLeap.java:227)
+
+NetSpeed(magicLeap)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+tunnelTest(magicLeap)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:162)
+
+Geolocation(magicLeap)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.Geolocation(magicLeap.java:227)
+
+NetSpeed(magicLeap)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+tunnelTest(magicLeap)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:162)
+
+Geolocation(magicLeap)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.Geolocation(magicLeap.java:227)
+
+NetSpeed(magicLeap)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+tunnelTest(magicLeap)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:162)
+
+Geolocation(magicLeap)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.Geolocation(magicLeap.java:227)
+
+NetSpeed(magicLeap)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+tunnelTest(magicLeap)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:162)
+
+Geolocation(magicLeap)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.Geolocation(magicLeap.java:227)
+
+NetSpeed(magicLeap)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+tunnelTest(magicLeap)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:162)
+
+Geolocation(magicLeap)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.Geolocation(magicLeap.java:227)
+
+NetSpeed(magicLeap)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+tunnelTest(magicLeap)  Time elapsed: 1.469 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 7.836 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 1.113 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 3.749 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 4.869 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0.858 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 3.905 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 4.008 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 3.013 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0.9 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0.254 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0.134 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0.422 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 3.371 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 6.989 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0.521 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 25.06 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0.928 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 3.32 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+tunnelTest(magicLeap)  Time elapsed: 0.923 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.tunnelTest(magicLeap.java:174)
+
+NetSpeed(magicLeap)  Time elapsed: 8.818 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 4.36 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 5.815 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+Geolocation(magicLeap)  Time elapsed: 11.517 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.Geolocation(magicLeap.java:227)
+
+NetSpeed(magicLeap)  Time elapsed: 3.314 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 3.426 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 7.875 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 2.658 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 10.758 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 11.183 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 14.466 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 14.496 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 15.114 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 4.46 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 14.293 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+Geolocation(magicLeap)  Time elapsed: 20.26 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.Geolocation(magicLeap.java:227)
+
+NetSpeed(magicLeap)  Time elapsed: 15.414 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 8.752 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 17.898 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 17.898 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 17.898 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+Geolocation(magicLeap)  Time elapsed: 17.997 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.Geolocation(magicLeap.java:227)
+
+tearDown(magicLeap)  Time elapsed: 0 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.15.5</center>
+</body>
+</html>
+Command duration or timeout: 7.60 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 44.0.2, webStorageEnabled: true, webdriver.remote.sessionid: 92246205-ec9b-461a-8bcf-9bc...}
+Session ID: 92246205-ec9b-461a-8bcf-9bc2ef44193d
+	at magicLeap.tearDown(magicLeap.java:260)
+
+tearDown(magicLeap)  Time elapsed: 2.27 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.15.5</center>
+</body>
+</html>
+Command duration or timeout: 4.18 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 46.0.1, webStorageEnabled: true, webdriver.remote.sessionid: f987bc45-40d0-43ab-ab4c-506...}
+Session ID: f987bc45-40d0-43ab-ab4c-5060f0bfd2d2
+	at magicLeap.tearDown(magicLeap.java:260)
+
+NetSpeed(magicLeap)  Time elapsed: 19.879 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 42.122 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+
+NetSpeed(magicLeap)  Time elapsed: 310.349 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at magicLeap.NetSpeed(magicLeap.java:246)
+

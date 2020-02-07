@@ -41,13 +41,14 @@ public class magicLeap {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "test Jenkins");
+        capabilities.setCapability("build", "test Jenkins/tunnel");
         capabilities.setCapability("name", browser + "  " + version + "  " + platform);
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);
         capabilities.setCapability("video", true);
         capabilities.setCapability("console", true);
-
+        capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("tunnelName", "prateek");
 
         try {
             StopWatch driverStart = new StopWatch();

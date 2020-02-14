@@ -49,6 +49,7 @@ public class magicLeap {
         capabilities.setCapability("console", true);
         capabilities.setCapability("tunnel", true);
         capabilities.setCapability("tunnelName", "prateek");
+        capabilities.setCapability("fixedIP", fixedIp);
 
         try {
             StopWatch driverStart = new StopWatch();

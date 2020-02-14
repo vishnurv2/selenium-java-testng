@@ -144,7 +144,7 @@ public class magicLeap {
         long localtesttimestop;
         localtesttimestart = System.currentTimeMillis();
         try {
-            driver.get("http://localhost:8080");
+            driver.get("http://localhost:4300");
             driver.findElement(By.xpath("/html/body/div/div/form/div[1]/input")).sendKeys("prateeks");
             driver.findElement(By.xpath("/html/body/div/div/form/div[2]/input")).sendKeys("9582334806");
             //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

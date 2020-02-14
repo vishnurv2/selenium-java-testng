@@ -7,7 +7,7 @@
         <parameter name="browser" value="Internet Explorer"/>
         <parameter name="version" value="11.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.80.0.26"/>
+        <parameter name="fixedIp" value="10.81.7.183"/>
         <parameter name="resolution" value="1024x768"/>
         <parameter name="timezone" value="UTC+05:30"/>
         <parameter name="geoLocation" value="DE"/>
@@ -20,7 +20,7 @@
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="66.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.80.3.188"/>
+        <parameter name="fixedIp" value="10.81.7.184"/>
         <parameter name="resolution" value="1024x768"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="AR"/>
@@ -33,7 +33,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="79.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.80.0.70"/>
+        <parameter name="fixedIp" value="10.81.7.189"/>
         <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="AU"/>
@@ -46,7 +46,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="78.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.7"/>
+        <parameter name="fixedIp" value="10.81.7.200"/>
         <parameter name="resolution" value="1280x960"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="BE"/>
@@ -59,7 +59,7 @@
         <parameter name="browser" value="Edge"/>
         <parameter name="version" value="18.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.11"/>
+        <parameter name="fixedIp" value="10.81.7.201"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="BR"/>
@@ -72,7 +72,7 @@
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="54.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.12"/>
+        <parameter name="fixedIp" value="10.81.7.220"/>
         <parameter name="resolution" value="1366x768"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="BG"/>
@@ -86,7 +86,7 @@
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="53.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.13"/>
+        <parameter name="fixedIp" value="10.81.7.224"/>
         <parameter name="resolution" value="1440x900"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="CA"/>
@@ -99,7 +99,7 @@
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="52.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.14"/>
+        <parameter name="fixedIp" value="10.81.7.231"/>
         <parameter name="resolution" value="1600x1200"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="CL"/>
@@ -112,7 +112,7 @@
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="51.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.15"/>
+        <parameter name="fixedIp" value="10.81.7.238"/>
         <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="HR"/>
@@ -125,7 +125,7 @@
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="50.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.16"/>
+        <parameter name="fixedIp" value="10.81.7.247"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="CZ"/>
@@ -138,7 +138,7 @@
         <parameter name="browser" value="firefox"/>
         <parameter name="version" value="49.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.19"/>
+        <parameter name="fixedIp" value="10.81.7.248"/>
         <parameter name="resolution" value="2048x1536"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="DK"/>
@@ -152,7 +152,7 @@
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="48.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.21"/>
+        <parameter name="fixedIp" value="10.81.6.164"/>
         <parameter name="resolution" value="2560x1440"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
@@ -165,7 +165,7 @@
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="47.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.22"/>
+        <parameter name="fixedIp" value="10.81.7.180"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FR"/>
@@ -178,7 +178,7 @@
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="46.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.23"/>
+        <parameter name="fixedIp" value="10.81.7.182"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="DE"/>
@@ -191,7 +191,7 @@
         <parameter name="browser" value="firefox"/>
         <parameter name="version" value="45.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.24"/>
+        <parameter name="fixedIp" value="10.81.7.188"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="GR"/>
@@ -204,7 +204,7 @@
         <parameter name="browser" value="firefox"/>
         <parameter name="version" value="44.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.27"/>
+        <parameter name="fixedIp" value="10.81.7.190"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="HK"/>
@@ -217,7 +217,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="69.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.28"/>
+        <parameter name="fixedIp" value="10.81.7.226"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="HU"/>
@@ -230,7 +230,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="68.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.29"/>
+        <parameter name="fixedIp" value="10.81.7.232"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="IN"/>
@@ -243,7 +243,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="67.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.30"/>
+        <parameter name="fixedIp" value="10.81.7.35"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="ID"/>
@@ -255,7 +255,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="66.0"/>
         <parameter name="platform" value="Win8.1"/>
-        <parameter name="fixedIp" value="10.253.33.30"/>
+        <parameter name="fixedIp" value="10.81.7.55"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="IE"/>
@@ -264,7 +264,7 @@
         </classes>
     </test>
 
-    <test name="23">
+<!--    <test name="23">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="65.0"/>
         <parameter name="platform" value="Win8.1"/>
@@ -1290,5 +1290,5 @@
         <classes>
             <class name="magicLeap"/>
         </classes>
-    </test>
+    </test> -->
 </suite>

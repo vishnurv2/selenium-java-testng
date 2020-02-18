@@ -5,7 +5,7 @@
 
     <test name="1">
         <parameter name="browser" value="Firefox"/>
-        <parameter name="version" value="70.0"/>
+        <parameter name="version" value="59.0"/>
         <parameter name="platform" value="macOs catalina"/>
         <parameter name="fixedIp" value="10.254.36.35"/>
         <parameter name="resolution" value="2048x1536"/>
@@ -18,7 +18,7 @@
 
        <test name="2">
            <parameter name="browser" value="firefox"/>
-           <parameter name="version" value="69.0"/>
+           <parameter name="version" value="57.0"/>
            <parameter name="platform" value="macOs catalina"/>
            <parameter name="fixedIp" value="10.253.33.88"/>
            <parameter name="resolution" value="1024x768"/>
@@ -31,7 +31,7 @@
 
         <test name="3">
             <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="78.0"/>
+            <parameter name="version" value="79.0"/>
             <parameter name="platform" value="macOs catalina"/>
             <parameter name="fixedIp" value="10.253.33.89"/>
             <parameter name="resolution" value="1280x1024"/>

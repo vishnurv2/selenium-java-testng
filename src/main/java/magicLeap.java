@@ -137,7 +137,7 @@ public class magicLeap {
 
     }
 
-    @Test(priority = 2)
+ /*   @Test(priority = 2)
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})
     public void tunnelTest(String version, String platform, String browser) {
         long localtesttimestart;
@@ -183,7 +183,7 @@ public class magicLeap {
 
         System.out.println("Time taken by the test to execute in local" + "    " + totaltimeforlocaltest);
 
-    }
+    }*/
 
     @org.testng.annotations.Parameters(value = {"resolution", "browser", "version", "platform"})
     @Test(priority = 3)

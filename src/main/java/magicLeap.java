@@ -47,8 +47,8 @@ public class magicLeap {
         capabilities.setCapability("visual", true);
         capabilities.setCapability("video", true);
         capabilities.setCapability("console", true);
-        capabilities.setCapability("tunnel", true);
-        capabilities.setCapability("tunnelName", "prateek");
+    //    capabilities.setCapability("tunnel", true);
+      //  capabilities.setCapability("tunnelName", "prateek");
         capabilities.setCapability("fixedIP", fixedIp);
 
         try {

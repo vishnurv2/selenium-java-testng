@@ -303,7 +303,7 @@
         </classes>
     </test>
 
-    <test name="26">
+ <!--   <test name="26">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="62.0"/>
         <parameter name="platform" value="Win10"/>
@@ -1290,5 +1290,5 @@
         <classes>
             <class name="magicLeap"/>
         </classes>
-    </test>
+    </test> -->
 </suite>

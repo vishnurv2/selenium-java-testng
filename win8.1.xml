@@ -264,7 +264,7 @@
         </classes>
     </test>
 
-<!--    <test name="23">
+    <test name="23">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="65.0"/>
         <parameter name="platform" value="Win8.1"/>
@@ -602,7 +602,7 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-
+<!--
     <test name="50">
         <parameter name="browser" value="chrome"/>
         <parameter name="version" value="33.0"/>

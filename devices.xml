@@ -3,7 +3,7 @@
 <suite thread-count="100" name="New Browsers" parallel="tests">
 
 
-    <!--  <test name="Random test1">
+      <test name="Random test1">
           <parameter name="browser" value="safari"/>
           <parameter name="platformVersion" value="13.1"/>
           <parameter name="platform" value="iOS"/>
@@ -79,9 +79,9 @@
             <classes>
                 <class name="Random"/>
             </classes>
-        </test>-->
+        </test>
 
-    <!--    <test name="Random test8">
+        <test name="Random test8">
             <parameter name="browser" value="Chrome"/>
             <parameter name="platformVersion" value="8"/>
             <parameter name="platform" value="Android"/>
@@ -115,7 +115,7 @@
             </classes>
         </test>
 
-        <test name="Random test12">
+    <!--    <test name="Random test12">
             <parameter name="browser" value="Chrome"/>
             <parameter name="platformVersion" value="12.0"/>
             <parameter name="platform" value="Android"/>

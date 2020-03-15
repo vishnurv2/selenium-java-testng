@@ -26,7 +26,7 @@ public class Random {
         DesiredCapabilities capabilities = new DesiredCapabilities();
        // capabilities.setCapability("platformVersion", platformVersion);
         capabilities.setCapability("platformName", platform); // If this cap isn't specified, it will just get the any available one
-        capabilities.setCapability("build", "Ios devices5");
+        capabilities.setCapability("build", "JenkinsDeivces");
         capabilities.setCapability("name", browser + platform + deviceName);
         capabilities.setCapability("network", true); // To enable network logs
         capabilities.setCapability("visual", true); // To enable step by step screenshot

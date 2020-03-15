@@ -303,7 +303,7 @@
         </classes>
     </test>
 
- <!--   <test name="26">
+    <test name="26">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="62.0"/>
         <parameter name="platform" value="Win10"/>
@@ -980,7 +980,7 @@
         </classes>
     </test>
 
-    <test name="79">
+ <!--   <test name="79">
         <parameter name="browser" value="chrome"/>
         <parameter name="version" value="73.0"/>
         <parameter name="platform" value="Win10"/>

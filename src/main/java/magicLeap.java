@@ -50,7 +50,7 @@ public class magicLeap {
         capabilities.setCapability("resolution", resolution);
     //    capabilities.setCapability("tunnel", true);
       //  capabilities.setCapability("tunnelName", "prateek");
-      //  capabilities.setCapability("fixedIP", fixedIp);
+        capabilities.setCapability("fixedIP", fixedIp);
 
         try {
             StopWatch driverStart = new StopWatch();

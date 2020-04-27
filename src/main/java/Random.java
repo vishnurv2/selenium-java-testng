@@ -16,7 +16,7 @@ public class Random {
     public String username = "prateeks";
     public String accesskey = "IuCSesD83A7LsTFzEKS0Lb6tzvEfBQ38DMkFTEpudatxxxsdjH";
     public RemoteWebDriver driver;
-    public String gridURL = "@hub.lambdatest.com/wd/hub";
+    public String gridURL = "@eu-central-1-hub.lambdatest.com/wd/hub";
     String status;
 
 
@@ -26,7 +26,7 @@ public class Random {
         DesiredCapabilities capabilities = new DesiredCapabilities();
        // capabilities.setCapability("platformVersion", platformVersion);
         capabilities.setCapability("platformName", platform); // If this cap isn't specified, it will just get the any available one
-        capabilities.setCapability("build", "JenkinsDeivces");
+        capabilities.setCapability("build", "JenkinsDeivceseurope");
         capabilities.setCapability("name", browser + platform + deviceName);
         capabilities.setCapability("network", true); // To enable network logs
         capabilities.setCapability("visual", true); // To enable step by step screenshot

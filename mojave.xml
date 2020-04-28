@@ -4,8 +4,8 @@
 
 
     <test name="1">
-        <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="79.0"/>
+        <parameter name="browser" value="safari"/>
+        <parameter name="version" value="12.0"/>
         <parameter name="platform" value="macos mojave"/>
         <parameter name="fixedIp" value="10.252.32.13"/>
         <parameter name="resolution" value="2048x1536"/>
@@ -17,8 +17,8 @@
     </test>
 
     <test name="2">
-        <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="78.0"/>
+        <parameter name="browser" value="safari"/>
+        <parameter name="version" value="12.0"/>
         <parameter name="platform" value="macos Mojave"/>
         <parameter name="fixedIp" value="10.252.32.17"/>
         <parameter name="resolution" value="1024x768"/>
@@ -30,8 +30,8 @@
     </test>
 
      <test name="3">
-          <parameter name="browser" value="Firefox"/>
-          <parameter name="version" value="73.0"/>
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.55"/>
           <parameter name="resolution" value="1280x1024"/>
@@ -43,8 +43,8 @@
       </test>
 
       <test name="4">
-          <parameter name="browser" value="Firefox"/>
-          <parameter name="version" value="72.0"/>
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.56"/>
           <parameter name="resolution" value="1280x1024"/>
@@ -56,8 +56,8 @@
       </test>
 
       <test name="5">
-          <parameter name="browser" value="Firefox"/>
-          <parameter name="version" value="70.0"/>
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.57"/>
           <parameter name="resolution" value="1280x800"/>
@@ -70,8 +70,8 @@
 
 
       <test name="8">
-          <parameter name="browser" value="Firefox"/>
-          <parameter name="version" value="61.0"/>
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.58"/>
           <parameter name="resolution" value="1440x900"/>
@@ -83,8 +83,8 @@
       </test>
 
       <test name="9">
-          <parameter name="browser" value="MicrosoftEdge"/>
-          <parameter name="version" value="80.0"/>
+          <parameter name="browser" value="safari"/>
+          <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.59"/>
           <parameter name="resolution" value="1600x1200"/>
@@ -96,8 +96,8 @@
       </test>
 
               <test name="10">
-                  <parameter name="browser" value="MicrosoftEdge"/>
-                  <parameter name="version" value="81.0"/>
+                  <parameter name="browser" value="safari"/>
+                  <parameter name="version" value="12.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.60"/>
                   <parameter name="resolution" value="1920x1080"/>
@@ -109,8 +109,8 @@
               </test>
 
               <test name="11">
-                  <parameter name="browser" value="Chrome"/>
-                  <parameter name="version" value="78.0"/>
+                  <parameter name="browser" value="safari"/>
+                  <parameter name="version" value="12.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.61"/>
                   <parameter name="resolution" value="1280x1024"/>
@@ -122,8 +122,8 @@
               </test>
 
               <test name="12">
-                  <parameter name="browser" value="Chrome"/>
-                  <parameter name="version" value="77.0"/>
+                  <parameter name="browser" value="safari"/>
+                  <parameter name="version" value="12.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.62"/>
                   <parameter name="resolution" value="2048x1536"/>
@@ -136,8 +136,8 @@
 
 
               <test name="14">
-                  <parameter name="browser" value="Chrome"/>
-                  <parameter name="version" value="76.0"/>
+                  <parameter name="browser" value="safari"/>
+                  <parameter name="version" value="12.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.63"/>
                   <parameter name="resolution" value="2560x1440"/>
@@ -149,8 +149,8 @@
               </test>
 
                   <test name="15">
-                      <parameter name="browser" value="Chrome"/>
-                      <parameter name="version" value="75.0"/>
+                      <parameter name="browser" value="safari"/>
+                      <parameter name="version" value="12.0"/>
                       <parameter name="platform" value="macOs Mojave"/>
                       <parameter name="fixedIp" value="10.252.32.64"/>
                       <parameter name="resolution" value="1280x1024"/>
@@ -162,8 +162,8 @@
                   </test>
 
                   <test name="16">
-                      <parameter name="browser" value="Chrome"/>
-                      <parameter name="version" value="63.0"/>
+                      <parameter name="browser" value="safari"/>
+                      <parameter name="version" value="12.0"/>
                       <parameter name="platform" value="macOs Mojave"/>
                       <parameter name="fixedIp" value="10.252.32.65"/>
                       <parameter name="resolution" value="1280x1024"/>
@@ -175,8 +175,8 @@
                   </test>
 
                   <test name="17">
-                      <parameter name="browser" value="Chrome"/>
-                      <parameter name="version" value="61.0"/>
+                      <parameter name="browser" value="safari"/>
+                      <parameter name="version" value="12.0"/>
                       <parameter name="platform" value="macOs Mojave"/>
                       <parameter name="fixedIp" value="10.252.32.66"/>
                       <parameter name="resolution" value="1280x1024"/>
@@ -188,8 +188,8 @@
                   </test>
 
                   <test name="18">
-                      <parameter name="browser" value="Chrome"/>
-                      <parameter name="version" value="62.0"/>
+                      <parameter name="browser" value="safari"/>
+                      <parameter name="version" value="12.0"/>
                       <parameter name="platform" value="macOs Mojave"/>
                       <parameter name="fixedIp" value="10.252.32.67"/>
                       <parameter name="resolution" value="1280x1024"/>

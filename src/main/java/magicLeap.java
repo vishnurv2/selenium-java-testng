@@ -19,7 +19,7 @@ public class magicLeap {
     public String username = "prateeks";
     public String accesskey = "IuCSesD83A7LsTFzEKS0Lb6tzvEfBQ38DMkFTEpudatxxxsdjH";
     public RemoteWebDriver driver;
-    public String gridURL = "@hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
+    public String gridURL = "@stage-hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
     String status;
     String ResolutionValue;
     long quitestoptime;
@@ -50,7 +50,7 @@ public class magicLeap {
         capabilities.setCapability("resolution", resolution);
         capabilities.setCapability("tunnel", true);
         capabilities.setCapability("tunnelName", "prateek");
-        //capabilities.setCapability("fixedIP", fixedIp);
+        capabilities.setCapability("fixedIP", fixedIp);
 
         try {
             StopWatch driverStart = new StopWatch();
@@ -138,7 +138,7 @@ public class magicLeap {
 
     }
 
- /*   @Test(priority = 2)
+    @Test(priority = 2)
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})
     public void tunnelTest(String version, String platform, String browser) {
         long localtesttimestart;
@@ -184,7 +184,7 @@ public class magicLeap {
 
         System.out.println("Time taken by the test to execute in local" + "    " + totaltimeforlocaltest);
 
-    }*/
+    }
 
     @org.testng.annotations.Parameters(value = {"resolution", "browser", "version", "platform"})
     @Test(priority = 3)

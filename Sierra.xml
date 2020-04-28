@@ -84,7 +84,7 @@
 
     <test name="9">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="81.0"/>
+        <parameter name="version" value="80.0"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.23"/>
         <parameter name="resolution" value="1280x1024"/>
@@ -138,7 +138,7 @@
 
     <test name="14">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="81.0"/>
+        <parameter name="version" value="79.0"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.27"/>
         <parameter name="resolution" value="2560x1440"/>
@@ -151,7 +151,7 @@
 
     <test name="15">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="81.0"/>
+        <parameter name="version" value="78.0"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.28"/>
         <parameter name="resolution" value="1280x1024"/>
@@ -164,7 +164,7 @@
 
     <test name="16">
         <parameter name="browser" value="Firefox"/>
-        <parameter name="version" value="74.0"/>
+        <parameter name="version" value="73.0"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.29"/>
         <parameter name="resolution" value="2560x1440"/>
@@ -177,7 +177,7 @@
 
     <test name="17">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="80.0"/>
+        <parameter name="version" value="77.0"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.30"/>
         <parameter name="resolution" value="1280x960"/>
@@ -190,7 +190,7 @@
 
     <test name="18">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="81.0"/>
+        <parameter name="version" value="76.0"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.31"/>
         <parameter name="resolution" value="1280x960"/>
@@ -203,7 +203,7 @@
 
     <test name="19">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="80.0"/>
+        <parameter name="version" value="73.0"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.32"/>
         <parameter name="resolution" value="1280x1024"/>
@@ -216,7 +216,7 @@
 
     <test name="20">
         <parameter name="browser" value="Firefox"/>
-        <parameter name="version" value="latest"/>
+        <parameter name="version" value="70"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.33"/>
         <parameter name="resolution" value="1600x900"/>
@@ -229,7 +229,7 @@
 
     <test name="21">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="latest"/>
+        <parameter name="version" value="71"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.34"/>
         <parameter name="resolution" value="1600x900"/>
@@ -241,7 +241,7 @@
     </test>
     <test name="22">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="81.0"/>
+        <parameter name="version" value="56.0"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.35"/>
         <parameter name="resolution" value="1280x1024"/>
@@ -254,7 +254,7 @@
 
     <test name="23">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="81.0"/>
+        <parameter name="version" value="69.0"/>
         <parameter name="platform" value="macos sierra"/>
         <parameter name="fixedIp" value="10.252.32.36"/>
         <parameter name="resolution" value="1280x1024"/>

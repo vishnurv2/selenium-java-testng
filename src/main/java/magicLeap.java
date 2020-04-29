@@ -41,15 +41,15 @@ public class magicLeap {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "Mojave Dublin macmachines/safari");
+        capabilities.setCapability("build", "Mojave Dublin macmachines/safari/withoutTunnel");
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp );
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);
         capabilities.setCapability("video", true);
         capabilities.setCapability("console", true);
         capabilities.setCapability("resolution", resolution);
-        capabilities.setCapability("tunnel", true);
-        capabilities.setCapability("tunnelName", "prateek");
+      //  capabilities.setCapability("tunnel", true);
+     //   capabilities.setCapability("tunnelName", "prateek");
         capabilities.setCapability("fixedIP", fixedIp);
 
         try {

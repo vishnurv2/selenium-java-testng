@@ -41,15 +41,15 @@ public class magicLeap {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "Mojave Dublin macmachines/safari/withoutTunnel");
+        capabilities.setCapability("build", "Mojave Dublin macmachines/safari/Tunneltest");
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp );
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);
         capabilities.setCapability("video", true);
         capabilities.setCapability("console", true);
         capabilities.setCapability("resolution", resolution);
-      //  capabilities.setCapability("tunnel", true);
-     //   capabilities.setCapability("tunnelName", "prateek");
+        capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("tunnelName", "prateek");
         capabilities.setCapability("fixedIP", fixedIp);
 
         try {
@@ -72,7 +72,7 @@ public class magicLeap {
         }
     }
 
-
+/*
     @Test(priority = 1)
     @org.testng.annotations.Parameters(value = {"resolution", "browser", "version", "platform"})
     public void DesktopScript(String resolution, String version, String platform, String browser) {
@@ -137,7 +137,7 @@ public class magicLeap {
         }
 
     }
-
+*/
     @Test(priority = 2)
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})
     public void tunnelTest(String version, String platform, String browser) {

@@ -81,7 +81,7 @@
               <class name="magicLeap"/>
           </classes>
       </test>
-
+<!--
       <test name="9">
           <parameter name="browser" value="MicrosoftEdge"/>
           <parameter name="version" value="80.0"/>
@@ -200,7 +200,7 @@
                       </classes>
                   </test>
 
-                 <!--
+                 
 
                   <test name="19">
                       <parameter name="browser" value="Chrome"/>

@@ -16,10 +16,10 @@ import java.util.concurrent.TimeUnit;
 
 public class magicLeap {
 
-    public String username = "prateeks";
-    public String accesskey = "IuCSesD83A7LsTFzEKS0Lb6tzvEfBQ38DMkFTEpudatxxxsdjH";
+    public String username = "prateek.delguy";
+    public String accesskey = "9DjIGDAUAnyqaNELLFGeGyLCcdW2W4diRXje0U5yaHr8nAReqE";
     public RemoteWebDriver driver;
-    public String gridURL = "@stage-hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
+    public String gridURL = "@hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
     String status;
     String ResolutionValue;
     long quitestoptime;
@@ -39,7 +39,7 @@ public class magicLeap {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("browserName", browser);
-        capabilities.setCapability("version", "latest");
+        capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
         capabilities.setCapability("build", "Mojave Dublin macmachines/Allbrowser/latest");
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation);
@@ -50,7 +50,7 @@ public class magicLeap {
         capabilities.setCapability("resolution", resolution);
        // capabilities.setCapability("tunnel", true);
      //   capabilities.setCapability("geoLocation", geoLocation);
-        capabilities.setCapability("fixedIP", fixedIp);
+      //  capabilities.setCapability("fixedIP", fixedIp);
 
         try {
             StopWatch driverStart = new StopWatch();

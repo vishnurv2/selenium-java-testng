@@ -3,11 +3,11 @@
 <suite thread-count="200" name="DesktopBrowsers" parallel="tests">
 
 
-   <test name="1">
+  <test name="1">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="79.0"/>
         <parameter name="platform" value="macos mojave"/>
-        <parameter name="fixedIp" value="10.252.32.13"/>
+        <parameter name="fixedIp" value="10.252.32.98"/>
         <parameter name="resolution" value="2048x1536"/>
         <parameter name="timezone" value="UTC+00:00"/>
         <parameter name="geoLocation" value="NL"/>
@@ -20,7 +20,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="78.0"/>
         <parameter name="platform" value="macos Mojave"/>
-        <parameter name="fixedIp" value="10.252.32.17"/>
+        <parameter name="fixedIp" value="10.252.32.109"/>
         <parameter name="resolution" value="1024x768"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="UA"/>
@@ -33,7 +33,7 @@
           <parameter name="browser" value="Firefox"/>
           <parameter name="version" value="73.0"/>
           <parameter name="platform" value="macos mojave"/>
-          <parameter name="fixedIp" value="10.252.32.55"/>
+          <parameter name="fixedIp" value="10.252.32.111"/>
           <parameter name="resolution" value="1280x1024"/>
           <parameter name="timezone" value="UTC+09:30"/>
           <parameter name="geoLocation" value="NL"/>
@@ -46,7 +46,7 @@
           <parameter name="browser" value="Firefox"/>
           <parameter name="version" value="72.0"/>
           <parameter name="platform" value="macos mojave"/>
-          <parameter name="fixedIp" value="10.252.32.56"/>
+          <parameter name="fixedIp" value="10.252.32.113"/>
           <parameter name="resolution" value="1280x1024"/>
           <parameter name="timezone" value="UTC+04:00"/>
           <parameter name="geoLocation" value="BE"/>
@@ -59,7 +59,7 @@
           <parameter name="browser" value="Firefox"/>
           <parameter name="version" value="70.0"/>
           <parameter name="platform" value="macos mojave"/>
-          <parameter name="fixedIp" value="10.252.32.57"/>
+          <parameter name="fixedIp" value="10.252.32.115"/>
           <parameter name="resolution" value="1280x800"/>
           <parameter name="timezone" value="UTC+04:00"/>
           <parameter name="geoLocation" value="BR"/>
@@ -73,7 +73,7 @@
           <parameter name="browser" value="Firefox"/>
           <parameter name="version" value="61.0"/>
           <parameter name="platform" value="macos mojave"/>
-          <parameter name="fixedIp" value="10.252.32.58"/>
+          <parameter name="fixedIp" value="10.252.32.117"/>
           <parameter name="resolution" value="1440x900"/>
           <parameter name="timezone" value="UTC+04:00"/>
           <parameter name="geoLocation" value="CA"/>
@@ -81,12 +81,12 @@
               <class name="magicLeap"/>
           </classes>
       </test>
-<!--
+
       <test name="9">
           <parameter name="browser" value="MicrosoftEdge"/>
           <parameter name="version" value="80.0"/>
           <parameter name="platform" value="macos mojave"/>
-          <parameter name="fixedIp" value="10.252.32.59"/>
+          <parameter name="fixedIp" value="10.252.32.119"/>
           <parameter name="resolution" value="1600x1200"/>
           <parameter name="timezone" value="UTC+04:00"/>
           <parameter name="geoLocation" value="CL"/>
@@ -94,12 +94,11 @@
               <class name="magicLeap"/>
           </classes>
       </test>
-
               <test name="10">
                   <parameter name="browser" value="MicrosoftEdge"/>
                   <parameter name="version" value="81.0"/>
                   <parameter name="platform" value="macOs mojave"/>
-                  <parameter name="fixedIp" value="10.252.32.60"/>
+                  <parameter name="fixedIp" value="10.252.32.121"/>
                   <parameter name="resolution" value="1920x1080"/>
                   <parameter name="timezone" value="UTC+04:00"/>
                   <parameter name="geoLocation" value="HR"/>
@@ -107,12 +106,11 @@
                       <class name="magicLeap"/>
                   </classes>
               </test>
-
               <test name="11">
                   <parameter name="browser" value="Chrome"/>
                   <parameter name="version" value="78.0"/>
                   <parameter name="platform" value="macOs mojave"/>
-                  <parameter name="fixedIp" value="10.252.32.61"/>
+                  <parameter name="fixedIp" value="10.252.32.123"/>
                   <parameter name="resolution" value="1280x1024"/>
                   <parameter name="timezone" value="UTC+04:00"/>
                   <parameter name="geoLocation" value="CZ"/>
@@ -120,12 +118,11 @@
                       <class name="magicLeap"/>
                   </classes>
               </test>
-
               <test name="12">
                   <parameter name="browser" value="Chrome"/>
                   <parameter name="version" value="77.0"/>
                   <parameter name="platform" value="macOs mojave"/>
-                  <parameter name="fixedIp" value="10.252.32.62"/>
+                  <parameter name="fixedIp" value="10.252.32.125"/>
                   <parameter name="resolution" value="2048x1536"/>
                   <parameter name="timezone" value="UTC+04:00"/>
                   <parameter name="geoLocation" value="DK"/>
@@ -133,6 +130,7 @@
                       <class name="magicLeap"/>
                   </classes>
               </test>
+   <!--
 
 
               <test name="14">

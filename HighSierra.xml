@@ -4,7 +4,7 @@
 
 
    <test name="1">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="safari"/>
         <parameter name="version" value="79.0"/>
         <parameter name="platform" value="macos high sierra"/>
         <parameter name="fixedIp" value="10.252.32.97"/>
@@ -17,7 +17,7 @@
     </test>
 
     <test name="2">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="safari"/>
         <parameter name="version" value="78.0"/>
         <parameter name="platform" value="macos high sierra"/>
         <parameter name="fixedIp" value="10.252.32.101"/>
@@ -30,7 +30,7 @@
     </test>
 
       <test name="3">
-          <parameter name="browser" value="Chrome"/>
+          <parameter name="browser" value="safari"/>
           <parameter name="version" value="80.0"/>
           <parameter name="platform" value="macos high sierra"/>
           <parameter name="fixedIp" value="10.252.32.103"/>
@@ -43,7 +43,7 @@
       </test>
 
       <test name="4">
-          <parameter name="browser" value="Chrome"/>
+          <parameter name="browser" value="safari"/>
           <parameter name="version" value="80.0"/>
           <parameter name="platform" value="macos high sierra"/>
           <parameter name="fixedIp" value="10.252.32.105"/>
@@ -56,7 +56,7 @@
       </test>
 
       <test name="5">
-          <parameter name="browser" value="Chrome"/>
+          <parameter name="browser" value="safari"/>
           <parameter name="version" value="80.0"/>
           <parameter name="platform" value="macos high sierra"/>
           <parameter name="fixedIp" value="10.252.32.107"/>

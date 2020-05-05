@@ -39,9 +39,9 @@ public class magicLeap {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("browserName", browser);
-        capabilities.setCapability("version", version);
+        capabilities.setCapability("version", "latest");
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "Mojave Dublin macmachines/Tunnel/Resolution/Safari");
+        capabilities.setCapability("build", "Mojave Dublin macmachines/Tunnel/Resolution/Safari/latest");
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation+"  "+resolution);
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);

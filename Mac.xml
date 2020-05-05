@@ -3,11 +3,11 @@
 <suite thread-count="200" name="DesktopBrowsers" parallel="tests">
 
 
-    <test name="1">
+     <test name="1">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="79.0"/>
         <parameter name="platform" value="macOs catalina"/>
-        <parameter name="fixedIp" value="10.253.33.105"/>
+        <parameter name="fixedIp" value="10.252.32.99"/>
         <parameter name="resolution" value="2048x1536"/>
         <parameter name="timezone" value="UTC+00:00"/>
         <parameter name="geoLocation" value="NL"/>
@@ -20,7 +20,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="78.0"/>
         <parameter name="platform" value="macOs catalina"/>
-        <parameter name="fixedIp" value="10.253.33.106"/>
+        <parameter name="fixedIp" value="10.252.32.129"/>
         <parameter name="resolution" value="1024x768"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="UA"/>
@@ -33,7 +33,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="80.0"/>
         <parameter name="platform" value="macOs catalina"/>
-        <parameter name="fixedIp" value="10.253.33.107"/>
+        <parameter name="fixedIp" value="10.252.32.131"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+09:30"/>
         <parameter name="geoLocation" value="NL"/>
@@ -46,7 +46,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="80.0"/>
         <parameter name="platform" value="macOs catalina"/>
-        <parameter name="fixedIp" value="10.253.33.108"/>
+        <parameter name="fixedIp" value="10.252.32.133"/>
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="BE"/>
@@ -59,7 +59,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="80.0"/>
         <parameter name="platform" value="macOs catalina"/>
-        <parameter name="fixedIp" value="10.253.33.109"/>
+        <parameter name="fixedIp" value="10.252.32.135"/>
         <parameter name="resolution" value="1280x800"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="BR"/>
@@ -68,7 +68,7 @@
         </classes>
     </test>
 
-
+<!--
     <test name="8">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="80.0"/>
@@ -712,6 +712,6 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-
+-->
 
 </suite>

@@ -42,7 +42,7 @@ public class magicLeap {
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
         capabilities.setCapability("build", "Mojave Dublin macmachines/Geolocation/Resolution");
-        capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation);
+        capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation+"  "+resolution);
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);
         capabilities.setCapability("video", true);

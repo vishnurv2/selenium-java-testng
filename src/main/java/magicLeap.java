@@ -41,15 +41,15 @@ public class magicLeap {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "Mojave Dublin macmachines/Tunnel/Resolution");
+        capabilities.setCapability("build", "Mojave Dublin macmachines/Geolocation/Resolution");
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation);
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);
         capabilities.setCapability("video", true);
         capabilities.setCapability("console", true);
         capabilities.setCapability("resolution", resolution);
-        capabilities.setCapability("tunnel", true);
-     //   capabilities.setCapability("geoLocation", geoLocation);
+       // capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("geoLocation", geoLocation);
         capabilities.setCapability("fixedIP", fixedIp);
 
         try {
@@ -138,7 +138,7 @@ public class magicLeap {
 
     }
 */
-    
+  /*  
     @Test(priority = 2)
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})
     public void tunnelTest(String version, String platform, String browser) {
@@ -186,7 +186,7 @@ public class magicLeap {
         System.out.println("Time taken by the test to execute in local" + "    " + totaltimeforlocaltest);
 
     }
-
+*/
     @org.testng.annotations.Parameters(value = {"resolution", "browser", "version", "platform"})
     @Test(priority = 3)
     public void Resolution(String resolution, String version, String platform, String browser) {
@@ -225,7 +225,7 @@ public class magicLeap {
             System.out.println(R);
         }
     }
-/*
+
     @Test(priority = 4)
     @org.testng.annotations.Parameters(value = {"geoLocation", "browser", "version", "platform"})
     public void Geolocation(String geoLocation, String version, String platform, String browser) {
@@ -252,7 +252,7 @@ public class magicLeap {
 
         }
     }
-
+/*
     @Test(priority = 5)
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})
     public void NetSpeed(String version, String platform, String browser) {

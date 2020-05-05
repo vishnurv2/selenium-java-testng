@@ -4,7 +4,7 @@
 
 
   <test name="1">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="safari"/>
         <parameter name="version" value="79.0"/>
         <parameter name="platform" value="macos mojave"/>
         <parameter name="fixedIp" value="10.252.32.98"/>
@@ -17,7 +17,7 @@
     </test>
 
     <test name="2">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="safari"/>
         <parameter name="version" value="78.0"/>
         <parameter name="platform" value="macos Mojave"/>
         <parameter name="fixedIp" value="10.252.32.109"/>
@@ -30,7 +30,7 @@
     </test>
 
      <test name="3">
-          <parameter name="browser" value="Firefox"/>
+          <parameter name="browser" value="safari"/>
           <parameter name="version" value="73.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.111"/>
@@ -43,7 +43,7 @@
       </test>
 
       <test name="4">
-          <parameter name="browser" value="Firefox"/>
+          <parameter name="browser" value="safari"/>
           <parameter name="version" value="72.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.113"/>
@@ -56,7 +56,7 @@
       </test>
 
       <test name="5">
-          <parameter name="browser" value="Firefox"/>
+          <parameter name="browser" value="safari"/>
           <parameter name="version" value="70.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.115"/>
@@ -70,7 +70,7 @@
 
 
       <test name="8">
-          <parameter name="browser" value="Firefox"/>
+          <parameter name="browser" value="safari"/>
           <parameter name="version" value="61.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.117"/>
@@ -83,7 +83,7 @@
       </test>
 
       <test name="9">
-          <parameter name="browser" value="MicrosoftEdge"/>
+          <parameter name="browser" value="safari"/>
           <parameter name="version" value="80.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.119"/>
@@ -95,7 +95,7 @@
           </classes>
       </test>
               <test name="10">
-                  <parameter name="browser" value="MicrosoftEdge"/>
+                  <parameter name="browser" value="safari"/>
                   <parameter name="version" value="81.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.121"/>
@@ -107,7 +107,7 @@
                   </classes>
               </test>
               <test name="11">
-                  <parameter name="browser" value="Chrome"/>
+                  <parameter name="browser" value="safari"/>
                   <parameter name="version" value="78.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.123"/>
@@ -119,7 +119,7 @@
                   </classes>
               </test>
               <test name="12">
-                  <parameter name="browser" value="Chrome"/>
+                  <parameter name="browser" value="safari"/>
                   <parameter name="version" value="77.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.125"/>

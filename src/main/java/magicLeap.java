@@ -16,10 +16,10 @@ import java.util.concurrent.TimeUnit;
 
 public class magicLeap {
 
-    public String username = "prateek.delguy";
-    public String accesskey = "9DjIGDAUAnyqaNELLFGeGyLCcdW2W4diRXje0U5yaHr8nAReqE";
+    public String username = "prateeks";
+    public String accesskey = "IuCSesD83A7LsTFzEKS0Lb6tzvEfBQ38DMkFTEpudatxxxsdjH";
     public RemoteWebDriver driver;
-    public String gridURL = "@hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
+    public String gridURL = "@stage-hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
     String status;
     String ResolutionValue;
     long quitestoptime;
@@ -41,16 +41,16 @@ public class magicLeap {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "Mojave Dublin macmachines/Allbrowser/latest");
+        capabilities.setCapability("build", "Mojave Dublin macmachines/Tunnel/Resolution");
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation);
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);
         capabilities.setCapability("video", true);
         capabilities.setCapability("console", true);
         capabilities.setCapability("resolution", resolution);
-       // capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("tunnel", true);
      //   capabilities.setCapability("geoLocation", geoLocation);
-      //  capabilities.setCapability("fixedIP", fixedIp);
+        capabilities.setCapability("fixedIP", fixedIp);
 
         try {
             StopWatch driverStart = new StopWatch();
@@ -138,7 +138,7 @@ public class magicLeap {
 
     }
 */
-    /*
+    
     @Test(priority = 2)
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})
     public void tunnelTest(String version, String platform, String browser) {
@@ -186,7 +186,7 @@ public class magicLeap {
         System.out.println("Time taken by the test to execute in local" + "    " + totaltimeforlocaltest);
 
     }
-*/
+
     @org.testng.annotations.Parameters(value = {"resolution", "browser", "version", "platform"})
     @Test(priority = 3)
     public void Resolution(String resolution, String version, String platform, String browser) {
@@ -225,7 +225,7 @@ public class magicLeap {
             System.out.println(R);
         }
     }
-
+/*
     @Test(priority = 4)
     @org.testng.annotations.Parameters(value = {"geoLocation", "browser", "version", "platform"})
     public void Geolocation(String geoLocation, String version, String platform, String browser) {
@@ -282,7 +282,7 @@ public class magicLeap {
         System.out.println(driver.getCapabilities());
 
     }
-
+*/
     @AfterTest
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})
     public void tearDown(String version, String platform, String browser) throws Exception {

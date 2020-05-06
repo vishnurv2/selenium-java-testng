@@ -225,7 +225,7 @@ public class magicLeap {
             System.out.println(R);
         }
     }
-
+/*
     @Test(priority = 4)
     @org.testng.annotations.Parameters(value = {"geoLocation", "browser", "version", "platform"})
     public void Geolocation(String geoLocation, String version, String platform, String browser) {
@@ -252,6 +252,7 @@ public class magicLeap {
 
         }
     }
+    */
 /*
     @Test(priority = 5)
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})

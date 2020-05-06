@@ -20,7 +20,7 @@
         <parameter name="browser" value="safari"/>
         <parameter name="version" value="78.0"/>
         <parameter name="platform" value="macos Mojave"/>
-        <parameter name="fixedIp" value="10.252.32.109"/>
+        <parameter name="fixedIp" value="10.252.32.98"/>
         <parameter name="resolution" value="1024x768"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="UA"/>
@@ -28,7 +28,7 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-
+<!--
      <test name="3">
           <parameter name="browser" value="safari"/>
           <parameter name="version" value="73.0"/>
@@ -130,7 +130,7 @@
                       <class name="magicLeap"/>
                   </classes>
               </test>
-   <!--
+   
 
 
               <test name="14">

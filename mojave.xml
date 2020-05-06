@@ -8,7 +8,7 @@
         <parameter name="version" value="79.0"/>
         <parameter name="platform" value="macos mojave"/>
         <parameter name="fixedIp" value="10.252.32.98"/>
-        <parameter name="resolution" value="2048x1536"/>
+        <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+00:00"/>
         <parameter name="geoLocation" value="NL"/>
         <classes>
@@ -21,7 +21,7 @@
         <parameter name="version" value="78.0"/>
         <parameter name="platform" value="macos Mojave"/>
         <parameter name="fixedIp" value="10.252.32.98"/>
-        <parameter name="resolution" value="1024x768"/>
+        <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="UA"/>
         <classes>

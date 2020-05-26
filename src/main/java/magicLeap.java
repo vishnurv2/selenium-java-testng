@@ -39,18 +39,18 @@ public class magicLeap {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("browserName", browser);
-        capabilities.setCapability("version", "latest");
+        capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "Mojave Dublin macmachines/Tunnel/Resolution/Safari/singletest/Prod");
+        capabilities.setCapability("build", "Win10/LNRC");
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation+"  "+resolution);
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);
         capabilities.setCapability("video", true);
         capabilities.setCapability("console", true);
         capabilities.setCapability("resolution", resolution);
-       // capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("tunnel", true);
        // capabilities.setCapability("geoLocation", geoLocation);
-        capabilities.setCapability("fixedIP", fixedIp);
+       // capabilities.setCapability("fixedIP", fixedIp);
 
         try {
             StopWatch driverStart = new StopWatch();

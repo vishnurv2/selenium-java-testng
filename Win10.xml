@@ -120,7 +120,7 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-
+<!--
     <test name="11">
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="50.0"/>
@@ -1291,4 +1291,5 @@
             <class name="magicLeap"/>
         </classes>
     </test> 
+-->
 </suite>

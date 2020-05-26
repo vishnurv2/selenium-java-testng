@@ -49,6 +49,8 @@ public class magicLeap {
         capabilities.setCapability("console", true);
         capabilities.setCapability("resolution", resolution);
         capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("tunnelName", "prateek");
+
        // capabilities.setCapability("geoLocation", geoLocation);
        // capabilities.setCapability("fixedIP", fixedIp);
 

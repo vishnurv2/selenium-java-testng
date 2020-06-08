@@ -48,8 +48,8 @@ public class magicLeap {
         capabilities.setCapability("video", true);
         capabilities.setCapability("console", true);
         capabilities.setCapability("resolution", resolution);
-       // capabilities.setCapability("tunnel", true);
-        capabilities.setCapability("tunnelName", "pratk");
+        capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("tunnelName", "prateek");
 
        // capabilities.setCapability("geoLocation", geoLocation);
        // capabilities.setCapability("fixedIP", fixedIp);
@@ -74,7 +74,7 @@ public class magicLeap {
         }
     }
 
-/*
+
     @Test(priority = 1)
     @org.testng.annotations.Parameters(value = {"resolution", "browser", "version", "platform"})
     public void DesktopScript(String resolution, String version, String platform, String browser) {
@@ -139,8 +139,8 @@ public class magicLeap {
         }
 
     }
-*/
-  /*  
+  
+/*  
     @Test(priority = 2)
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})
     public void tunnelTest(String version, String platform, String browser) {
@@ -148,7 +148,7 @@ public class magicLeap {
         long localtesttimestop;
         localtesttimestart = System.currentTimeMillis();
         try {
-            driver.get("http://localhost:4300");
+            driver.get("http://todo.html");
             driver.findElement(By.xpath("/html/body/div/div/form/div[1]/input")).sendKeys("prateeks");
             driver.findElement(By.xpath("/html/body/div/div/form/div[2]/input")).sendKeys("9582334806");
             //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

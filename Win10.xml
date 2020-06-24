@@ -4,7 +4,7 @@
 
 
     <test name="1">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="70.0"/>
         <parameter name="platform" value="Windows10"/>
         <parameter name="fixedIp" value="10.81.2.245"/>
@@ -30,8 +30,8 @@
     </test>
 
     <test name="3">
-        <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="79.0"/>
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="version" value="74.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.2.247"/>
         <parameter name="resolution" value="2048x1536"/>
@@ -56,8 +56,8 @@
     </test>
 
     <test name="5">
-        <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="80.0"/>
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="version" value="74.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.2.249"/>
         <parameter name="resolution" value="1280x1024"/>
@@ -96,8 +96,8 @@
     </test>
 
     <test name="9">
-        <parameter name="browser" value="Edge"/>
-        <parameter name="version" value="18.0"/>
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="version" value="74.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.2.252"/>
         <parameter name="resolution" value="1680x1050"/>
@@ -120,7 +120,7 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-<!--
+
     <test name="11">
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="50.0"/>
@@ -214,7 +214,7 @@
     </test>
 
     <test name="19">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="69.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.3.13"/>
@@ -227,7 +227,7 @@
     </test>
 
     <test name="20">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="68.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.3.14"/>
@@ -240,7 +240,7 @@
     </test>
 
     <test name="21">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="67.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.3.15"/>
@@ -252,7 +252,7 @@
         </classes>
     </test>
     <test name="22">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="66.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.3.16"/>
@@ -265,7 +265,7 @@
     </test>
 
     <test name="23">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="65.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.3.17"/>
@@ -278,7 +278,7 @@
     </test>
 
     <test name="24">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="64.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.3.18"/>
@@ -291,7 +291,7 @@
     </test>
 
     <test name="25">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="63.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.3.19"/>
@@ -302,7 +302,7 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-
+<!--
     <test name="26">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="62.0"/>

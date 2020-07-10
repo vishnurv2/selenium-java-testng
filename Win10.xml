@@ -67,7 +67,7 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-
+<!--
     <test name="6">
         <parameter name="browser" value="Firefox"/>
         <parameter name="version" value="69.0"/>
@@ -302,7 +302,7 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-<!--
+
     <test name="26">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="62.0"/>

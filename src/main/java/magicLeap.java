@@ -78,7 +78,7 @@ public class magicLeap {
     @Test(priority = 1)
     @org.testng.annotations.Parameters(value = {"resolution", "browser", "version", "platform"})
     public void DesktopScript(String resolution, String version, String platform, String browser) {
-       for(int i=0;i<15;i++){
+       for(int i=0;i<25;i++){
         try {
 
 

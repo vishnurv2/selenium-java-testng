@@ -41,7 +41,7 @@ public class magicLeap {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "Reproduce Idle Timeout from Jenkins");
+        capabilities.setCapability("build", "Reproduce Idle Timeout from Jenkins/snd attempt");
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation+"  "+resolution);
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);

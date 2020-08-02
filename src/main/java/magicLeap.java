@@ -41,7 +41,7 @@ public class magicLeap {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "Reproduce Idle Timeout from Jenkins/5th attempt");
+        capabilities.setCapability("build", "Jenkins"+" "+ platform);
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation+"  "+resolution);
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);
@@ -78,7 +78,7 @@ public class magicLeap {
     @Test(priority = 1)
     @org.testng.annotations.Parameters(value = {"resolution", "browser", "version", "platform"})
     public void DesktopScript(String resolution, String version, String platform, String browser) {
-       for(int i=0;i<25;i++){
+      
         try {
 
 
@@ -138,7 +138,7 @@ public class magicLeap {
             status = "failed";
             System.out.println(y);
         }
-       }
+       
     }
   
 /*  

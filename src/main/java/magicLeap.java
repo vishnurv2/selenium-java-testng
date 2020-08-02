@@ -48,7 +48,7 @@ public class magicLeap {
         capabilities.setCapability("video", true);
         capabilities.setCapability("console", true);
         capabilities.setCapability("resolution", resolution);
-     //   capabilities.setCapability("tunnel", true);
+        capabilities.setCapability("tunnel", true);
      //   capabilities.setCapability("tunnelName", "prateek");
 
        // capabilities.setCapability("geoLocation", geoLocation);
@@ -141,7 +141,7 @@ public class magicLeap {
        
     }
   
-/*  
+  
     @Test(priority = 2)
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform"})
     public void tunnelTest(String version, String platform, String browser) {
@@ -149,7 +149,7 @@ public class magicLeap {
         long localtesttimestop;
         localtesttimestart = System.currentTimeMillis();
         try {
-            driver.get("http://todo.html");
+            driver.get("http://localhost:4300/login?from=%2F");
             driver.findElement(By.xpath("/html/body/div/div/form/div[1]/input")).sendKeys("prateeks");
             driver.findElement(By.xpath("/html/body/div/div/form/div[2]/input")).sendKeys("9582334806");
             //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -172,16 +172,17 @@ public class magicLeap {
             System.out.println(j);
         }
 
-        try {
-            driver.get("http://localhost.lambdatest.com:4200/dashboard/");
-            //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-            driver.findElement(By.xpath("/html/body/script[3]")).isDisplayed();
+         try {
+
+            driver.get("http://localhost.lambdatest.com:3000/customerlist");
+            driver.findElement(By.className("panel-heading")).isDisplayed();
+
             status = "passed";
 
-            System.out.println("local.lambdatest.com runs successfully ");
-        } catch (Exception f) {
+        } catch (Exception R) {
+            System.out.println(R);
             status = "failed";
-            System.out.println(f);
+
         }
         localtesttimestop = System.currentTimeMillis();
         totaltimeforlocaltest = localtesttimestop - localtesttimestart;
@@ -189,7 +190,7 @@ public class magicLeap {
         System.out.println("Time taken by the test to execute in local" + "    " + totaltimeforlocaltest);
 
     }
-*/
+
     @org.testng.annotations.Parameters(value = {"resolution", "browser", "version", "platform"})
     @Test(priority = 3)
     public void Resolution(String resolution, String version, String platform, String browser) {

@@ -28,10 +28,10 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-<!--
+
      <test name="3">
           <parameter name="browser" value="safari"/>
-          <parameter name="version" value="73.0"/>
+          <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.111"/>
           <parameter name="resolution" value="1280x1024"/>
@@ -44,7 +44,7 @@
 
       <test name="4">
           <parameter name="browser" value="safari"/>
-          <parameter name="version" value="72.0"/>
+          <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.113"/>
           <parameter name="resolution" value="1280x1024"/>
@@ -57,7 +57,7 @@
 
       <test name="5">
           <parameter name="browser" value="safari"/>
-          <parameter name="version" value="70.0"/>
+          <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.115"/>
           <parameter name="resolution" value="1280x800"/>
@@ -71,7 +71,7 @@
 
       <test name="8">
           <parameter name="browser" value="safari"/>
-          <parameter name="version" value="61.0"/>
+            <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.117"/>
           <parameter name="resolution" value="1440x900"/>
@@ -84,7 +84,7 @@
 
       <test name="9">
           <parameter name="browser" value="safari"/>
-          <parameter name="version" value="80.0"/>
+          <parameter name="version" value="12.0"/>
           <parameter name="platform" value="macos mojave"/>
           <parameter name="fixedIp" value="10.252.32.119"/>
           <parameter name="resolution" value="1600x1200"/>
@@ -96,7 +96,7 @@
       </test>
               <test name="10">
                   <parameter name="browser" value="safari"/>
-                  <parameter name="version" value="81.0"/>
+                  <parameter name="version" value="12.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.121"/>
                   <parameter name="resolution" value="1920x1080"/>
@@ -108,7 +108,7 @@
               </test>
               <test name="11">
                   <parameter name="browser" value="safari"/>
-                  <parameter name="version" value="78.0"/>
+                  <parameter name="version" value="12.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.123"/>
                   <parameter name="resolution" value="1280x1024"/>
@@ -120,7 +120,7 @@
               </test>
               <test name="12">
                   <parameter name="browser" value="safari"/>
-                  <parameter name="version" value="77.0"/>
+                  <parameter name="version" value="12.0"/>
                   <parameter name="platform" value="macOs mojave"/>
                   <parameter name="fixedIp" value="10.252.32.125"/>
                   <parameter name="resolution" value="2048x1536"/>
@@ -158,7 +158,7 @@
                           <class name="magicLeap"/>
                       </classes>
                   </test>
-
+<!--
                   <test name="16">
                       <parameter name="browser" value="Chrome"/>
                       <parameter name="version" value="63.0"/>

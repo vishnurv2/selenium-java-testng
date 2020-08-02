@@ -5,7 +5,7 @@
 
      <test name="1">
         <parameter name="browser" value="safari"/>
-        <parameter name="version" value="79.0"/>
+        <parameter name="version" value="13.0"/>
         <parameter name="platform" value="macOs catalina"/>
         <parameter name="fixedIp" value="10.252.32.99"/>
         <parameter name="resolution" value="2048x1536"/>
@@ -18,7 +18,7 @@
 
     <test name="2">
         <parameter name="browser" value="safari"/>
-        <parameter name="version" value="78.0"/>
+        <parameter name="version" value="13.0"/>
         <parameter name="platform" value="macOs catalina"/>
         <parameter name="fixedIp" value="10.252.32.129"/>
         <parameter name="resolution" value="1024x768"/>
@@ -31,7 +31,7 @@
 
     <test name="3">
         <parameter name="browser" value="safari"/>
-        <parameter name="version" value="80.0"/>
+        <parameter name="version" value="13.0"/>
         <parameter name="platform" value="macOs catalina"/>
         <parameter name="fixedIp" value="10.252.32.131"/>
         <parameter name="resolution" value="1280x1024"/>
@@ -44,7 +44,7 @@
 
     <test name="4">
         <parameter name="browser" value="safari"/>
-        <parameter name="version" value="80.0"/>
+        <parameter name="version" value="13.0"/>
         <parameter name="platform" value="macOs catalina"/>
         <parameter name="fixedIp" value="10.252.32.133"/>
         <parameter name="resolution" value="1280x1024"/>
@@ -57,7 +57,7 @@
 
     <test name="5">
         <parameter name="browser" value="safari"/>
-        <parameter name="version" value="80.0"/>
+        <parameter name="version" value="13.0"/>
         <parameter name="platform" value="macOs catalina"/>
         <parameter name="fixedIp" value="10.252.32.135"/>
         <parameter name="resolution" value="1280x800"/>
@@ -68,7 +68,7 @@
         </classes>
     </test>
 
-<!--
+
     <test name="8">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="80.0"/>
@@ -225,7 +225,7 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-
+<!--
     <test name="21">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="80.0"/>

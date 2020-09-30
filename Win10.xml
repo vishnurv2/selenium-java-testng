@@ -4,8 +4,8 @@
 
 
     <test name="1">
-        <parameter name="browser" value="Firefox"/>
-        <parameter name="version" value="70.0"/>
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80.0"/>
         <parameter name="platform" value="Windows10"/>
         <parameter name="fixedIp" value="10.81.2.245"/>
         <parameter name="resolution" value="1920x1080"/>
@@ -18,7 +18,7 @@
 
     <test name="2">
         <parameter name="browser" value="firefox"/>
-        <parameter name="version" value="66.0"/>
+        <parameter name="version" value="75.0"/>
         <parameter name="platform" value="Win10"/>
         <parameter name="fixedIp" value="10.81.2.246"/>
         <parameter name="resolution" value="1280x1024"/>
@@ -30,18 +30,18 @@
     </test>
 
     <test name="3">
-        <parameter name="browser" value="Firefox"/>
-        <parameter name="version" value="74.0"/>
-        <parameter name="platform" value="Win10"/>
+        <parameter name="browser" value="safari"/>
+        <parameter name="version" value="13.0"/>
+        <parameter name="platform" value="Macos Catalina"/>
         <parameter name="fixedIp" value="10.81.2.247"/>
-        <parameter name="resolution" value="2048x1536"/>
+        <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="AU"/>
         <classes>
             <class name="magicLeap"/>
         </classes>
     </test>
-
+<!--
     <test name="4">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="80.0"/>
@@ -615,7 +615,7 @@
             <class name="magicLeap"/>
         </classes>
     </test>
-<!--
+
     <test name="51">
         <parameter name="browser" value="chrome"/>
         <parameter name="version" value="32.0"/>

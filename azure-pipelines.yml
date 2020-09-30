@@ -20,6 +20,7 @@ steps:
     publishJUnitResults: false
     testResultsFiles: 'Win10.xml'
     goals: 'test'
+    
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.

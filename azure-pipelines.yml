@@ -19,7 +19,7 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: false
     testResultsFiles: 'Win10.xml'
-    goals: 'package'
+    goals: 'test'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.

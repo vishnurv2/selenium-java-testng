@@ -41,7 +41,7 @@ public class magicLeap {
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("version", version);
         capabilities.setCapability("platform", platform);
-        capabilities.setCapability("build", "Jenkins"+" "+ platform);
+        capabilities.setCapability("build", "Azure"+" "+ browser);
         capabilities.setCapability("name", browser + "  " + version + "  " + platform+ "  "+ fixedIp+"  "+geoLocation+"  "+resolution);
         capabilities.setCapability("network", true);
         capabilities.setCapability("visual", true);

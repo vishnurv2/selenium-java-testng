@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="44.684" tests="49" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\project data\IdeaProjects\magicleapTesting"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="tunnel" value="true"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\project data\IdeaProjects\magicleapTesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="suiteXmlFile" value="Win10.xml"/>
+    <property name="classworlds.conf" value="E:\Desktop data\mvn\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-14.0.2;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WindowsPowerShell\Scripts;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\PuTTY\;E:\Desktop data\mvn\apache-maven-3.6.0\bin;C:\Users\LenovoE14\AppData\Local\Microsoft\WindowsApps;C:\Users\LenovoE14\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;;C:\Users\LenovoE14\AppData\Local\Programs\Microsoft VS Code\bin;C:\xampp\php;;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.1\bin;;."/>
+    <property name="maven.conf" value="E:\Desktop data\mvn\apache-maven-3.6.0\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="E:\Desktop data\mvn\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\LenovoE14"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="LenovoE14"/>
+    <property name="java.class.path" value="E:\Desktop data\mvn\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=Win10.xml -Dtunnel=true"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="E:\Desktop data\mvn\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.58"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.581"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.584"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.586"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.601"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.653"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.699"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.699"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.699"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.703"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.712"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.728"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.732"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.733"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.735"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.735"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.74"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.747"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.748"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.762"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.762"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.764"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.784"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.784"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.785"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.785"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.79"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.792"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.797"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.818"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.818"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.818"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.836"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.865"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.867"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.871"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.887"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.898"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.898"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.902"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.912"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.919"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.919"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.924"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.925"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.927"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.93"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.93"/>
+  <testcase name="DesktopScript" classname="magicleapTesting.magicLeap" time="19.932"/>
+</testsuite>

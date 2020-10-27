@@ -1,0 +1,66 @@
+package magicleapTesting;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class LambdaTestLogin {
+
+    public void Lambda(RemoteWebDriver driver, String status){
+        try{
+            driver.manage().window().maximize();
+            driver.get("https://www.lambdatest.com/");
+            WebElement homePageLogin= driver.findElement(By.xpath("/html/body/div[1]/header/div[3]/nav/div/ul/li[6]/a"));
+            homePageLogin.click();
+            Thread.sleep(2000);
+            WebElement username= driver.findElement(By.name("email"));
+            username.sendKeys("prateeks@lambdatest.com");
+            Thread.sleep(2000);
+            WebElement password= driver.findElement(By.name("password"));
+            password.sendKeys("9582334806");
+            Thread.sleep(2000);
+            WebElement loginPlatform= driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/form/div[3]/button"));
+            loginPlatform.click();
+            Thread.sleep(2000);
+            WebElement VisualUIOption= driver.findElement(By.className("arrow-menu"));
+            VisualUIOption.click();
+            Thread.sleep(2000);
+            WebElement clickScreenShot= driver.findElement(By.xpath("/html/body/div[2]/header/aside/ul/li[3]/ul/li[1]/a"));
+            clickScreenShot.click();
+            Thread.sleep(2000);
+            WebElement ClickAutomation= driver.findElement(By.cssSelector("body > app-root > app-console > app-header > header > aside > ul > li:nth-child(4) > a"));
+            ClickAutomation.click();
+            Thread.sleep(2000);
+            WebElement AutomationLogs= driver.findElement(By.xpath("/html/body/div[2]/div/div/main/div/main/div/div[2]/div[2]/ul/li[2]/a"));
+            AutomationLogs.click();
+            Thread.sleep(2000);
+            JavascriptExecutor scroll = (JavascriptExecutor) driver;
+            scroll.executeScript("window.scrollBy(0,600)");
+            scroll.executeScript("window.scrollBy(0,-500)");
+            Thread.sleep(2000);
+            WebElement AutoamtionAnalyticls= driver.findElement(By.xpath("/html/body/div[2]/div/div/main/div/main/div/div[2]/div[2]/ul/li[3]/a"));
+            AutoamtionAnalyticls.click();
+            Thread.sleep(2000);
+            WebElement userPofile= driver.findElement(By.xpath("/html/body/div[2]/div/div/main/div/main/div/div[2]/div[1]/nav/div/div[2]/ul/li[5]/a/div/span/img"));
+            userPofile.click();
+            Thread.sleep(2000);
+            WebElement Profile= driver.findElement(By.xpath("/html/body/div[2]/div/div/main/div/main/div/div[2]/div[1]/nav/div/div[2]/ul/li[5]/ul/li[2]/a"));
+            Profile.click();
+            Thread.sleep(2000);
+            WebElement userPofilepage= driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[3]/div/ul/li[5]/a"));
+            userPofilepage.click();
+            Thread.sleep(2000);
+            WebElement LogOut= driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[3]/div/ul/li[5]/div/a[9]"));
+            LogOut.click();
+
+
+
+
+        }
+        catch (Exception L){
+            System.out.println(L);
+        }
+    }
+
+}

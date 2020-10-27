@@ -11,8 +11,9 @@
         <parameter name="resolution" value="1024x768"/>
         <parameter name="timezone" value="UTC+05:30"/>
         <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -24,8 +25,9 @@
         <parameter name="resolution" value="1024x768"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="AR"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -37,8 +39,9 @@
         <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="AU"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -50,8 +53,9 @@
         <parameter name="resolution" value="1280x960"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="BE"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -63,8 +67,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="BR"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -76,8 +81,9 @@
         <parameter name="resolution" value="1366x768"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="BG"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -90,8 +96,9 @@
         <parameter name="resolution" value="1440x900"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="CA"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -103,8 +110,9 @@
         <parameter name="resolution" value="1600x1200"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="CL"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -116,8 +124,9 @@
         <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="HR"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -129,8 +138,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="CZ"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -142,8 +152,9 @@
         <parameter name="resolution" value="2048x1536"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="DK"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -156,8 +167,9 @@
         <parameter name="resolution" value="2560x1440"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -169,8 +181,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FR"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -182,8 +195,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -195,8 +209,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="GR"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -208,8 +223,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -221,8 +237,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="HU"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -234,8 +251,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="IN"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -247,8 +265,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="ID"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
     <test name="22">
@@ -259,8 +278,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="IE"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -272,8 +292,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="IL"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -285,8 +306,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="IT"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -298,8 +320,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="JP"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -311,8 +334,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="MY"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -324,8 +348,9 @@
         <parameter name="resolution" value="1280x1024"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="MY"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -337,8 +362,9 @@
         <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="MY"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -350,8 +376,9 @@
         <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -363,12 +390,13 @@
         <parameter name="resolution" value="1920x1080"/>
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
         <classes>
 
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
-
+<!--
     <test name="31">
         <parameter name="browser" value="chrome"/>
         <parameter name="version" value="47.0"/>
@@ -378,7 +406,7 @@
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -391,7 +419,7 @@
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -404,7 +432,7 @@
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -417,7 +445,7 @@
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -430,7 +458,7 @@
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -443,7 +471,7 @@
         <parameter name="timezone" value="UTC+04:00"/>
         <parameter name="geoLocation" value="FI"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -457,7 +485,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -470,7 +498,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -483,7 +511,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -496,7 +524,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -509,7 +537,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
     <test name="43">
@@ -521,7 +549,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -534,7 +562,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -547,7 +575,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -560,7 +588,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -573,7 +601,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -586,7 +614,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -599,7 +627,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -612,7 +640,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -625,7 +653,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -638,7 +666,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -651,7 +679,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -664,7 +692,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -677,7 +705,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -690,7 +718,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -703,7 +731,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -716,7 +744,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -729,7 +757,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -742,7 +770,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -756,7 +784,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -769,7 +797,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -782,7 +810,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -795,7 +823,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -808,7 +836,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -821,7 +849,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -834,7 +862,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -847,7 +875,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -860,7 +888,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -873,7 +901,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -886,7 +914,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -899,7 +927,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
     <test name="73">
@@ -911,7 +939,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -924,7 +952,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -937,7 +965,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -950,7 +978,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -963,7 +991,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -976,7 +1004,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -989,7 +1017,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1002,7 +1030,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1015,7 +1043,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1028,7 +1056,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1041,7 +1069,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1054,7 +1082,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1067,7 +1095,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1080,7 +1108,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1093,7 +1121,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1106,7 +1134,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1119,7 +1147,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1132,7 +1160,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1145,7 +1173,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1158,7 +1186,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1171,7 +1199,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1184,7 +1212,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1197,7 +1225,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1210,7 +1238,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1223,7 +1251,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1236,7 +1264,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1249,7 +1277,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1262,7 +1290,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1275,7 +1303,7 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
 
@@ -1288,7 +1316,8 @@
         <parameter name="geoLocation" value="FI"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
-            <class name="magicLeap"/>
+            <class name="magicleapTesting.magicLeap"/>
         </classes>
     </test>
+    -->
 </suite>

@@ -15,7 +15,7 @@ public class LambdaTestLogin {
             homePageLogin.click();
             Thread.sleep(2000);
             WebElement username= driver.findElement(By.name("email"));
-            username.sendKeys("prateeks@lambdatest.com");
+            username.sendKeys("prateek.delguy@gmail.com");
             Thread.sleep(2000);
             WebElement password= driver.findElement(By.name("password"));
             password.sendKeys("9582334806");

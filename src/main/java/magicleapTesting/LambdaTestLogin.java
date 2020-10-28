@@ -24,9 +24,8 @@ public class LambdaTestLogin {
             loginPlatform.click();
             Thread.sleep(2000);
             WebElement message= driver.findElement(By.className("browser-compatibility-message"));
-            if(message.isDisplayed()){
-                driver.findElement(By.className("close-browser-message"));
-            }
+
+
                 WebElement VisualUIOption = driver.findElement(By.className("arrow-menu"));
                 VisualUIOption.click();
                 Thread.sleep(2000);

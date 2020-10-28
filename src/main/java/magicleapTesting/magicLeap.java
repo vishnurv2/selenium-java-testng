@@ -86,13 +86,13 @@ public class magicLeap {
             capabilities.setCapability("version", this.versionValue);
             //capabilities.setCapability("version", "latest" + "-" + i);
             capabilities.setCapability("platform", this.PlatformValue);
-            capabilities.setCapability("build", "Performance/Jenkins-5 " + "  " + this.PlatformValue);
+            capabilities.setCapability("build", "Performance/Jenkins-6 " + "  " + this.PlatformValue);
             capabilities.setCapability("name", this.TestName);
             capabilities.setCapability("resolution", this.ResolutionValueCap);
             capabilities.setCapability("console", true);
             capabilities.setCapability("network", false);
             capabilities.setCapability("visual", false);
-            capabilities.setCapability("fixedIP", this.FixedIpValue);
+           // capabilities.setCapability("fixedIP", this.FixedIpValue);
             /*capabilities.setCapability("safari.cookies", true);
             capabilities.setCapability("safari.popups", true);*/
 

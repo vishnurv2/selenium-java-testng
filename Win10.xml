@@ -131,7 +131,7 @@
                 <class name="magicleapTesting.magicLeap"/>
             </classes>
         </test>
-
+<!--
 
         <test name="14">
             <parameter name="browser" value="internet explorer"/>
@@ -283,7 +283,7 @@
                 <class name="magicleapTesting.magicLeap"/>
             </classes>
         </test>
-    <!--
+    
 
                                <test name="25">
                                    <parameter name="browser" value="Chrome"/>

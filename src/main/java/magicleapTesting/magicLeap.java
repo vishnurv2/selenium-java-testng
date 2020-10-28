@@ -212,8 +212,8 @@ System.out.println(driver.getCapabilities());
             upTest.upload(driver, status);*/
             NetSpeed NetSpeedTestObject = new NetSpeed();
             NetSpeedTestObject.NetSpeed(driver, status, Nettotalspeedtest);
-            LambdaTestLogin lambdaTest= new LambdaTestLogin();
-            lambdaTest.Lambda(driver,status);
+         //   LambdaTestLogin lambdaTest= new LambdaTestLogin();
+          //  lambdaTest.Lambda(driver,status);
             SuiteStop = System.currentTimeMillis();
             SuiteTotalTime = SuiteStop - SuiteStart;
             System.out.println("Total Time Took for Test suite execute" + "   " + SuiteTotalTime/1000f);

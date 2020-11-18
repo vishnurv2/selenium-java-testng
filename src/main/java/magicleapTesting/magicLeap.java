@@ -176,7 +176,7 @@ public class magicLeap {
             System.out.println(f);
             // System.out.println(f.getMessage() + browser + version + fixedIp);
         }
-        //  }
+          }
 
 
     }

@@ -14,8 +14,8 @@ import java.net.URL;
 
 public class magicLeap {
 
-    public String username = "prateeks";
-    public String accesskey = "IuCSesD83A7LsTFzEKS0Lb6tzvEfBQ38DMkFTEpudatxxxsdjH";
+    public String username = "prateek.delguy";
+    public String accesskey = "9DjIGDAUAnyqaNELLFGeGyLCcdW2W4diRXje0U5yaHr8nAReqE";
     public RemoteWebDriver driver;
     public String gridURL = "@hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
     String status;
@@ -150,7 +150,7 @@ public class magicLeap {
 
             float timeElapsed = driverStart.getTime() / 1000f;
             System.out.println("Driver initiate time" + "   " + timeElapsed);
-                for (int j = 0; j < 1; j++) {
+                
                     TodoApp TodoAppTestObject = new TodoApp();
                     TodoAppTestObject.TodoAppTest(driver);
                     ResolutionTest ResolutionTestObject = new ResolutionTest();
@@ -163,7 +163,7 @@ public class magicLeap {
                     lambdaTest.Lambda(driver,status);
                     
                     ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
-                }
+                
                 driver.quit();
            /* SessionTest SessionTestObject = new SessionTest();
             SessionTestObject.SessionLaunch(driver, status);*/

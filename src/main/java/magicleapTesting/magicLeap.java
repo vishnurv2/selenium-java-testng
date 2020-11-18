@@ -77,7 +77,7 @@ public class magicLeap {
     public void setUp() throws Exception {
         System.out.println(this.TestName);
 
-        //  for (int i = 0; i < 80; i++) {
+          for (int i = 0; i < 5000; i++) {
         try {
 
 
@@ -86,7 +86,7 @@ public class magicLeap {
             capabilities.setCapability("version", this.versionValue);
             //capabilities.setCapability("version", "latest" + "-" + i);
             capabilities.setCapability("platform", this.PlatformValue);
-            capabilities.setCapability("build", "Performance/Jenkins-8 " + "  " + this.PlatformValue + System.getProperty("BUILD_NUMBER"));
+            capabilities.setCapability("build", "Performance/Jenkins-9 " + "  " + this.PlatformValue + System.getProperty("BUILD_NUMBER"));
             capabilities.setCapability("name", this.TestName);
             capabilities.setCapability("resolution", this.ResolutionValueCap);
             capabilities.setCapability("console", true);
@@ -150,18 +150,21 @@ public class magicLeap {
 
             float timeElapsed = driverStart.getTime() / 1000f;
             System.out.println("Driver initiate time" + "   " + timeElapsed);
-              /*  for (int j = 0; j < 6; j++) {
+                for (int j = 0; j < 1; j++) {
                     TodoApp TodoAppTestObject = new TodoApp();
                     TodoAppTestObject.TodoAppTest(driver);
                     ResolutionTest ResolutionTestObject = new ResolutionTest();
                     ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
                     StreamTest stream = new StreamTest();
                     stream.TestStream(driver, status);
-                    uploadTest upTest = new uploadTest();
-                    upTest.upload(driver, status);
+                    NetSpeed NetSpeedTestObject = new NetSpeed();
+                    NetSpeedTestObject.NetSpeed(driver, status, Nettotalspeedtest);
+                    LambdaTestLogin lambdaTest= new LambdaTestLogin();
+                    lambdaTest.Lambda(driver,status);
+                    
                     ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
                 }
-                driver.quit();*/
+                driver.quit();
            /* SessionTest SessionTestObject = new SessionTest();
             SessionTestObject.SessionLaunch(driver, status);*/
 

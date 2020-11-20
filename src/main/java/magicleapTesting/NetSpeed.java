@@ -27,7 +27,8 @@ public class NetSpeed {
             driver.switchTo().frame("test_09837");
 
             WebElement DownloadSPeed = driver.findElement(By.xpath("/html/body/section/div[2]/div/div[1]/table/tbody/tr/td/div[2]/div[2]/div/div[1]/h3"));
-
+            TakeScreenShot shot = new TakeScreenShot();
+            shot.Screenshot(driver, status);
             System.out.println("Download speed of machine" + "  " + DownloadSPeed.getAttribute("innerText"));
             WebElement UploadSpeed = driver.findElement(By.xpath("/html/body/section/div[2]/div/div[1]/table/tbody/tr/td/div[2]/div[2]/div/div[2]/h3"));
             System.out.println("Upload Speed of the machine" + "  " + UploadSpeed.getAttribute("innerText"));

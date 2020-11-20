@@ -151,18 +151,23 @@ public class magicLeap {
             float timeElapsed = driverStart.getTime() / 1000f;
             System.out.println("Driver initiate time" + "   " + timeElapsed);
                 
-                    TodoApp TodoAppTestObject = new TodoApp();
-                    TodoAppTestObject.TodoAppTest(driver);
-                    ResolutionTest ResolutionTestObject = new ResolutionTest();
-                    ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
-                    StreamTest stream = new StreamTest();
-                    stream.TestStream(driver, status);
-                    NetSpeed NetSpeedTestObject = new NetSpeed();
-                    NetSpeedTestObject.NetSpeed(driver, status, Nettotalspeedtest);
-                    LambdaTestLogin lambdaTest= new LambdaTestLogin();
-                    lambdaTest.Lambda(driver,status);
-                    
-                    ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
+                TodoApp TodoAppTestObject = new TodoApp();
+                TodoAppTestObject.TodoAppTest(driver);
+                TakeScreenShot shot = new TakeScreenShot();
+                shot.Screenshot(driver, status);
+                ResolutionTest ResolutionTestObject = new ResolutionTest();
+                ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
+                shot.Screenshot(driver, status);
+                StreamTest stream = new StreamTest();
+                stream.TestStream(driver, status);
+                shot.Screenshot(driver, status);
+                NetSpeed NetSpeedTestObject = new NetSpeed();
+                NetSpeedTestObject.NetSpeed(driver, status, Nettotalspeedtest);
+                shot.Screenshot(driver, status);
+                LambdaTestLogin lambdaTest = new LambdaTestLogin();
+                lambdaTest.Lambda(driver, status);
+                shot.Screenshot(driver, status);
+                ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
                 
                 driver.quit();
            /* SessionTest SessionTestObject = new SessionTest();

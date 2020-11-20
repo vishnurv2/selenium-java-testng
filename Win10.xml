@@ -5,7 +5,7 @@
 
     <test name="1">
         <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="80.0"/>
+        <parameter name="version" value="latest"/>
         <parameter name="platform" value="win10"/>
         <parameter name="fixedIp" value="10.81.100.217"/>
         <parameter name="resolution" value="1920x1080"/>
@@ -38,7 +38,7 @@
 
         <test name="3">
             <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="71.0"/>
+            <parameter name="version" value="latest"/>
             <parameter name="platform" value="Win10"/>
             <parameter name="fixedIp" value="10.81.100.217"/>
             <parameter name="resolution" value="1680x1050"/>
@@ -53,8 +53,8 @@
         </test>
 
         <test name="4">
-            <parameter name="browser" value="Internet Explorer"/>
-            <parameter name="version" value="11.0"/>
+            <parameter name="browser" value="MicrosoftEdge"/>
+            <parameter name="version" value="latest"/>
             <parameter name="platform" value="win10"/>
             <parameter name="fixedIp" value="10.80.26.214"/>
             <parameter name="resolution" value="1920x1080"/>
@@ -238,7 +238,7 @@
                 <class name="magicleapTesting.magicLeap"/>
             </classes>
         </test>
-
+<!--
         <test name="22">
             <parameter name="browser" value="Chrome"/>
             <parameter name="version" value="78.0"/>
@@ -283,7 +283,7 @@
                 <class name="magicleapTesting.magicLeap"/>
             </classes>
         </test>
-    <!--
+    
 
                                <test name="25">
                                    <parameter name="browser" value="Chrome"/>

@@ -86,7 +86,7 @@ public class magicLeap {
             capabilities.setCapability("version", "latest");
             //capabilities.setCapability("version", "latest" + "-" + i);
             capabilities.setCapability("platform", this.PlatformValue);
-            capabilities.setCapability("build", "Performance/Jenkins-11 " + "  " + this.PlatformValue + System.getProperty("BUILD_NUMBER"));
+            capabilities.setCapability("build", "Performance/Jenkins-12 " + "  " + this.PlatformValue + System.getProperty("BUILD_NUMBER"));
             capabilities.setCapability("name", this.TestName);
             capabilities.setCapability("resolution", this.ResolutionValueCap);
             capabilities.setCapability("console", true);

@@ -17,7 +17,7 @@ public class magicLeap {
     public String username = "prateeks";
     public String accesskey = "IuCSesD83A7LsTFzEKS0Lb6tzvEfBQ38DMkFTEpudatxxxsdjH";
     public RemoteWebDriver driver;
-    public String gridURL = "@us-east-2-hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
+    public String gridURL = "@stage-hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
     String status;
     String ResolutionValue;
     long quitestoptime;
@@ -78,15 +78,16 @@ public class magicLeap {
         System.out.println(this.TestName);
 
           for (int i = 0; i < 5000; i++) {
+              for(int j=0;j<10;j++){
         try {
 
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("browserName", this.BrowserValue);
-            capabilities.setCapability("version", "latest");
-            //capabilities.setCapability("version", "latest" + "-" + i);
+         //   capabilities.setCapability("version", "latest");
+            capabilities.setCapability("version", "latest" + "-" + j);
             capabilities.setCapability("platform", this.PlatformValue);
-            capabilities.setCapability("build", "Performance/Jenkins-15 " + "  " + this.PlatformValue + System.getProperty("BUILD_NUMBER"));
+            capabilities.setCapability("build", "Performance/Jenkins-16 " + "  " + this.PlatformValue + System.getProperty("BUILD_NUMBER"));
             capabilities.setCapability("name", this.TestName);
             capabilities.setCapability("resolution", this.ResolutionValueCap);
             capabilities.setCapability("console", true);
@@ -182,7 +183,7 @@ public class magicLeap {
             // System.out.println(f.getMessage() + browser + version + fixedIp);
         }
           }
-
+          }
 
     }
 

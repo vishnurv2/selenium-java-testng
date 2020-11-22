@@ -17,7 +17,7 @@ public class magicLeap {
     public String username = "prateeks";
     public String accesskey = "IuCSesD83A7LsTFzEKS0Lb6tzvEfBQ38DMkFTEpudatxxxsdjH";
     public RemoteWebDriver driver;
-    public String gridURL = "@stage-hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
+    public String gridURL = "@hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
     String status;
     String ResolutionValue;
     long quitestoptime;
@@ -77,7 +77,7 @@ public class magicLeap {
     public void setUp() throws Exception {
         System.out.println(this.TestName);
 
-          for (int i = 0; i < 5000; i++) {
+          for (int i = 0; i < 10; i++) {
               for(int j=0;j<10;j++){
         try {
 
@@ -91,8 +91,8 @@ public class magicLeap {
             capabilities.setCapability("name", this.TestName);
             capabilities.setCapability("resolution", this.ResolutionValueCap);
             capabilities.setCapability("console", true);
-            capabilities.setCapability("network", false);
-            capabilities.setCapability("visual", false);
+            capabilities.setCapability("network", true);
+            capabilities.setCapability("visual", true);
            // capabilities.setCapability("fixedIP", this.FixedIpValue);
             /*capabilities.setCapability("safari.cookies", true);
             capabilities.setCapability("safari.popups", true);*/
@@ -156,19 +156,8 @@ public class magicLeap {
                 TodoAppTestObject.TodoAppTest(driver);
                 TakeScreenShot shot = new TakeScreenShot();
                 shot.Screenshot(driver, status);
-                ResolutionTest ResolutionTestObject = new ResolutionTest();
-                ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
-                shot.Screenshot(driver, status);
-                StreamTest stream = new StreamTest();
-                stream.TestStream(driver, status);
-                shot.Screenshot(driver, status);
-                NetSpeed NetSpeedTestObject = new NetSpeed();
-                NetSpeedTestObject.NetSpeed(driver, status, Nettotalspeedtest);
-                shot.Screenshot(driver, status);
-                LambdaTestLogin lambdaTest = new LambdaTestLogin();
-                lambdaTest.Lambda(driver, status);
-                shot.Screenshot(driver, status);
-                ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
+               
+               ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
                 
                 driver.quit();
            /* SessionTest SessionTestObject = new SessionTest();
@@ -260,7 +249,7 @@ System.out.println(driver.getCapabilities());
         if (driver != null) {
             System.out.println(driver + "Session ID" + "  " + session.toString());
             ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
-            driver.quit();
+            //driver.quit();
             RunTunnelListener TunnelInitateObjectToStop = new RunTunnelListener();
             TunnelInitateObjectToStop.onExecutionFinish();
 

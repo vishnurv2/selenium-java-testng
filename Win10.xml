@@ -238,7 +238,7 @@
                 <class name="magicleapTesting.magicLeap"/>
             </classes>
         </test>
-<!--
+
         <test name="22">
             <parameter name="browser" value="Chrome"/>
             <parameter name="version" value="78.0"/>
@@ -1397,5 +1397,5 @@
                                                            <class name="magicleapTesting.magicLeap"/>
                                                        </classes>
                                                    </test>
-                       -->
+                       
 </suite>

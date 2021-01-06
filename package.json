@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://Tunneltest.com:4500",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.13.1",

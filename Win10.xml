@@ -67,7 +67,7 @@
                 <class name="magicleapTesting.magicLeap"/>
             </classes>
         </test>
-<!--
+
         <test name="5">
             <parameter name="browser" value="Internet Explorer"/>
             <parameter name="version" value="11.0"/>
@@ -1397,6 +1397,6 @@
                                                            <class name="magicleapTesting.magicLeap"/>
                                                        </classes>
                                                    </test>
--->
+
                        
 </suite>

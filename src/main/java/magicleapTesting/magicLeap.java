@@ -77,21 +77,22 @@ public class magicLeap {
     public void setUp() throws Exception {
         System.out.println(this.TestName);
 
-          for (int i = 0; i < 2000; i++) {
-              for(int j=0;j<10;j++){
-        try {
+//           for (int i = 0; i < 2000; i++) {
+//               for(int j=0;j<10;j++){
+         try {
 
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("browserName", this.BrowserValue);
-         //   capabilities.setCapability("version", "latest");
-            capabilities.setCapability("version", "latest" + "-" + j);
+            capabilities.setCapability("version", this.versionValue);
+          //  capabilities.setCapability("version", "latest" + "-" + j);
             capabilities.setCapability("platform", this.PlatformValue);
             capabilities.setCapability("build", "Jenkins-16 Win10 load Testing US" + "  " + this.PlatformValue + System.getProperty("BUILD_NUMBER"));
             capabilities.setCapability("name", this.TestName);
             capabilities.setCapability("resolution", this.ResolutionValueCap);
             capabilities.setCapability("console", true);
             capabilities.setCapability("network", true);
+            capabilities.setCapability("tunnel", true);
             capabilities.setCapability("visual", true);
            // capabilities.setCapability("fixedIP", this.FixedIpValue);
             /*capabilities.setCapability("safari.cookies", true);
@@ -145,21 +146,7 @@ public class magicLeap {
 
             driver = new RemoteWebDriver(new URL(hub), capabilities);
             session = driver.getSessionId();
-             TodoApp TodoAppTestObject = new TodoApp();
-            TodoAppTestObject.TodoAppTest(driver);
-            TakeScreenShot screen = new TakeScreenShot();
-            screen.Screenshot(driver,status);
-            ResolutionTest ResolutionTestObject = new ResolutionTest();
-            ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
-            screen.Screenshot(driver,status);
-            StreamTest stream = new StreamTest();
-            stream.TestStream(driver, status);
-            screen.Screenshot(driver,status);
-           /* uploadTest upTest = new uploadTest();
-            upTest.upload(driver, status);*/
-            NetSpeed NetSpeedTestObject = new NetSpeed();
-            NetSpeedTestObject.NetSpeed(driver, status, Nettotalspeedtest);
-            screen.Screenshot(driver,status);
+            
             //   System.out.println(driver + "Session ID" + "  " + session.toString() + "\n" + browser + version + "\n" + fixedIp);
             driverStart.stop();
 
@@ -178,8 +165,8 @@ public class magicLeap {
             System.out.println(f);
             // System.out.println(f.getMessage() + browser + version + fixedIp);
         }
-          }
-          }
+//           }
+//           }
 
     }
 

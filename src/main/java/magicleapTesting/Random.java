@@ -130,8 +130,8 @@ public class Random {
             
             SessionTest SessionTestObject = new SessionTest();
             SessionTestObject.SessionLaunch(driver, status);
-            TodoApp TodoAppTestObject = new TodoApp();
-            TodoAppTestObject.TodoAppTest(driver);
+    //        TodoApp TodoAppTestObject = new TodoApp();
+      //      TodoAppTestObject.TodoAppTest(driver);
 //            StreamTest YouTubeStream = new StreamTest();
 //            YouTubeStream.TestStream(driver, status);
 

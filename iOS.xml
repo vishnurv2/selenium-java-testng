@@ -92,7 +92,7 @@
                                     <parameter name="platformVersion" value="14.2"/>
                                     <parameter name="platform" value="iOS"/>
                                     <parameter name="fixedIp" value="10.92.181.193"/>
-                                    <parameter name="deviceName" value="iPad Pro (11 inch)"/>
+                                    <parameter name="deviceName" value="iPad Pro (11-inch)"/>
                                     <parameter name="geoLocation" value="GB"/>
                                     <classes>
                                         <class name="magicleapTesting.Random"/>
@@ -104,7 +104,7 @@
                                     <parameter name="platformVersion" value="12.4"/>
                                     <parameter name="platform" value="iOS"/>
                                     <parameter name="fixedIp" value="10.92.181.192"/>
-                                    <parameter name="deviceName" value="iPad Pro (11 inch)"/>
+                                    <parameter name="deviceName" value="iPad Pro (11-inch)"/>
                                     <parameter name="geoLocation" value="GB"/>
                                     <classes>
                                         <class name="magicleapTesting.Random"/>

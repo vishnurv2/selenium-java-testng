@@ -14,10 +14,10 @@ import java.net.URL;
 
 public class magicLeap {
 
-    public String username = "vishnukdas";
-    public String accesskey = "40fkQ3JuRlYMzd4ff7uqkqXCTnwvvkEB7FWJz1sLS2qSqoEDal";
+    public String username = "mohammadasadkhan1";//"vishnukdas";
+    public String accesskey = "CsbtfqVzuuBShxEgq1K3";//"40fkQ3JuRlYMzd4ff7uqkqXCTnwvvkEB7FWJz1sLS2qSqoEDal";
     public RemoteWebDriver driver;
-    public String gridURL = "@hub.lambdatest.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
+    public String gridURL = "@hub-cloud.browserstack.com/wd/hub"; //"@eu-central-1-hub.lambdatest.com/wd/hub";
     String status;
     String ResolutionValue;
     long quitestoptime;
@@ -83,17 +83,24 @@ public class magicLeap {
 
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("browserName", this.BrowserValue);
-            capabilities.setCapability("version", this.versionValue);
-          //  capabilities.setCapability("version", "latest" + "-" + j);
-            capabilities.setCapability("platform", this.PlatformValue);
-            capabilities.setCapability("build", "Jenkins-16 Win10 load Testing US" + "  " + this.PlatformValue + System.getProperty("BUILD_NUMBER"));
-            capabilities.setCapability("name", this.TestName);
-            capabilities.setCapability("resolution", this.ResolutionValueCap);
-            capabilities.setCapability("console", true);
-            capabilities.setCapability("network", true);
-            capabilities.setCapability("tunnel", false);
-            capabilities.setCapability("visual", true);
+//             capabilities.setCapability("browserName", this.BrowserValue);
+//             capabilities.setCapability("version", this.versionValue);
+//           //  capabilities.setCapability("version", "latest" + "-" + j);
+//             capabilities.setCapability("platform", this.PlatformValue);
+//             capabilities.setCapability("build", "Jenkins-16 Win10 load Testing US" + "  " + this.PlatformValue + System.getProperty("BUILD_NUMBER"));
+//             capabilities.setCapability("name", this.TestName);
+//             capabilities.setCapability("resolution", this.ResolutionValueCap);
+//             capabilities.setCapability("console", true);
+//             capabilities.setCapability("network", true);
+//             capabilities.setCapability("tunnel", false);
+//             capabilities.setCapability("visual", true);
+             
+             capabilities.setCapability("os", "Windows");
+             capabilities.setCapability("os_version", "10");
+            capabilities.setCapability("browser", "Chrome");
+            capabilities.setCapability("browser_version", "89.0");
+            capabilities.setCapability("browserstack.networkLogs", "true");
+             
            // capabilities.setCapability("fixedIP", this.FixedIpValue);
             /*capabilities.setCapability("safari.cookies", true);
             capabilities.setCapability("safari.popups", true);*/
@@ -182,6 +189,16 @@ public class magicLeap {
 //            uploadTest UPFile = new uploadTest();
 //            UPFile.upload(driver, status);
 
+              driver.get("https://www.peacocktv.com/signin");
+
+            Thread.sleep(2000);
+            driver.findElementByName("userIdentifier").sendKeys("testing");
+            driver.findElementByName("password").sendKeys("test");
+
+            driver.findElement(By.xpath("//*[@id=\"root\"]/div/main/div/div[2]/div/div/div/form/div[5]/button")).click();
+
+            Thread.sleep(5000);
+
 
 /*
 
@@ -193,17 +210,17 @@ public class magicLeap {
 
             System.out.println(hub);*/
 System.out.println(driver.getCapabilities());
-//for (int k=0; k<2000;k++){
-            TodoApp TodoAppTestObject = new TodoApp();
-            TodoAppTestObject.TodoAppTest(driver);
-            ResolutionTest ResolutionTestObject = new ResolutionTest();
-            ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
+// //for (int k=0; k<2000;k++){
+//             TodoApp TodoAppTestObject = new TodoApp();
+//             TodoAppTestObject.TodoAppTest(driver);
+//             ResolutionTest ResolutionTestObject = new ResolutionTest();
+//             ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
            
            /* uploadTest upTest = new uploadTest();
             upTest.upload(driver, status);*/
            
-            LambdaTestLogin lambdaTest= new LambdaTestLogin();
-            lambdaTest.Lambda(driver,status);
+//             LambdaTestLogin lambdaTest= new LambdaTestLogin();
+//             lambdaTest.Lambda(driver,status);
 //}
             SuiteStop = System.currentTimeMillis();
             SuiteTotalTime = SuiteStop - SuiteStart;

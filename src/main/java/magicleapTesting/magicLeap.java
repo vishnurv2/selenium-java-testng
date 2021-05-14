@@ -252,6 +252,9 @@ public class magicLeap {
 
             UserTest UserTestObject= new UserTest();
             UserTestObject.TestCase(driver,status);
+           
+            DownloadTest downLoad= new DownloadTest();
+            downLoad.FileDownload(driver);
 
 //            GeolocationTest Geolocationobject = new GeolocationTest();
 //            Geolocationobject.Geolocation(driver, status, GeoLocationValue, GeolocationTotal);

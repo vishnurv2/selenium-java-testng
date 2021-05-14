@@ -25,7 +25,6 @@ public class SessionTest {
             System.out.println(b);
 
         }
-        ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
 
     }
 

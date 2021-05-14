@@ -13,7 +13,7 @@ public class NetSpeed {
             NetSpeedteststart = System.currentTimeMillis();
 
 
-            driver.get("https://testmy.net/");
+            driver.get("https://www.speedtest.net/");
 
 
             driver.manage().window().maximize();
@@ -23,14 +23,13 @@ public class NetSpeed {
             scroll.executeScript("window.scrollBy(0,200)");
             WebElement StarTesting = driver.findElement(By.xpath("//*[@id=\"testBtn1\"]/div/div[2]/div[1]/a"));
             StarTesting.click();
-            Thread.sleep(30000);
-            driver.switchTo().frame("test_09837");
+            Thread.sleep(50000);
 
-            WebElement DownloadSPeed = driver.findElement(By.xpath("/html/body/section/div[2]/div/div[1]/table/tbody/tr/td/div[2]/div[2]/div/div[1]/h3"));
+            WebElement DownloadSPeed = driver.findElement(By.xpath("//*[@id=\"home\"]/table/tbody/tr/td/div[2]/div[2]/div/div[1]/h3"));
             TakeScreenShot shot = new TakeScreenShot();
             shot.Screenshot(driver, status);
             System.out.println("Download speed of machine" + "  " + DownloadSPeed.getAttribute("innerText"));
-            WebElement UploadSpeed = driver.findElement(By.xpath("/html/body/section/div[2]/div/div[1]/table/tbody/tr/td/div[2]/div[2]/div/div[2]/h3"));
+            WebElement UploadSpeed = driver.findElement(By.xpath("//*[@id=\"home\"]/table/tbody/tr/td/div[2]/div[2]/div/div[2]/h3"));
             System.out.println("Upload Speed of the machine" + "  " + UploadSpeed.getAttribute("innerText"));
 
             status = "passed";

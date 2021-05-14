@@ -124,7 +124,7 @@ public class magicLeap {
             capabilities.setCapability("video", true);
             capabilities.setCapability("visual", true);
             capabilities.setCapability("tunnel", false);
-            capabilities.setCapability("build", "Jenkins" + System.getProperty("BUILD_NUMBER") + this.PlatformValue);
+            capabilities.setCapability("build", "Jenkins - " + System.getProperty("BUILD_NUMBER") +"  " + this.PlatformValue);
             capabilities.setCapability("name",this.TestName);
 
 //          capabilities.setCapability("performance",true);

@@ -241,8 +241,8 @@ public class magicLeap {
             SessionTest SessionTestObject = new SessionTest();
             SessionTestObject.SessionLaunch(driver, status);
 
-            uploadTest UPFile = new uploadTest();
-            UPFile.upload(driver, status);
+//             uploadTest UPFile = new uploadTest();
+//             UPFile.upload(driver, status);
 
             TodoApp TodoAppTestObject = new TodoApp();
             TodoAppTestObject.TodoAppTest(driver);

@@ -17,11 +17,11 @@ public class NetSpeed {
 
 
             driver.manage().window().maximize();
-            WebElement NetSpeed = driver.findElement(By.xpath("/html/body/div[1]/div/p[2]/a[2]"));
+            WebElement NetSpeed = driver.findElement(By.id("testBtnMn"));
             NetSpeed.click();
             JavascriptExecutor scroll = (JavascriptExecutor) driver;
             scroll.executeScript("window.scrollBy(0,200)");
-            WebElement StarTesting = driver.findElement(By.xpath("/html/body/section/div[2]/div/div[1]/form/div[1]/div[2]/p[3]/input"));
+            WebElement StarTesting = driver.findElement(By.xpath("//*[@id=\"testBtn1\"]/div/div[2]/div[1]/a"));
             StarTesting.click();
             Thread.sleep(30000);
             driver.switchTo().frame("test_09837");

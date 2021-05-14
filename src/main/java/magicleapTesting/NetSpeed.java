@@ -13,7 +13,7 @@ public class NetSpeed {
             NetSpeedteststart = System.currentTimeMillis();
 
 
-            driver.get("https://www.speedtest.net/");
+            driver.get("https://testmy.net/");
 
 
             driver.manage().window().maximize();

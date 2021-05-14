@@ -250,8 +250,8 @@ public class magicLeap {
             NetSpeed NetSpeedTestObject = new NetSpeed();
             NetSpeedTestObject.NetSpeed(driver, status, Nettotalspeedtest);
 
-            UserTest UserTestObject= new UserTest();
-            UserTestObject.TestCase(driver,status);
+//             UserTest UserTestObject= new UserTest();
+//             UserTestObject.TestCase(driver,status);
            
             DownloadTest downLoad= new DownloadTest();
             downLoad.FileDownload(driver);

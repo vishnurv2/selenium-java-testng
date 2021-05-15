@@ -124,7 +124,7 @@ public class magicLeap {
             capabilities.setCapability("browserVersion", this.versionValue);
             capabilities.setCapability("platform",this.PlatformValue);
             capabilities.setCapability("resolution", this.ResolutionValue);
-            capabilities.setCapability("geoLocation",this.GeoLocationValue);
+//             capabilities.setCapability("geoLocation",this.GeoLocationValue);
             capabilities.setCapability("console", true);
             capabilities.setCapability("network", true);
             capabilities.setCapability("video", true);

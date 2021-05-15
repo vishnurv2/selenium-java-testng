@@ -130,6 +130,8 @@ public class magicLeap {
             capabilities.setCapability("video", true);
             capabilities.setCapability("visual", true);
             capabilities.setCapability("tunnel", false);
+            capabilities.setCapability("selenium_version","3.141.59");
+
             capabilities.setCapability("build", "Jenkins - " + System.getProperty("BUILD_NUMBER") +"  " + this.PlatformValue + " " + dtf.format(now));
             capabilities.setCapability("name",this.TestName);
 

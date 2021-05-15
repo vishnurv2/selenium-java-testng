@@ -65,7 +65,7 @@ public class magicLeap {
     String Tunnel;
     String AllVersions = null;
     
-    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss dd/MM/yyyy");
+    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm dd/MM/yyyy");
     LocalDateTime now = LocalDateTime.now();
 
 

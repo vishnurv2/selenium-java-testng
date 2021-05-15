@@ -28,6 +28,9 @@ import java.security.MessageDigest;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class magicLeap {
     // stage = bMrsjajNlv6Fnoi7I7ZYOVuHfPZ0PnqyZre0eUrvUJU3KSB14B
 
@@ -61,6 +64,9 @@ public class magicLeap {
     String Space = "  ";
     String Tunnel;
     String AllVersions = null;
+    
+    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss dd/MM/yyyy");
+    LocalDateTime now = LocalDateTime.now();
 
 
     @org.testng.annotations.Parameters(value = {"browser", "version", "platform", "fixedIp", "resolution", "timezone", "geoLocation", "tunnel"})
@@ -90,7 +96,7 @@ public class magicLeap {
                     if (versionValue != null) {
                         TestName = BrowserValue + Space + PlatformValue + Space + versionValue;
                         if (FixedIpValue != null)
-                            TestName = BrowserValue + Space + PlatformValue + Space + versionValue + Space + FixedIpValue;
+                            TestName = BrowserValue + Space + PlatformValue + Space + versionValue;
 
                     }
                 }
@@ -124,7 +130,7 @@ public class magicLeap {
             capabilities.setCapability("video", true);
             capabilities.setCapability("visual", true);
             capabilities.setCapability("tunnel", false);
-            capabilities.setCapability("build", "Jenkins - " + System.getProperty("BUILD_NUMBER") +"  " + this.PlatformValue);
+            capabilities.setCapability("build", "Jenkins - " + System.getProperty("BUILD_NUMBER") +"  " + this.PlatformValue + " " + dtf.format(now));
             capabilities.setCapability("name",this.TestName);
 
 //          capabilities.setCapability("performance",true);
@@ -247,8 +253,8 @@ public class magicLeap {
             TodoApp TodoAppTestObject = new TodoApp();
             TodoAppTestObject.TodoAppTest(driver);
 
-            NetSpeed NetSpeedTestObject = new NetSpeed();
-            NetSpeedTestObject.NetSpeed(driver, status, Nettotalspeedtest);
+//             NetSpeed NetSpeedTestObject = new NetSpeed();
+//             NetSpeedTestObject.NetSpeed(driver, status, Nettotalspeedtest);
 
 //             UserTest UserTestObject= new UserTest();
 //             UserTestObject.TestCase(driver,status);

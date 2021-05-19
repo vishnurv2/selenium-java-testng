@@ -261,17 +261,17 @@ public class magicLeap {
 //             UserTest UserTestObject= new UserTest();
 //             UserTestObject.TestCase(driver,status);
            
-            DownloadTest downLoad= new DownloadTest();
-            downLoad.FileDownload(driver);
+//             DownloadTest downLoad= new DownloadTest();
+//             downLoad.FileDownload(driver);
 
 //            GeolocationTest Geolocationobject = new GeolocationTest();
 //            Geolocationobject.Geolocation(driver, status, GeoLocationValue, GeolocationTotal);
 
-            ResolutionTest ResolutionTestObject = new ResolutionTest();
-            ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
+//             ResolutionTest ResolutionTestObject = new ResolutionTest();
+//             ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
 
-            StreamTest StreamTestObject = new StreamTest();
-            StreamTestObject.TestStream(driver, status);
+//             StreamTest StreamTestObject = new StreamTest();
+//             StreamTestObject.TestStream(driver, status);
 
 
 //            TunnelTest TunnelTestObject = new TunnelTest();

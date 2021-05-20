@@ -132,7 +132,7 @@ public class magicLeap {
             capabilities.setCapability("tunnel", false);
 //             capabilities.setCapability("selenium_version","3.141.59");
 
-            capabilities.setCapability("build", "Jenkins - " + System.getProperty("BUILD_NUMBER") +"  " + this.PlatformValue + " ("+ dtf.format(now) +")");
+            capabilities.setCapability("build", "Jenkins - EU Sanity : "+ this.PlatformValue");
             capabilities.setCapability("name",this.TestName);
 
 //          capabilities.setCapability("performance",true);

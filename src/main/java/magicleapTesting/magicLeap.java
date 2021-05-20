@@ -37,7 +37,7 @@ public class magicLeap {
     public String username = "vishnukdas";//System.getenv("LT_USERNAME"); //"mohammadasadkhan1";
     public String accesskey = "D3tRgjqJOrG7GKCmdIkafAP7uUbPfiK3SaWXTWdjX3vhglk2yd";//System.getenv("LT_ACCESS_KEY");//"CsbtfqVzuuBShxEgq1K3";
     public RemoteWebDriver driver;
-    public String gridURL = "@hub.lambdatest.com/wd/hub" ;//"@eu-central-1-hub.lambdatest.com/wd/hub";
+    public String gridURL = "@eu-central-1-hub.lambdatest.com/wd/hub" ;//"@eu-central-1-hub.lambdatest.com/wd/hub";
     String status;
     String ResolutionValue;
 //    Tunnel t;
@@ -267,11 +267,11 @@ public class magicLeap {
 //            GeolocationTest Geolocationobject = new GeolocationTest();
 //            Geolocationobject.Geolocation(driver, status, GeoLocationValue, GeolocationTotal);
 
-//             ResolutionTest ResolutionTestObject = new ResolutionTest();
-//             ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
+            ResolutionTest ResolutionTestObject = new ResolutionTest();
+            ResolutionTestObject.Resolution(driver, ResolutionValue, status, ResolutionTotal, this.ResolutionValueCap);
 
-//             StreamTest StreamTestObject = new StreamTest();
-//             StreamTestObject.TestStream(driver, status);
+            StreamTest StreamTestObject = new StreamTest();
+            StreamTestObject.TestStream(driver, status);
 
 
 //            TunnelTest TunnelTestObject = new TunnelTest();
